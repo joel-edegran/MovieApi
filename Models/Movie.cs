@@ -3,7 +3,9 @@
 public class Movie
 {
     public int Id { get; set; }
-    public string Title { get; set; } = string.Empty;
+    public required string Title { get; set; }
     public int Year { get; set; }
     public int Duration { get; set; }
+    
+    public MovieDetails? Details { get; set; }
 }
