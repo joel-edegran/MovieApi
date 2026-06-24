@@ -1,4 +1,7 @@
-﻿namespace MovieApi.Models;
+﻿using System.Collections;
+using System.Collections.Generic;
+
+namespace MovieApi.Models;
 
 public class Movie
 {
@@ -8,4 +11,6 @@ public class Movie
     public int Duration { get; set; }
     
     public MovieDetails? Details { get; set; }
+
+    public ICollection<Review> Reviews { get; set; } = new List<Review>();
 }
