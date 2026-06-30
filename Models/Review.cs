@@ -5,7 +5,7 @@ namespace MovieApi.Models;
 public class Review
 {
     public int Id { get; set; }
-    public required string Reviewname { get; set; }
+    public required string ReviewerName { get; set; }
     public string? Comment { get; set; }
 
     [Range(1, 5)]
