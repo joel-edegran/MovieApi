@@ -98,12 +98,22 @@ public class MoviesController : ControllerBase
     // POST: api/Movie
     // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
     [HttpPost]
-    public async Task<ActionResult<Movie>> PostMovie(Movie movie)
+    public async Task<ActionResult<MovieDto>> PostMovie(MovieDto movieDto)
     {
+        var movie = new Movie
+        {
+            Title = movieDto.Title,
+            Genre = movieDto.Genre,
+            Year = movieDto.Year,
+            Duration = movieDto.Duration
+        };
+
         _context.Movies.Add(movie);
         await _context.SaveChangesAsync();
 
-        return CreatedAtAction("GetMovie", new { id = movie.Id }, movie);
+        movieDto.Id = movie.Id;
+
+        return CreatedAtAction("GetMovie", new { id = movieDto.Id }, movieDto);
     }
 
     // DELETE: api/Movie/5
