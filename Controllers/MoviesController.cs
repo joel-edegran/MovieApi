@@ -35,7 +35,7 @@ public class MoviesController : ControllerBase
 
     // GET: api/Movie/5
     [HttpGet("{id}")]
-    public async Task<ActionResult<Movie>> GetMovie(int id)
+    public async Task<ActionResult<MovieDto>> GetMovie(int id)
     {
         var movie = await _context.Movies.FindAsync(id);
 
@@ -44,7 +44,14 @@ public class MoviesController : ControllerBase
             return NotFound();
         }
 
-        return movie;
+        return new MovieDto
+        {
+            Id = movie.Id,
+            Title = movie.Title,
+            Genre = movie.Genre,
+            Year = movie.Year,
+            Duration = movie.Duration
+        };
     }
 
     // PUT: api/Movie/5
