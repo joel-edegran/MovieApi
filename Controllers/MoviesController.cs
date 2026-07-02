@@ -57,14 +57,24 @@ public class MoviesController : ControllerBase
     // PUT: api/Movie/5
     // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
     [HttpPut("{id}")]
-    public async Task<IActionResult> PutMovie(int? id, Movie movie)
+    public async Task<IActionResult> PutMovie(int? id, MovieDto movieDto)
     {
-        if (id != movie.Id)
+        if (id != movieDto.Id)
         {
             return BadRequest();
         }
 
-        _context.Entry(movie).State = EntityState.Modified;
+        var movie = await _context.Movies.FindAsync(id);
+
+        if (movie == null)
+        {
+            return NotFound();
+        }
+
+        movie.Title = movieDto.Title;
+        movie.Genre = movieDto.Genre;
+        movie.Year = movieDto.Year;
+        movie.Duration = movieDto.Duration;
 
         try
         {
