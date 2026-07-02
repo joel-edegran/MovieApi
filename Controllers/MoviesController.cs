@@ -4,6 +4,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using MovieApi.Data;
+using MovieApi.DTOs;
 using MovieApi.Models;
 
 [Route("api/[controller]")]
@@ -18,9 +19,18 @@ public class MoviesController : ControllerBase
 
     // GET: api/Movie
     [HttpGet]
-    public async Task<ActionResult<IEnumerable<Movie>>> GetMovie()
+    public async Task<ActionResult<IEnumerable<MovieDto>>> GetMovie()
     {
-        return await _context.Movies.ToListAsync();
+        return await _context.Movies
+            .Select(movie => new MovieDto
+            {
+                Id = movie.Id,
+                Title = movie.Title,
+                Genre = movie.Genre,
+                Year = movie.Year,
+                Duration = movie.Duration
+            })
+            .ToListAsync();
     }
 
     // GET: api/Movie/5
