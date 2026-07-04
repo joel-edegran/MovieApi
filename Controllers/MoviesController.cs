@@ -7,11 +7,12 @@ using MovieApi.Data;
 using MovieApi.DTOs;
 using MovieApi.Models;
 
-[Route("api/[controller]")]
 [ApiController]
+[Route("api/[controller]")]
 public class MoviesController : ControllerBase
 {
     private readonly MovieContext _context;
+
     public MoviesController(MovieContext context)
     {
         _context = context;
