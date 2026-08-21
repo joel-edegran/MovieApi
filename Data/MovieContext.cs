@@ -31,5 +31,9 @@ public class MovieContext : DbContext
             .HasOne(ma => ma.Actor)
             .WithMany(a => a.MovieActors)
             .HasForeignKey(ma => ma.ActorId);
+
+        modelBuilder.Entity<MovieDetails>()
+            .Property(d => d.Budget)
+            .HasPrecision(18, 2);
     }
 }
