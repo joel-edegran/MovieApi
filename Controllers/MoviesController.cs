@@ -104,63 +104,50 @@ public class MoviesController : ControllerBase
     // PUT: api/Movie/5
     // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
     [HttpPut("{id}")]
-    public async Task<IActionResult> PutMovie(int? id, MovieDto movieDto)
+    public async Task<IActionResult> PutMovie(int id, MovieUpdateDto dto)
     {
-        if (id != movieDto.Id)
-        {
-            return BadRequest();
-        }
-
         var movie = await _context.Movies.FindAsync(id);
-
         if (movie == null)
         {
             return NotFound();
         }
 
-        movie.Title = movieDto.Title;
-        movie.Genre = movieDto.Genre;
-        movie.Year = movieDto.Year;
-        movie.Duration = movieDto.Duration;
+        movie.Title = dto.Title;
+        movie.Genre = dto.Genre;
+        movie.Year = dto.Year;
+        movie.Duration = dto.Duration;
 
-        try
-        {
-            await _context.SaveChangesAsync();
-        }
-        catch (DbUpdateConcurrencyException)
-        {
-            if (!MovieExists(id))
-            {
-                return NotFound();
-            }
-            else
-            {
-                throw;
-            }
-        }
-
+        await _context.SaveChangesAsync();
+       
         return NoContent();
     }
 
     // POST: api/Movie
     // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
     [HttpPost]
-    public async Task<ActionResult<MovieDto>> PostMovie(MovieDto movieDto)
+    public async Task<ActionResult<MovieDto>> PostMovie(MovieCreateDto dto)
     {
         var movie = new Movie
         {
-            Title = movieDto.Title,
-            Genre = movieDto.Genre,
-            Year = movieDto.Year,
-            Duration = movieDto.Duration
+            Title = dto.Title,
+            Genre = dto.Genre,
+            Year = dto.Year,
+            Duration = dto.Duration
         };
 
         _context.Movies.Add(movie);
         await _context.SaveChangesAsync();
 
-        movieDto.Id = movie.Id;
+        var movieDto = new MovieDto
+        {
+            Id = movie.Id,
+            Title = movie.Title,
+            Genre = movie.Genre,
+            Year = movie.Year,
+            Duration = movie.Duration
+        };
 
-        return CreatedAtAction("GetMovie", new { id = movieDto.Id }, movieDto);
+        return CreatedAtAction(nameof(GetMovie), new { id = movie.Id }, movieDto);
     }
 
     // DELETE: api/Movie/5
