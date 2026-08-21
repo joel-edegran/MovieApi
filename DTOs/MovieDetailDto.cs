@@ -15,5 +15,5 @@ public class MovieDetailDto
     public decimal? Budget { get; set; }
 
     public List<ReviewDto> Reviews { get; set; } = new List<ReviewDto>();
-    public List<ActorDto> Actors { get; set; } = new List<ActorDto>();
+    public List<MovieActorRoleDto> Actors { get; set; } = new();
 }
