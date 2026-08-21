@@ -1,3 +1,5 @@
 @MovieApi_HostAddress = http://localhost:5217
 
-###
+### Get details for a specific movie
+GET {{MovieApi_HostAddress}}/api/movies/5/details
+Accept: application/json

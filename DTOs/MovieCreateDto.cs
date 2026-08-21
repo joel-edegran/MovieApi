@@ -10,9 +10,9 @@ public class MovieCreateDto
     [Required]
     public required string Genre { get; set; }
 
-    [Required]
+    [Range(1888, 2100)]
     public int Year { get; set; }
 
-    [Required]
+    [Range(1, 1000)]
     public int Duration { get; set; }
 }
