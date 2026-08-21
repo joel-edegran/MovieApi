@@ -39,7 +39,7 @@ public class MoviesController : ControllerBase
 
         if (!string.IsNullOrWhiteSpace(actor)) 
         {
-            query = query.Where(m => m.Actors.Any(a => a.Name.Contains(actor)));
+            query = query.Where(m => m.MovieActors.Any(ma => ma.Actor != null && ma.Actor.Name.Contains(actor)));
         }
 
         return await query
@@ -82,7 +82,7 @@ public class MoviesController : ControllerBase
         var movieDetailDto = await _context.Movies
             .Include(movie => movie.Details)
             .Include(movie => movie.Reviews)
-            .Include(movie => movie.Actors)
+            .Include(movie => movie.MovieActors)
             .Where(movie => movie.Id == id)
             .Select(movie => new MovieDetailDto
             {
@@ -104,11 +104,12 @@ public class MoviesController : ControllerBase
                     Rating = review.Rating
                 }).ToList(),
 
-                Actors = movie.Actors.Select(actor => new ActorDto
+                Actors = movie.MovieActors.Select(ma => new MovieActorRoleDto
                 {
-                    Id = actor.Id,
-                    Name = actor.Name,
-                    BirthYear = actor.BirthYear
+                    Id = ma.Actor!.Id,
+                    Name = ma.Actor.Name,
+                    BirthYear = ma.Actor.BirthYear,
+                    RoleName = ma.Role
                 }).ToList()
             })
             .FirstOrDefaultAsync();
@@ -168,6 +169,39 @@ public class MoviesController : ControllerBase
         };
 
         return CreatedAtAction(nameof(GetMovie), new { id = movie.Id }, movieDto);
+    }
+
+    // POST: api/movies/5/actors
+    [HttpPost("{movieId}/actors")]
+    public async Task<IActionResult> AddActorToMovie(int movieId, [FromBody] MovieActorCreateDto dto)
+    {
+        var movie = await _context.Movies.FindAsync(movieId);
+        var actor = await _context.Actors.FindAsync(dto.ActorId);
+
+        if (movie == null || actor == null)
+        {
+            return NotFound("Movie or Actor not found.");
+        }
+
+        var movieActorExists = await _context.MovieActors
+            .AnyAsync(ma => ma.MovieId == movieId && ma.ActorId == dto.ActorId);
+
+        if (movieActorExists)
+        {
+            return BadRequest("Actor is already assigned to this movie.");
+        }
+
+        var movieActor = new MovieActor
+        {
+            MovieId = movieId,
+            ActorId = dto.ActorId,
+            Role = dto.Role
+        };
+
+        _context.MovieActors.Add(movieActor);
+        await _context.SaveChangesAsync();
+
+        return Ok();
     }
 
     // DELETE: api/Movie/5

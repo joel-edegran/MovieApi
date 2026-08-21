@@ -98,22 +98,4 @@ public class ActorsController : ControllerBase
 
         return NoContent();
     }
-
-    // POST: api/movie/5/actors/3
-    [HttpPost("/api/movies/{movieId}/actors/{actorId}")]
-    public async Task<IActionResult> AddActorToMovie(int movieId, int actorId)
-    {
-        var movie = await _context.Movies.Include(m => m.Actors).FirstOrDefaultAsync(m => m.Id == movieId);
-        var actor = await _context.Actors.FindAsync(actorId);
-
-        if (movie == null || actor == null)
-        {
-            return NotFound("Movie or Actor not found.");
-        }
-
-        movie.Actors.Add(actor);
-        await _context.SaveChangesAsync();
-
-        return Ok();
-    }
 }
