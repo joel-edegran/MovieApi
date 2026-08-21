@@ -20,9 +20,29 @@ public class MoviesController : ControllerBase
 
     // GET: api/Movie
     [HttpGet]
-    public async Task<ActionResult<IEnumerable<MovieDto>>> GetMovie()
+    public async Task<ActionResult<IEnumerable<MovieDto>>> GetMovie(
+        [FromQuery] string? genre,
+        [FromQuery] int? year,
+        [FromQuery] string? actor)
     {
-        return await _context.Movies
+        var query = _context.Movies.AsQueryable();
+
+        if (!string.IsNullOrWhiteSpace(genre))
+        {
+            query = query.Where(m => m.Genre.Contains(genre));
+        }
+
+        if (year.HasValue)
+        {
+            query = query.AsQueryable().Where(m => m.Year == year.Value);
+        }
+
+        if (!string.IsNullOrWhiteSpace(actor)) 
+        {
+            query = query.Where(m => m.Actors.Any(a => a.Name.Contains(actor)));
+        }
+
+        return await query
             .Select(movie => new MovieDto
             {
                 Id = movie.Id,
