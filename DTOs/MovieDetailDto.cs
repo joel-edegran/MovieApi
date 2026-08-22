@@ -7,7 +7,7 @@ public class MovieDetailDto
     public int Id { get; set; }
     public required string Title { get; set; }
     public required string Genre { get; set; }
-    public int Year { get; set; }
+    public int ReleaseYear { get; set; }
     public int Duration { get; set; }
 
     public string? Synopsis { get; set; }

@@ -33,7 +33,7 @@ public class Program
         app.UseHttpsRedirection();
         app.UseAuthorization();
         app.MapControllers();
-        await app.SeedData();
+        await app.SeedDataAsync();
         
         app.Run();
     }

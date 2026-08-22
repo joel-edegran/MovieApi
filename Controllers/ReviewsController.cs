@@ -31,7 +31,7 @@ public class ReviewsController : ControllerBase
         }
 
         var reviews = await _context.Reviews
-            .Where(review => review.Id == movieId)
+            .Where(review => review.MovieId == movieId)
             .Select(review => new ReviewDto
             {
                 Id = review.Id,

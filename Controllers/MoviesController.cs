@@ -29,12 +29,12 @@ public class MoviesController : ControllerBase
 
         if (!string.IsNullOrWhiteSpace(genre))
         {
-            query = query.Where(m => m.Genre.Contains(genre));
+            query = query.Where(m => m.Genre != null && m.Genre.Name.Contains(genre));
         }
 
         if (year.HasValue)
         {
-            query = query.AsQueryable().Where(m => m.Year == year.Value);
+            query = query.AsQueryable().Where(m => m.ReleaseYear == year.Value);
         }
 
         if (!string.IsNullOrWhiteSpace(actor)) 
@@ -47,8 +47,8 @@ public class MoviesController : ControllerBase
             {
                 Id = movie.Id,
                 Title = movie.Title,
-                Genre = movie.Genre,
-                Year = movie.Year,
+                Genre = movie.Genre != null ? movie.Genre.Name : string.Empty,
+                ReleaseYear = movie.ReleaseYear,
                 Duration = movie.Duration
             })
             .ToListAsync();
@@ -58,7 +58,9 @@ public class MoviesController : ControllerBase
     [HttpGet("{id}")]
     public async Task<ActionResult<MovieDto>> GetMovie(int id)
     {
-        var movie = await _context.Movies.FindAsync(id);
+        var movie = await _context.Movies
+            .Include(m => m.Genre)
+            .FirstOrDefaultAsync(m => m.Id == id);
 
         if (movie == null)
         {
@@ -69,8 +71,8 @@ public class MoviesController : ControllerBase
         {
             Id = movie.Id,
             Title = movie.Title,
-            Genre = movie.Genre,
-            Year = movie.Year,
+            Genre = movie.Genre?.Name ?? string.Empty,
+            ReleaseYear = movie.ReleaseYear,
             Duration = movie.Duration
         };
     }
@@ -80,16 +82,13 @@ public class MoviesController : ControllerBase
     public async Task<ActionResult<MovieDetailDto>> GetMovieDetails(int id)
     {
         var movieDetailDto = await _context.Movies
-            .Include(movie => movie.Details)
-            .Include(movie => movie.Reviews)
-            .Include(movie => movie.MovieActors)
             .Where(movie => movie.Id == id)
             .Select(movie => new MovieDetailDto
             {
                 Id = movie.Id,
                 Title = movie.Title,
-                Year = movie.Year,
-                Genre = movie.Genre,
+                ReleaseYear = movie.ReleaseYear,
+                Genre = movie.Genre != null ? movie.Genre.Name : string.Empty,
                 Duration = movie.Duration,
 
                 Synopsis = movie.Details != null ? movie.Details.Synopsis : string.Empty,
@@ -134,12 +133,44 @@ public class MoviesController : ControllerBase
         }
 
         movie.Title = dto.Title;
-        movie.Genre = dto.Genre;
-        movie.Year = dto.Year;
+        movie.Genre = new Genre { Name = dto.Genre };
+        movie.ReleaseYear = dto.ReleaseYear;
         movie.Duration = dto.Duration;
 
         await _context.SaveChangesAsync();
        
+        return NoContent();
+    }
+
+    [HttpPatch("{id}")]
+    public async Task<IActionResult> PatchMovie(int id, MoviePatchDto dto)
+    {
+        var movie = await _context.Movies
+            .Include(m => m.Genre)
+            .FirstOrDefaultAsync(m => m.Id == id);
+
+        if (movie == null)
+        {
+            return NotFound();
+        }
+
+        if (!string.IsNullOrWhiteSpace(dto.Title))
+            movie.Title = dto.Title;
+
+        if (!string.IsNullOrWhiteSpace(dto.Genre))
+        {
+            var genreEntity = await _context.Genres.FirstOrDefaultAsync(g => g.Name == dto.Genre);
+            movie.Genre = genreEntity ?? new Genre { Name = dto.Genre };
+        }
+
+        if (dto.ReleaseYear.HasValue)
+            movie.ReleaseYear = dto.ReleaseYear.Value;
+
+        if (dto.Duration.HasValue)
+            movie.Duration = dto.Duration.Value;
+
+        await _context.SaveChangesAsync();
+
         return NoContent();
     }
 
@@ -151,8 +182,8 @@ public class MoviesController : ControllerBase
         var movie = new Movie
         {
             Title = dto.Title,
-            Genre = dto.Genre,
-            Year = dto.Year,
+            Genre = new Genre { Name = dto.Genre },
+            ReleaseYear = dto.ReleaseYear,
             Duration = dto.Duration
         };
 
@@ -163,8 +194,8 @@ public class MoviesController : ControllerBase
         {
             Id = movie.Id,
             Title = movie.Title,
-            Genre = movie.Genre,
-            Year = movie.Year,
+            Genre = movie.Genre?.Name ?? string.Empty,
+            ReleaseYear = movie.ReleaseYear,
             Duration = movie.Duration
         };
 

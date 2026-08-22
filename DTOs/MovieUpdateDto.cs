@@ -11,7 +11,7 @@ public class MovieUpdateDto
     public required string Genre { get; set; }
 
     [Range(1888, 2100)]
-    public int Year { get; set; }
+    public int ReleaseYear { get; set; }
 
     [Range(1, 1000)]
     public int Duration { get; set; }
