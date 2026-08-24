@@ -1,0 +1,4478 @@
+[
+  {
+    "movieId": 1,
+    "reviewerName": "MovieZine",
+    "comment": "Ett mästerverk utan dess like. Högsta betyg!",
+    "rating": 5
+  },
+  {
+    "movieId": 1,
+    "reviewerName": "Cinematically Correct",
+    "comment": "Very strong performances and great pacing, minor flaws towards the end.",
+    "rating": 4
+  },
+  {
+    "movieId": 1,
+    "reviewerName": "Dagens Nyheter",
+    "comment": "Engaging and well-crafted. Highly recommended for movie nights.",
+    "rating": 4
+  },
+  {
+    "movieId": 1,
+    "reviewerName": "Svenska Dagbladet",
+    "comment": "Helt okej rulle med några riktigt bra scener, men helheten känns lite ojämn.",
+    "rating": 3
+  },
+  {
+    "movieId": 1,
+    "reviewerName": "Biobladet",
+    "comment": "Flawless from start to finish. The cinematography and script are top-tier.",
+    "rating": 5
+  },
+  {
+    "movieId": 2,
+    "reviewerName": "Popcorn-patrullen",
+    "comment": "Ett mästerverk utan dess like. Högsta betyg!",
+    "rating": 5
+  },
+  {
+    "movieId": 2,
+    "reviewerName": "Cinematically Correct",
+    "comment": "Stabil trea. Väl godkänd men lämnar inget bestående intryck.",
+    "rating": 3
+  },
+  {
+    "movieId": 2,
+    "reviewerName": "Filmkrönikan",
+    "comment": "Ett mästerverk utan dess like. Högsta betyg!",
+    "rating": 5
+  },
+  {
+    "movieId": 2,
+    "reviewerName": "Screens & Scenes",
+    "comment": "An absolute masterpiece that transcends time. Stunning performances and unforgettable direction.",
+    "rating": 5
+  },
+  {
+    "movieId": 2,
+    "reviewerName": "MovieZine",
+    "comment": "Fun to watch once, standard Hollywood formula.",
+    "rating": 3
+  },
+  {
+    "movieId": 2,
+    "reviewerName": "Cineast99",
+    "comment": "An absolute masterpiece that transcends time. Stunning performances and unforgettable direction.",
+    "rating": 5
+  },
+  {
+    "movieId": 2,
+    "reviewerName": "Svenska Dagbladet",
+    "comment": "Stark fyra! Väldigt underhållande och välgjord.",
+    "rating": 4
+  },
+  {
+    "movieId": 2,
+    "reviewerName": "Kulturbloggen",
+    "comment": "Great atmosphere and brilliant soundtrack.",
+    "rating": 4
+  },
+  {
+    "movieId": 2,
+    "reviewerName": "Dagens Nyheter",
+    "comment": "Fun to watch once, standard Hollywood formula.",
+    "rating": 3
+  },
+  {
+    "movieId": 2,
+    "reviewerName": "Filmstaden Review",
+    "comment": "En riktigt solid film som lever upp till förväntningarna.",
+    "rating": 4
+  },
+  {
+    "movieId": 3,
+    "reviewerName": "Cineast99",
+    "comment": "Stark fyra! Väldigt underhållande och välgjord.",
+    "rating": 4
+  },
+  {
+    "movieId": 3,
+    "reviewerName": "Svenska Dagbladet",
+    "comment": "En riktigt solid film som lever upp till förväntningarna.",
+    "rating": 4
+  },
+  {
+    "movieId": 3,
+    "reviewerName": "Biobladet",
+    "comment": "Very strong performances and great pacing, minor flaws towards the end.",
+    "rating": 4
+  },
+  {
+    "movieId": 3,
+    "reviewerName": "Screens & Scenes",
+    "comment": "Flawless from start to finish. The cinematography and script are top-tier.",
+    "rating": 5
+  },
+  {
+    "movieId": 3,
+    "reviewerName": "Filmstaden Review",
+    "comment": "An absolute masterpiece that transcends time. Stunning performances and unforgettable direction.",
+    "rating": 5
+  },
+  {
+    "movieId": 3,
+    "reviewerName": "The Celluloid Critic",
+    "comment": "Great atmosphere and brilliant soundtrack.",
+    "rating": 4
+  },
+  {
+    "movieId": 3,
+    "reviewerName": "Filmkrönikan",
+    "comment": "An absolute masterpiece that transcends time. Stunning performances and unforgettable direction.",
+    "rating": 5
+  },
+  {
+    "movieId": 3,
+    "reviewerName": "Popcorn-patrullen",
+    "comment": "Masterclass in storytelling. Exceptional character development.",
+    "rating": 5
+  },
+  {
+    "movieId": 3,
+    "reviewerName": "MovieZine",
+    "comment": "Helt okej rulle med några riktigt bra scener, men helheten känns lite ojämn.",
+    "rating": 3
+  },
+  {
+    "movieId": 4,
+    "reviewerName": "Cineast99",
+    "comment": "Helt okej rulle med några riktigt bra scener, men helheten känns lite ojämn.",
+    "rating": 3
+  },
+  {
+    "movieId": 4,
+    "reviewerName": "Filmstaden Review",
+    "comment": "Ett mästerverk utan dess like. Högsta betyg!",
+    "rating": 5
+  },
+  {
+    "movieId": 4,
+    "reviewerName": "Filmkrönikan",
+    "comment": "Ett mästerverk utan dess like. Högsta betyg!",
+    "rating": 5
+  },
+  {
+    "movieId": 4,
+    "reviewerName": "Popcorn-patrullen",
+    "comment": "Flawless from start to finish. The cinematography and script are top-tier.",
+    "rating": 5
+  },
+  {
+    "movieId": 4,
+    "reviewerName": "Screens & Scenes",
+    "comment": "Ett mästerverk utan dess like. Högsta betyg!",
+    "rating": 5
+  },
+  {
+    "movieId": 4,
+    "reviewerName": "Dagens Nyheter",
+    "comment": "Masterclass in storytelling. Exceptional character development.",
+    "rating": 5
+  },
+  {
+    "movieId": 4,
+    "reviewerName": "Cinematically Correct",
+    "comment": "En riktigt solid film som lever upp till förväntningarna.",
+    "rating": 4
+  },
+  {
+    "movieId": 4,
+    "reviewerName": "The Celluloid Critic",
+    "comment": "Very strong performances and great pacing, minor flaws towards the end.",
+    "rating": 4
+  },
+  {
+    "movieId": 4,
+    "reviewerName": "Svenska Dagbladet",
+    "comment": "Ett mästerverk utan dess like. Högsta betyg!",
+    "rating": 5
+  },
+  {
+    "movieId": 5,
+    "reviewerName": "Filmstaden Review",
+    "comment": "Flawless from start to finish. The cinematography and script are top-tier.",
+    "rating": 5
+  },
+  {
+    "movieId": 5,
+    "reviewerName": "Filmkrönikan",
+    "comment": "Mycket bra film med starkt skådespel och snyggt foto.",
+    "rating": 4
+  },
+  {
+    "movieId": 5,
+    "reviewerName": "Dagens Nyheter",
+    "comment": "Helt enastående skådespel och en handling som stannar kvar länge.",
+    "rating": 5
+  },
+  {
+    "movieId": 5,
+    "reviewerName": "Biobladet",
+    "comment": "En tidlös klassiker som berör varje gång man ser den.",
+    "rating": 5
+  },
+  {
+    "movieId": 5,
+    "reviewerName": "The Celluloid Critic",
+    "comment": "Helt enastående skådespel och en handling som stannar kvar länge.",
+    "rating": 5
+  },
+  {
+    "movieId": 6,
+    "reviewerName": "Filmstaden Review",
+    "comment": "Flawless from start to finish. The cinematography and script are top-tier.",
+    "rating": 5
+  },
+  {
+    "movieId": 6,
+    "reviewerName": "Biobladet",
+    "comment": "Good visuals, though the script could have been tighter.",
+    "rating": 3
+  },
+  {
+    "movieId": 6,
+    "reviewerName": "Dagens Nyheter",
+    "comment": "Masterclass in storytelling. Exceptional character development.",
+    "rating": 5
+  },
+  {
+    "movieId": 6,
+    "reviewerName": "Svenska Dagbladet",
+    "comment": "En riktigt solid film som lever upp till förväntningarna.",
+    "rating": 4
+  },
+  {
+    "movieId": 6,
+    "reviewerName": "Kulturbloggen",
+    "comment": "An absolute masterpiece that transcends time. Stunning performances and unforgettable direction.",
+    "rating": 5
+  },
+  {
+    "movieId": 7,
+    "reviewerName": "Biobladet",
+    "comment": "Very strong performances and great pacing, minor flaws towards the end.",
+    "rating": 4
+  },
+  {
+    "movieId": 7,
+    "reviewerName": "Svenska Dagbladet",
+    "comment": "Helt enastående skådespel och en handling som stannar kvar länge.",
+    "rating": 5
+  },
+  {
+    "movieId": 7,
+    "reviewerName": "The Celluloid Critic",
+    "comment": "En riktigt solid film som lever upp till förväntningarna.",
+    "rating": 4
+  },
+  {
+    "movieId": 7,
+    "reviewerName": "Screens & Scenes",
+    "comment": "Stark fyra! Väldigt underhållande och välgjord.",
+    "rating": 4
+  },
+  {
+    "movieId": 7,
+    "reviewerName": "Filmkrönikan",
+    "comment": "Flawless from start to finish. The cinematography and script are top-tier.",
+    "rating": 5
+  },
+  {
+    "movieId": 7,
+    "reviewerName": "Filmstaden Review",
+    "comment": "Mycket bra film med starkt skådespel och snyggt foto.",
+    "rating": 4
+  },
+  {
+    "movieId": 7,
+    "reviewerName": "Cinematically Correct",
+    "comment": "Engaging and well-crafted. Highly recommended for movie nights.",
+    "rating": 4
+  },
+  {
+    "movieId": 7,
+    "reviewerName": "Popcorn-patrullen",
+    "comment": "Good visuals, though the script could have been tighter.",
+    "rating": 3
+  },
+  {
+    "movieId": 7,
+    "reviewerName": "MovieZine",
+    "comment": "Helt okej rulle med några riktigt bra scener, men helheten känns lite ojämn.",
+    "rating": 3
+  },
+  {
+    "movieId": 7,
+    "reviewerName": "Dagens Nyheter",
+    "comment": "Masterclass in storytelling. Exceptional character development.",
+    "rating": 5
+  },
+  {
+    "movieId": 8,
+    "reviewerName": "Popcorn-patrullen",
+    "comment": "Very strong performances and great pacing, minor flaws towards the end.",
+    "rating": 4
+  },
+  {
+    "movieId": 8,
+    "reviewerName": "MovieZine",
+    "comment": "Very strong performances and great pacing, minor flaws towards the end.",
+    "rating": 4
+  },
+  {
+    "movieId": 8,
+    "reviewerName": "Kulturbloggen",
+    "comment": "Flawless from start to finish. The cinematography and script are top-tier.",
+    "rating": 5
+  },
+  {
+    "movieId": 8,
+    "reviewerName": "Filmstaden Review",
+    "comment": "Great atmosphere and brilliant soundtrack.",
+    "rating": 4
+  },
+  {
+    "movieId": 8,
+    "reviewerName": "Biobladet",
+    "comment": "Stark fyra! Väldigt underhållande och välgjord.",
+    "rating": 4
+  },
+  {
+    "movieId": 9,
+    "reviewerName": "The Celluloid Critic",
+    "comment": "An absolute masterpiece that transcends time. Stunning performances and unforgettable direction.",
+    "rating": 5
+  },
+  {
+    "movieId": 9,
+    "reviewerName": "MovieZine",
+    "comment": "Great atmosphere and brilliant soundtrack.",
+    "rating": 4
+  },
+  {
+    "movieId": 9,
+    "reviewerName": "Cineast99",
+    "comment": "En tidlös klassiker som berör varje gång man ser den.",
+    "rating": 5
+  },
+  {
+    "movieId": 9,
+    "reviewerName": "Filmstaden Review",
+    "comment": "Fun to watch once, standard Hollywood formula.",
+    "rating": 3
+  },
+  {
+    "movieId": 9,
+    "reviewerName": "Screens & Scenes",
+    "comment": "Masterclass in storytelling. Exceptional character development.",
+    "rating": 5
+  },
+  {
+    "movieId": 9,
+    "reviewerName": "Kulturbloggen",
+    "comment": "Good visuals, though the script could have been tighter.",
+    "rating": 3
+  },
+  {
+    "movieId": 9,
+    "reviewerName": "Cinematically Correct",
+    "comment": "Engaging and well-crafted. Highly recommended for movie nights.",
+    "rating": 4
+  },
+  {
+    "movieId": 9,
+    "reviewerName": "Svenska Dagbladet",
+    "comment": "Stabil trea. Väl godkänd men lämnar inget bestående intryck.",
+    "rating": 3
+  },
+  {
+    "movieId": 10,
+    "reviewerName": "Svenska Dagbladet",
+    "comment": "Ett mästerverk utan dess like. Högsta betyg!",
+    "rating": 5
+  },
+  {
+    "movieId": 10,
+    "reviewerName": "Popcorn-patrullen",
+    "comment": "Mycket bra film med starkt skådespel och snyggt foto.",
+    "rating": 4
+  },
+  {
+    "movieId": 10,
+    "reviewerName": "Dagens Nyheter",
+    "comment": "Decent entertainment with good moments, but drags a bit in the middle.",
+    "rating": 3
+  },
+  {
+    "movieId": 10,
+    "reviewerName": "Filmstaden Review",
+    "comment": "En tidlös klassiker som berör varje gång man ser den.",
+    "rating": 5
+  },
+  {
+    "movieId": 10,
+    "reviewerName": "Cinematically Correct",
+    "comment": "Decent entertainment with good moments, but drags a bit in the middle.",
+    "rating": 3
+  },
+  {
+    "movieId": 10,
+    "reviewerName": "MovieZine",
+    "comment": "Great atmosphere and brilliant soundtrack.",
+    "rating": 4
+  },
+  {
+    "movieId": 10,
+    "reviewerName": "Filmkrönikan",
+    "comment": "Decent entertainment with good moments, but drags a bit in the middle.",
+    "rating": 3
+  },
+  {
+    "movieId": 11,
+    "reviewerName": "Dagens Nyheter",
+    "comment": "Ett mästerverk utan dess like. Högsta betyg!",
+    "rating": 5
+  },
+  {
+    "movieId": 11,
+    "reviewerName": "Kulturbloggen",
+    "comment": "En riktigt solid film som lever upp till förväntningarna.",
+    "rating": 4
+  },
+  {
+    "movieId": 11,
+    "reviewerName": "Svenska Dagbladet",
+    "comment": "Ett mästerverk utan dess like. Högsta betyg!",
+    "rating": 5
+  },
+  {
+    "movieId": 11,
+    "reviewerName": "MovieZine",
+    "comment": "Great atmosphere and brilliant soundtrack.",
+    "rating": 4
+  },
+  {
+    "movieId": 11,
+    "reviewerName": "Popcorn-patrullen",
+    "comment": "Stabil trea. Väl godkänd men lämnar inget bestående intryck.",
+    "rating": 3
+  },
+  {
+    "movieId": 11,
+    "reviewerName": "Filmstaden Review",
+    "comment": "Engaging and well-crafted. Highly recommended for movie nights.",
+    "rating": 4
+  },
+  {
+    "movieId": 11,
+    "reviewerName": "Filmkrönikan",
+    "comment": "An absolute masterpiece that transcends time. Stunning performances and unforgettable direction.",
+    "rating": 5
+  },
+  {
+    "movieId": 11,
+    "reviewerName": "Screens & Scenes",
+    "comment": "Mycket bra film med starkt skådespel och snyggt foto.",
+    "rating": 4
+  },
+  {
+    "movieId": 11,
+    "reviewerName": "Cineast99",
+    "comment": "Stark fyra! Väldigt underhållande och välgjord.",
+    "rating": 4
+  },
+  {
+    "movieId": 12,
+    "reviewerName": "Biobladet",
+    "comment": "Flawless from start to finish. The cinematography and script are top-tier.",
+    "rating": 5
+  },
+  {
+    "movieId": 12,
+    "reviewerName": "Popcorn-patrullen",
+    "comment": "Very strong performances and great pacing, minor flaws towards the end.",
+    "rating": 4
+  },
+  {
+    "movieId": 12,
+    "reviewerName": "Cineast99",
+    "comment": "Great atmosphere and brilliant soundtrack.",
+    "rating": 4
+  },
+  {
+    "movieId": 12,
+    "reviewerName": "MovieZine",
+    "comment": "Very strong performances and great pacing, minor flaws towards the end.",
+    "rating": 4
+  },
+  {
+    "movieId": 12,
+    "reviewerName": "Svenska Dagbladet",
+    "comment": "Mycket bra film med starkt skådespel och snyggt foto.",
+    "rating": 4
+  },
+  {
+    "movieId": 12,
+    "reviewerName": "The Celluloid Critic",
+    "comment": "Good visuals, though the script could have been tighter.",
+    "rating": 3
+  },
+  {
+    "movieId": 12,
+    "reviewerName": "Dagens Nyheter",
+    "comment": "An absolute masterpiece that transcends time. Stunning performances and unforgettable direction.",
+    "rating": 5
+  },
+  {
+    "movieId": 12,
+    "reviewerName": "Kulturbloggen",
+    "comment": "Helt enastående skådespel och en handling som stannar kvar länge.",
+    "rating": 5
+  },
+  {
+    "movieId": 12,
+    "reviewerName": "Filmkrönikan",
+    "comment": "En tidlös klassiker som berör varje gång man ser den.",
+    "rating": 5
+  },
+  {
+    "movieId": 13,
+    "reviewerName": "Filmstaden Review",
+    "comment": "Engaging and well-crafted. Highly recommended for movie nights.",
+    "rating": 4
+  },
+  {
+    "movieId": 13,
+    "reviewerName": "Cineast99",
+    "comment": "Stabil trea. Väl godkänd men lämnar inget bestående intryck.",
+    "rating": 3
+  },
+  {
+    "movieId": 13,
+    "reviewerName": "Popcorn-patrullen",
+    "comment": "An absolute masterpiece that transcends time. Stunning performances and unforgettable direction.",
+    "rating": 5
+  },
+  {
+    "movieId": 13,
+    "reviewerName": "Cinematically Correct",
+    "comment": "Masterclass in storytelling. Exceptional character development.",
+    "rating": 5
+  },
+  {
+    "movieId": 13,
+    "reviewerName": "MovieZine",
+    "comment": "Great atmosphere and brilliant soundtrack.",
+    "rating": 4
+  },
+  {
+    "movieId": 13,
+    "reviewerName": "Screens & Scenes",
+    "comment": "Stabil trea. Väl godkänd men lämnar inget bestående intryck.",
+    "rating": 3
+  },
+  {
+    "movieId": 13,
+    "reviewerName": "Filmkrönikan",
+    "comment": "En riktigt solid film som lever upp till förväntningarna.",
+    "rating": 4
+  },
+  {
+    "movieId": 13,
+    "reviewerName": "Dagens Nyheter",
+    "comment": "Mycket bra film med starkt skådespel och snyggt foto.",
+    "rating": 4
+  },
+  {
+    "movieId": 13,
+    "reviewerName": "Biobladet",
+    "comment": "En tidlös klassiker som berör varje gång man ser den.",
+    "rating": 5
+  },
+  {
+    "movieId": 13,
+    "reviewerName": "Svenska Dagbladet",
+    "comment": "Very strong performances and great pacing, minor flaws towards the end.",
+    "rating": 4
+  },
+  {
+    "movieId": 14,
+    "reviewerName": "The Celluloid Critic",
+    "comment": "Stabil trea. Väl godkänd men lämnar inget bestående intryck.",
+    "rating": 3
+  },
+  {
+    "movieId": 14,
+    "reviewerName": "MovieZine",
+    "comment": "Good visuals, though the script could have been tighter.",
+    "rating": 3
+  },
+  {
+    "movieId": 14,
+    "reviewerName": "Cinematically Correct",
+    "comment": "Helt enastående skådespel och en handling som stannar kvar länge.",
+    "rating": 5
+  },
+  {
+    "movieId": 14,
+    "reviewerName": "Svenska Dagbladet",
+    "comment": "An absolute masterpiece that transcends time. Stunning performances and unforgettable direction.",
+    "rating": 5
+  },
+  {
+    "movieId": 14,
+    "reviewerName": "Biobladet",
+    "comment": "Stark fyra! Väldigt underhållande och välgjord.",
+    "rating": 4
+  },
+  {
+    "movieId": 14,
+    "reviewerName": "Popcorn-patrullen",
+    "comment": "Stark fyra! Väldigt underhållande och välgjord.",
+    "rating": 4
+  },
+  {
+    "movieId": 15,
+    "reviewerName": "Filmstaden Review",
+    "comment": "An absolute masterpiece that transcends time. Stunning performances and unforgettable direction.",
+    "rating": 5
+  },
+  {
+    "movieId": 15,
+    "reviewerName": "Cineast99",
+    "comment": "Good visuals, though the script could have been tighter.",
+    "rating": 3
+  },
+  {
+    "movieId": 15,
+    "reviewerName": "Biobladet",
+    "comment": "En riktigt solid film som lever upp till förväntningarna.",
+    "rating": 4
+  },
+  {
+    "movieId": 15,
+    "reviewerName": "Cinematically Correct",
+    "comment": "Ett mästerverk utan dess like. Högsta betyg!",
+    "rating": 5
+  },
+  {
+    "movieId": 15,
+    "reviewerName": "Svenska Dagbladet",
+    "comment": "Very strong performances and great pacing, minor flaws towards the end.",
+    "rating": 4
+  },
+  {
+    "movieId": 15,
+    "reviewerName": "MovieZine",
+    "comment": "Ett mästerverk utan dess like. Högsta betyg!",
+    "rating": 5
+  },
+  {
+    "movieId": 15,
+    "reviewerName": "Filmkrönikan",
+    "comment": "An absolute masterpiece that transcends time. Stunning performances and unforgettable direction.",
+    "rating": 5
+  },
+  {
+    "movieId": 15,
+    "reviewerName": "Kulturbloggen",
+    "comment": "En riktigt solid film som lever upp till förväntningarna.",
+    "rating": 4
+  },
+  {
+    "movieId": 16,
+    "reviewerName": "Screens & Scenes",
+    "comment": "Ett mästerverk utan dess like. Högsta betyg!",
+    "rating": 5
+  },
+  {
+    "movieId": 16,
+    "reviewerName": "Biobladet",
+    "comment": "Ett mästerverk utan dess like. Högsta betyg!",
+    "rating": 5
+  },
+  {
+    "movieId": 16,
+    "reviewerName": "Filmkrönikan",
+    "comment": "An absolute masterpiece that transcends time. Stunning performances and unforgettable direction.",
+    "rating": 5
+  },
+  {
+    "movieId": 16,
+    "reviewerName": "Svenska Dagbladet",
+    "comment": "En tidlös klassiker som berör varje gång man ser den.",
+    "rating": 5
+  },
+  {
+    "movieId": 16,
+    "reviewerName": "Popcorn-patrullen",
+    "comment": "Mycket bra film med starkt skådespel och snyggt foto.",
+    "rating": 4
+  },
+  {
+    "movieId": 17,
+    "reviewerName": "Dagens Nyheter",
+    "comment": "En tidlös klassiker som berör varje gång man ser den.",
+    "rating": 5
+  },
+  {
+    "movieId": 17,
+    "reviewerName": "Cinematically Correct",
+    "comment": "Very strong performances and great pacing, minor flaws towards the end.",
+    "rating": 4
+  },
+  {
+    "movieId": 17,
+    "reviewerName": "Biobladet",
+    "comment": "Engaging and well-crafted. Highly recommended for movie nights.",
+    "rating": 4
+  },
+  {
+    "movieId": 17,
+    "reviewerName": "Cineast99",
+    "comment": "Helt okej rulle med några riktigt bra scener, men helheten känns lite ojämn.",
+    "rating": 3
+  },
+  {
+    "movieId": 17,
+    "reviewerName": "Popcorn-patrullen",
+    "comment": "Ett mästerverk utan dess like. Högsta betyg!",
+    "rating": 5
+  },
+  {
+    "movieId": 17,
+    "reviewerName": "Svenska Dagbladet",
+    "comment": "Very strong performances and great pacing, minor flaws towards the end.",
+    "rating": 4
+  },
+  {
+    "movieId": 17,
+    "reviewerName": "Screens & Scenes",
+    "comment": "Flawless from start to finish. The cinematography and script are top-tier.",
+    "rating": 5
+  },
+  {
+    "movieId": 17,
+    "reviewerName": "Filmkrönikan",
+    "comment": "An absolute masterpiece that transcends time. Stunning performances and unforgettable direction.",
+    "rating": 5
+  },
+  {
+    "movieId": 17,
+    "reviewerName": "MovieZine",
+    "comment": "Masterclass in storytelling. Exceptional character development.",
+    "rating": 5
+  },
+  {
+    "movieId": 17,
+    "reviewerName": "Kulturbloggen",
+    "comment": "Fun to watch once, standard Hollywood formula.",
+    "rating": 3
+  },
+  {
+    "movieId": 18,
+    "reviewerName": "Dagens Nyheter",
+    "comment": "Fun to watch once, standard Hollywood formula.",
+    "rating": 3
+  },
+  {
+    "movieId": 18,
+    "reviewerName": "Svenska Dagbladet",
+    "comment": "En tidlös klassiker som berör varje gång man ser den.",
+    "rating": 5
+  },
+  {
+    "movieId": 18,
+    "reviewerName": "Filmkrönikan",
+    "comment": "Engaging and well-crafted. Highly recommended for movie nights.",
+    "rating": 4
+  },
+  {
+    "movieId": 18,
+    "reviewerName": "The Celluloid Critic",
+    "comment": "Engaging and well-crafted. Highly recommended for movie nights.",
+    "rating": 4
+  },
+  {
+    "movieId": 18,
+    "reviewerName": "Filmstaden Review",
+    "comment": "En riktigt solid film som lever upp till förväntningarna.",
+    "rating": 4
+  },
+  {
+    "movieId": 18,
+    "reviewerName": "MovieZine",
+    "comment": "Helt enastående skådespel och en handling som stannar kvar länge.",
+    "rating": 5
+  },
+  {
+    "movieId": 18,
+    "reviewerName": "Biobladet",
+    "comment": "Stark fyra! Väldigt underhållande och välgjord.",
+    "rating": 4
+  },
+  {
+    "movieId": 19,
+    "reviewerName": "The Celluloid Critic",
+    "comment": "En riktigt solid film som lever upp till förväntningarna.",
+    "rating": 4
+  },
+  {
+    "movieId": 19,
+    "reviewerName": "Filmstaden Review",
+    "comment": "Helt enastående skådespel och en handling som stannar kvar länge.",
+    "rating": 5
+  },
+  {
+    "movieId": 19,
+    "reviewerName": "Screens & Scenes",
+    "comment": "En tidlös klassiker som berör varje gång man ser den.",
+    "rating": 5
+  },
+  {
+    "movieId": 19,
+    "reviewerName": "Svenska Dagbladet",
+    "comment": "Ett mästerverk utan dess like. Högsta betyg!",
+    "rating": 5
+  },
+  {
+    "movieId": 19,
+    "reviewerName": "MovieZine",
+    "comment": "Great atmosphere and brilliant soundtrack.",
+    "rating": 4
+  },
+  {
+    "movieId": 20,
+    "reviewerName": "Biobladet",
+    "comment": "Flawless from start to finish. The cinematography and script are top-tier.",
+    "rating": 5
+  },
+  {
+    "movieId": 20,
+    "reviewerName": "The Celluloid Critic",
+    "comment": "Helt enastående skådespel och en handling som stannar kvar länge.",
+    "rating": 5
+  },
+  {
+    "movieId": 20,
+    "reviewerName": "Screens & Scenes",
+    "comment": "En tidlös klassiker som berör varje gång man ser den.",
+    "rating": 5
+  },
+  {
+    "movieId": 20,
+    "reviewerName": "Svenska Dagbladet",
+    "comment": "En tidlös klassiker som berör varje gång man ser den.",
+    "rating": 5
+  },
+  {
+    "movieId": 20,
+    "reviewerName": "Kulturbloggen",
+    "comment": "An absolute masterpiece that transcends time. Stunning performances and unforgettable direction.",
+    "rating": 5
+  },
+  {
+    "movieId": 20,
+    "reviewerName": "Cinematically Correct",
+    "comment": "Flawless from start to finish. The cinematography and script are top-tier.",
+    "rating": 5
+  },
+  {
+    "movieId": 20,
+    "reviewerName": "MovieZine",
+    "comment": "Masterclass in storytelling. Exceptional character development.",
+    "rating": 5
+  },
+  {
+    "movieId": 20,
+    "reviewerName": "Filmstaden Review",
+    "comment": "Very strong performances and great pacing, minor flaws towards the end.",
+    "rating": 4
+  },
+  {
+    "movieId": 20,
+    "reviewerName": "Cineast99",
+    "comment": "Decent entertainment with good moments, but drags a bit in the middle.",
+    "rating": 3
+  },
+  {
+    "movieId": 21,
+    "reviewerName": "Cinematically Correct",
+    "comment": "Stark fyra! Väldigt underhållande och välgjord.",
+    "rating": 4
+  },
+  {
+    "movieId": 21,
+    "reviewerName": "Dagens Nyheter",
+    "comment": "Engaging and well-crafted. Highly recommended for movie nights.",
+    "rating": 4
+  },
+  {
+    "movieId": 21,
+    "reviewerName": "Screens & Scenes",
+    "comment": "En tidlös klassiker som berör varje gång man ser den.",
+    "rating": 5
+  },
+  {
+    "movieId": 21,
+    "reviewerName": "Filmkrönikan",
+    "comment": "En tidlös klassiker som berör varje gång man ser den.",
+    "rating": 5
+  },
+  {
+    "movieId": 21,
+    "reviewerName": "Biobladet",
+    "comment": "Very strong performances and great pacing, minor flaws towards the end.",
+    "rating": 4
+  },
+  {
+    "movieId": 22,
+    "reviewerName": "Filmstaden Review",
+    "comment": "En tidlös klassiker som berör varje gång man ser den.",
+    "rating": 5
+  },
+  {
+    "movieId": 22,
+    "reviewerName": "Dagens Nyheter",
+    "comment": "Very strong performances and great pacing, minor flaws towards the end.",
+    "rating": 4
+  },
+  {
+    "movieId": 22,
+    "reviewerName": "Filmkrönikan",
+    "comment": "Masterclass in storytelling. Exceptional character development.",
+    "rating": 5
+  },
+  {
+    "movieId": 22,
+    "reviewerName": "MovieZine",
+    "comment": "En riktigt solid film som lever upp till förväntningarna.",
+    "rating": 4
+  },
+  {
+    "movieId": 22,
+    "reviewerName": "Screens & Scenes",
+    "comment": "Mycket bra film med starkt skådespel och snyggt foto.",
+    "rating": 4
+  },
+  {
+    "movieId": 22,
+    "reviewerName": "Kulturbloggen",
+    "comment": "En riktigt solid film som lever upp till förväntningarna.",
+    "rating": 4
+  },
+  {
+    "movieId": 23,
+    "reviewerName": "Filmkrönikan",
+    "comment": "Engaging and well-crafted. Highly recommended for movie nights.",
+    "rating": 4
+  },
+  {
+    "movieId": 23,
+    "reviewerName": "MovieZine",
+    "comment": "Helt okej rulle med några riktigt bra scener, men helheten känns lite ojämn.",
+    "rating": 3
+  },
+  {
+    "movieId": 23,
+    "reviewerName": "Dagens Nyheter",
+    "comment": "An absolute masterpiece that transcends time. Stunning performances and unforgettable direction.",
+    "rating": 5
+  },
+  {
+    "movieId": 23,
+    "reviewerName": "Cinematically Correct",
+    "comment": "Helt okej rulle med några riktigt bra scener, men helheten känns lite ojämn.",
+    "rating": 3
+  },
+  {
+    "movieId": 23,
+    "reviewerName": "Biobladet",
+    "comment": "Great atmosphere and brilliant soundtrack.",
+    "rating": 4
+  },
+  {
+    "movieId": 23,
+    "reviewerName": "Popcorn-patrullen",
+    "comment": "Decent entertainment with good moments, but drags a bit in the middle.",
+    "rating": 3
+  },
+  {
+    "movieId": 23,
+    "reviewerName": "Cineast99",
+    "comment": "Mycket bra film med starkt skådespel och snyggt foto.",
+    "rating": 4
+  },
+  {
+    "movieId": 24,
+    "reviewerName": "Kulturbloggen",
+    "comment": "Stark fyra! Väldigt underhållande och välgjord.",
+    "rating": 4
+  },
+  {
+    "movieId": 24,
+    "reviewerName": "The Celluloid Critic",
+    "comment": "Engaging and well-crafted. Highly recommended for movie nights.",
+    "rating": 4
+  },
+  {
+    "movieId": 24,
+    "reviewerName": "Cinematically Correct",
+    "comment": "Helt okej rulle med några riktigt bra scener, men helheten känns lite ojämn.",
+    "rating": 3
+  },
+  {
+    "movieId": 24,
+    "reviewerName": "Cineast99",
+    "comment": "Masterclass in storytelling. Exceptional character development.",
+    "rating": 5
+  },
+  {
+    "movieId": 24,
+    "reviewerName": "MovieZine",
+    "comment": "Mycket bra film med starkt skådespel och snyggt foto.",
+    "rating": 4
+  },
+  {
+    "movieId": 24,
+    "reviewerName": "Screens & Scenes",
+    "comment": "Helt enastående skådespel och en handling som stannar kvar länge.",
+    "rating": 5
+  },
+  {
+    "movieId": 24,
+    "reviewerName": "Filmstaden Review",
+    "comment": "Helt enastående skådespel och en handling som stannar kvar länge.",
+    "rating": 5
+  },
+  {
+    "movieId": 24,
+    "reviewerName": "Filmkrönikan",
+    "comment": "En riktigt solid film som lever upp till förväntningarna.",
+    "rating": 4
+  },
+  {
+    "movieId": 25,
+    "reviewerName": "Kulturbloggen",
+    "comment": "Helt enastående skådespel och en handling som stannar kvar länge.",
+    "rating": 5
+  },
+  {
+    "movieId": 25,
+    "reviewerName": "Biobladet",
+    "comment": "Stark fyra! Väldigt underhållande och välgjord.",
+    "rating": 4
+  },
+  {
+    "movieId": 25,
+    "reviewerName": "Dagens Nyheter",
+    "comment": "Very strong performances and great pacing, minor flaws towards the end.",
+    "rating": 4
+  },
+  {
+    "movieId": 25,
+    "reviewerName": "Cinematically Correct",
+    "comment": "En tidlös klassiker som berör varje gång man ser den.",
+    "rating": 5
+  },
+  {
+    "movieId": 25,
+    "reviewerName": "Screens & Scenes",
+    "comment": "Mycket bra film med starkt skådespel och snyggt foto.",
+    "rating": 4
+  },
+  {
+    "movieId": 25,
+    "reviewerName": "The Celluloid Critic",
+    "comment": "Engaging and well-crafted. Highly recommended for movie nights.",
+    "rating": 4
+  },
+  {
+    "movieId": 25,
+    "reviewerName": "Svenska Dagbladet",
+    "comment": "En riktigt solid film som lever upp till förväntningarna.",
+    "rating": 4
+  },
+  {
+    "movieId": 25,
+    "reviewerName": "MovieZine",
+    "comment": "En tidlös klassiker som berör varje gång man ser den.",
+    "rating": 5
+  },
+  {
+    "movieId": 26,
+    "reviewerName": "Filmstaden Review",
+    "comment": "Great atmosphere and brilliant soundtrack.",
+    "rating": 4
+  },
+  {
+    "movieId": 26,
+    "reviewerName": "Cinematically Correct",
+    "comment": "Decent entertainment with good moments, but drags a bit in the middle.",
+    "rating": 3
+  },
+  {
+    "movieId": 26,
+    "reviewerName": "Kulturbloggen",
+    "comment": "Mycket bra film med starkt skådespel och snyggt foto.",
+    "rating": 4
+  },
+  {
+    "movieId": 26,
+    "reviewerName": "Screens & Scenes",
+    "comment": "Stark fyra! Väldigt underhållande och välgjord.",
+    "rating": 4
+  },
+  {
+    "movieId": 26,
+    "reviewerName": "Popcorn-patrullen",
+    "comment": "Great atmosphere and brilliant soundtrack.",
+    "rating": 4
+  },
+  {
+    "movieId": 26,
+    "reviewerName": "Cineast99",
+    "comment": "Flawless from start to finish. The cinematography and script are top-tier.",
+    "rating": 5
+  },
+  {
+    "movieId": 26,
+    "reviewerName": "Svenska Dagbladet",
+    "comment": "Engaging and well-crafted. Highly recommended for movie nights.",
+    "rating": 4
+  },
+  {
+    "movieId": 26,
+    "reviewerName": "Biobladet",
+    "comment": "An absolute masterpiece that transcends time. Stunning performances and unforgettable direction.",
+    "rating": 5
+  },
+  {
+    "movieId": 26,
+    "reviewerName": "Dagens Nyheter",
+    "comment": "Very strong performances and great pacing, minor flaws towards the end.",
+    "rating": 4
+  },
+  {
+    "movieId": 27,
+    "reviewerName": "Kulturbloggen",
+    "comment": "Masterclass in storytelling. Exceptional character development.",
+    "rating": 5
+  },
+  {
+    "movieId": 27,
+    "reviewerName": "Dagens Nyheter",
+    "comment": "Fun to watch once, standard Hollywood formula.",
+    "rating": 3
+  },
+  {
+    "movieId": 27,
+    "reviewerName": "Screens & Scenes",
+    "comment": "Stark fyra! Väldigt underhållande och välgjord.",
+    "rating": 4
+  },
+  {
+    "movieId": 27,
+    "reviewerName": "Filmstaden Review",
+    "comment": "En riktigt solid film som lever upp till förväntningarna.",
+    "rating": 4
+  },
+  {
+    "movieId": 27,
+    "reviewerName": "Cineast99",
+    "comment": "Masterclass in storytelling. Exceptional character development.",
+    "rating": 5
+  },
+  {
+    "movieId": 27,
+    "reviewerName": "MovieZine",
+    "comment": "Ett mästerverk utan dess like. Högsta betyg!",
+    "rating": 5
+  },
+  {
+    "movieId": 27,
+    "reviewerName": "Biobladet",
+    "comment": "Helt enastående skådespel och en handling som stannar kvar länge.",
+    "rating": 5
+  },
+  {
+    "movieId": 27,
+    "reviewerName": "The Celluloid Critic",
+    "comment": "En riktigt solid film som lever upp till förväntningarna.",
+    "rating": 4
+  },
+  {
+    "movieId": 27,
+    "reviewerName": "Svenska Dagbladet",
+    "comment": "Helt okej rulle med några riktigt bra scener, men helheten känns lite ojämn.",
+    "rating": 3
+  },
+  {
+    "movieId": 27,
+    "reviewerName": "Popcorn-patrullen",
+    "comment": "En riktigt solid film som lever upp till förväntningarna.",
+    "rating": 4
+  },
+  {
+    "movieId": 28,
+    "reviewerName": "Cineast99",
+    "comment": "Very strong performances and great pacing, minor flaws towards the end.",
+    "rating": 4
+  },
+  {
+    "movieId": 28,
+    "reviewerName": "Biobladet",
+    "comment": "Helt enastående skådespel och en handling som stannar kvar länge.",
+    "rating": 5
+  },
+  {
+    "movieId": 28,
+    "reviewerName": "Filmstaden Review",
+    "comment": "Mycket bra film med starkt skådespel och snyggt foto.",
+    "rating": 4
+  },
+  {
+    "movieId": 28,
+    "reviewerName": "Cinematically Correct",
+    "comment": "Ett mästerverk utan dess like. Högsta betyg!",
+    "rating": 5
+  },
+  {
+    "movieId": 28,
+    "reviewerName": "Dagens Nyheter",
+    "comment": "Helt enastående skådespel och en handling som stannar kvar länge.",
+    "rating": 5
+  },
+  {
+    "movieId": 28,
+    "reviewerName": "The Celluloid Critic",
+    "comment": "Flawless from start to finish. The cinematography and script are top-tier.",
+    "rating": 5
+  },
+  {
+    "movieId": 29,
+    "reviewerName": "Cineast99",
+    "comment": "An absolute masterpiece that transcends time. Stunning performances and unforgettable direction.",
+    "rating": 5
+  },
+  {
+    "movieId": 29,
+    "reviewerName": "The Celluloid Critic",
+    "comment": "Good visuals, though the script could have been tighter.",
+    "rating": 3
+  },
+  {
+    "movieId": 29,
+    "reviewerName": "Svenska Dagbladet",
+    "comment": "En riktigt solid film som lever upp till förväntningarna.",
+    "rating": 4
+  },
+  {
+    "movieId": 29,
+    "reviewerName": "Filmstaden Review",
+    "comment": "Great atmosphere and brilliant soundtrack.",
+    "rating": 4
+  },
+  {
+    "movieId": 29,
+    "reviewerName": "Kulturbloggen",
+    "comment": "En riktigt solid film som lever upp till förväntningarna.",
+    "rating": 4
+  },
+  {
+    "movieId": 29,
+    "reviewerName": "Popcorn-patrullen",
+    "comment": "En tidlös klassiker som berör varje gång man ser den.",
+    "rating": 5
+  },
+  {
+    "movieId": 29,
+    "reviewerName": "Screens & Scenes",
+    "comment": "Helt enastående skådespel och en handling som stannar kvar länge.",
+    "rating": 5
+  },
+  {
+    "movieId": 29,
+    "reviewerName": "Dagens Nyheter",
+    "comment": "Very strong performances and great pacing, minor flaws towards the end.",
+    "rating": 4
+  },
+  {
+    "movieId": 30,
+    "reviewerName": "Screens & Scenes",
+    "comment": "Good visuals, though the script could have been tighter.",
+    "rating": 3
+  },
+  {
+    "movieId": 30,
+    "reviewerName": "Svenska Dagbladet",
+    "comment": "En riktigt solid film som lever upp till förväntningarna.",
+    "rating": 4
+  },
+  {
+    "movieId": 30,
+    "reviewerName": "Cinematically Correct",
+    "comment": "An absolute masterpiece that transcends time. Stunning performances and unforgettable direction.",
+    "rating": 5
+  },
+  {
+    "movieId": 30,
+    "reviewerName": "Filmstaden Review",
+    "comment": "Masterclass in storytelling. Exceptional character development.",
+    "rating": 5
+  },
+  {
+    "movieId": 30,
+    "reviewerName": "Filmkrönikan",
+    "comment": "Great atmosphere and brilliant soundtrack.",
+    "rating": 4
+  },
+  {
+    "movieId": 30,
+    "reviewerName": "Dagens Nyheter",
+    "comment": "Ett mästerverk utan dess like. Högsta betyg!",
+    "rating": 5
+  },
+  {
+    "movieId": 30,
+    "reviewerName": "Popcorn-patrullen",
+    "comment": "En tidlös klassiker som berör varje gång man ser den.",
+    "rating": 5
+  },
+  {
+    "movieId": 31,
+    "reviewerName": "The Celluloid Critic",
+    "comment": "Ett mästerverk utan dess like. Högsta betyg!",
+    "rating": 5
+  },
+  {
+    "movieId": 31,
+    "reviewerName": "Cinematically Correct",
+    "comment": "Flawless from start to finish. The cinematography and script are top-tier.",
+    "rating": 5
+  },
+  {
+    "movieId": 31,
+    "reviewerName": "Filmstaden Review",
+    "comment": "Decent entertainment with good moments, but drags a bit in the middle.",
+    "rating": 3
+  },
+  {
+    "movieId": 31,
+    "reviewerName": "Popcorn-patrullen",
+    "comment": "Helt enastående skådespel och en handling som stannar kvar länge.",
+    "rating": 5
+  },
+  {
+    "movieId": 31,
+    "reviewerName": "Svenska Dagbladet",
+    "comment": "An absolute masterpiece that transcends time. Stunning performances and unforgettable direction.",
+    "rating": 5
+  },
+  {
+    "movieId": 31,
+    "reviewerName": "Dagens Nyheter",
+    "comment": "En riktigt solid film som lever upp till förväntningarna.",
+    "rating": 4
+  },
+  {
+    "movieId": 31,
+    "reviewerName": "Cineast99",
+    "comment": "Stabil trea. Väl godkänd men lämnar inget bestående intryck.",
+    "rating": 3
+  },
+  {
+    "movieId": 32,
+    "reviewerName": "The Celluloid Critic",
+    "comment": "An absolute masterpiece that transcends time. Stunning performances and unforgettable direction.",
+    "rating": 5
+  },
+  {
+    "movieId": 32,
+    "reviewerName": "Cinematically Correct",
+    "comment": "Fun to watch once, standard Hollywood formula.",
+    "rating": 3
+  },
+  {
+    "movieId": 32,
+    "reviewerName": "Dagens Nyheter",
+    "comment": "Helt enastående skådespel och en handling som stannar kvar länge.",
+    "rating": 5
+  },
+  {
+    "movieId": 32,
+    "reviewerName": "Svenska Dagbladet",
+    "comment": "An absolute masterpiece that transcends time. Stunning performances and unforgettable direction.",
+    "rating": 5
+  },
+  {
+    "movieId": 32,
+    "reviewerName": "Kulturbloggen",
+    "comment": "An absolute masterpiece that transcends time. Stunning performances and unforgettable direction.",
+    "rating": 5
+  },
+  {
+    "movieId": 32,
+    "reviewerName": "Cineast99",
+    "comment": "Flawless from start to finish. The cinematography and script are top-tier.",
+    "rating": 5
+  },
+  {
+    "movieId": 32,
+    "reviewerName": "Filmkrönikan",
+    "comment": "Engaging and well-crafted. Highly recommended for movie nights.",
+    "rating": 4
+  },
+  {
+    "movieId": 32,
+    "reviewerName": "MovieZine",
+    "comment": "Masterclass in storytelling. Exceptional character development.",
+    "rating": 5
+  },
+  {
+    "movieId": 33,
+    "reviewerName": "Svenska Dagbladet",
+    "comment": "An absolute masterpiece that transcends time. Stunning performances and unforgettable direction.",
+    "rating": 5
+  },
+  {
+    "movieId": 33,
+    "reviewerName": "Kulturbloggen",
+    "comment": "Mycket bra film med starkt skådespel och snyggt foto.",
+    "rating": 4
+  },
+  {
+    "movieId": 33,
+    "reviewerName": "Popcorn-patrullen",
+    "comment": "Helt enastående skådespel och en handling som stannar kvar länge.",
+    "rating": 5
+  },
+  {
+    "movieId": 33,
+    "reviewerName": "Cineast99",
+    "comment": "Engaging and well-crafted. Highly recommended for movie nights.",
+    "rating": 4
+  },
+  {
+    "movieId": 33,
+    "reviewerName": "Biobladet",
+    "comment": "Ett mästerverk utan dess like. Högsta betyg!",
+    "rating": 5
+  },
+  {
+    "movieId": 33,
+    "reviewerName": "Screens & Scenes",
+    "comment": "Flawless from start to finish. The cinematography and script are top-tier.",
+    "rating": 5
+  },
+  {
+    "movieId": 33,
+    "reviewerName": "Dagens Nyheter",
+    "comment": "Engaging and well-crafted. Highly recommended for movie nights.",
+    "rating": 4
+  },
+  {
+    "movieId": 33,
+    "reviewerName": "Cinematically Correct",
+    "comment": "Stark fyra! Väldigt underhållande och välgjord.",
+    "rating": 4
+  },
+  {
+    "movieId": 34,
+    "reviewerName": "Kulturbloggen",
+    "comment": "Stark fyra! Väldigt underhållande och välgjord.",
+    "rating": 4
+  },
+  {
+    "movieId": 34,
+    "reviewerName": "Filmstaden Review",
+    "comment": "An absolute masterpiece that transcends time. Stunning performances and unforgettable direction.",
+    "rating": 5
+  },
+  {
+    "movieId": 34,
+    "reviewerName": "Biobladet",
+    "comment": "Great atmosphere and brilliant soundtrack.",
+    "rating": 4
+  },
+  {
+    "movieId": 34,
+    "reviewerName": "Cineast99",
+    "comment": "Engaging and well-crafted. Highly recommended for movie nights.",
+    "rating": 4
+  },
+  {
+    "movieId": 34,
+    "reviewerName": "Popcorn-patrullen",
+    "comment": "Mycket bra film med starkt skådespel och snyggt foto.",
+    "rating": 4
+  },
+  {
+    "movieId": 35,
+    "reviewerName": "Popcorn-patrullen",
+    "comment": "Stabil trea. Väl godkänd men lämnar inget bestående intryck.",
+    "rating": 3
+  },
+  {
+    "movieId": 35,
+    "reviewerName": "The Celluloid Critic",
+    "comment": "Fun to watch once, standard Hollywood formula.",
+    "rating": 3
+  },
+  {
+    "movieId": 35,
+    "reviewerName": "Dagens Nyheter",
+    "comment": "Engaging and well-crafted. Highly recommended for movie nights.",
+    "rating": 4
+  },
+  {
+    "movieId": 35,
+    "reviewerName": "Cineast99",
+    "comment": "Mycket bra film med starkt skådespel och snyggt foto.",
+    "rating": 4
+  },
+  {
+    "movieId": 35,
+    "reviewerName": "Biobladet",
+    "comment": "Masterclass in storytelling. Exceptional character development.",
+    "rating": 5
+  },
+  {
+    "movieId": 35,
+    "reviewerName": "MovieZine",
+    "comment": "En tidlös klassiker som berör varje gång man ser den.",
+    "rating": 5
+  },
+  {
+    "movieId": 35,
+    "reviewerName": "Kulturbloggen",
+    "comment": "En tidlös klassiker som berör varje gång man ser den.",
+    "rating": 5
+  },
+  {
+    "movieId": 35,
+    "reviewerName": "Filmkrönikan",
+    "comment": "Engaging and well-crafted. Highly recommended for movie nights.",
+    "rating": 4
+  },
+  {
+    "movieId": 35,
+    "reviewerName": "Svenska Dagbladet",
+    "comment": "Mycket bra film med starkt skådespel och snyggt foto.",
+    "rating": 4
+  },
+  {
+    "movieId": 36,
+    "reviewerName": "Filmkrönikan",
+    "comment": "An absolute masterpiece that transcends time. Stunning performances and unforgettable direction.",
+    "rating": 5
+  },
+  {
+    "movieId": 36,
+    "reviewerName": "Svenska Dagbladet",
+    "comment": "En tidlös klassiker som berör varje gång man ser den.",
+    "rating": 5
+  },
+  {
+    "movieId": 36,
+    "reviewerName": "Cineast99",
+    "comment": "An absolute masterpiece that transcends time. Stunning performances and unforgettable direction.",
+    "rating": 5
+  },
+  {
+    "movieId": 36,
+    "reviewerName": "Filmstaden Review",
+    "comment": "Great atmosphere and brilliant soundtrack.",
+    "rating": 4
+  },
+  {
+    "movieId": 36,
+    "reviewerName": "Screens & Scenes",
+    "comment": "An absolute masterpiece that transcends time. Stunning performances and unforgettable direction.",
+    "rating": 5
+  },
+  {
+    "movieId": 36,
+    "reviewerName": "Dagens Nyheter",
+    "comment": "Helt okej rulle med några riktigt bra scener, men helheten känns lite ojämn.",
+    "rating": 3
+  },
+  {
+    "movieId": 36,
+    "reviewerName": "MovieZine",
+    "comment": "En tidlös klassiker som berör varje gång man ser den.",
+    "rating": 5
+  },
+  {
+    "movieId": 37,
+    "reviewerName": "Svenska Dagbladet",
+    "comment": "Very strong performances and great pacing, minor flaws towards the end.",
+    "rating": 4
+  },
+  {
+    "movieId": 37,
+    "reviewerName": "Kulturbloggen",
+    "comment": "Stark fyra! Väldigt underhållande och välgjord.",
+    "rating": 4
+  },
+  {
+    "movieId": 37,
+    "reviewerName": "Dagens Nyheter",
+    "comment": "Mycket bra film med starkt skådespel och snyggt foto.",
+    "rating": 4
+  },
+  {
+    "movieId": 37,
+    "reviewerName": "Biobladet",
+    "comment": "Flawless from start to finish. The cinematography and script are top-tier.",
+    "rating": 5
+  },
+  {
+    "movieId": 37,
+    "reviewerName": "The Celluloid Critic",
+    "comment": "Stark fyra! Väldigt underhållande och välgjord.",
+    "rating": 4
+  },
+  {
+    "movieId": 37,
+    "reviewerName": "Filmstaden Review",
+    "comment": "Helt enastående skådespel och en handling som stannar kvar länge.",
+    "rating": 5
+  },
+  {
+    "movieId": 37,
+    "reviewerName": "Popcorn-patrullen",
+    "comment": "En tidlös klassiker som berör varje gång man ser den.",
+    "rating": 5
+  },
+  {
+    "movieId": 37,
+    "reviewerName": "Cineast99",
+    "comment": "Decent entertainment with good moments, but drags a bit in the middle.",
+    "rating": 3
+  },
+  {
+    "movieId": 37,
+    "reviewerName": "Cinematically Correct",
+    "comment": "En tidlös klassiker som berör varje gång man ser den.",
+    "rating": 5
+  },
+  {
+    "movieId": 38,
+    "reviewerName": "Filmkrönikan",
+    "comment": "En riktigt solid film som lever upp till förväntningarna.",
+    "rating": 4
+  },
+  {
+    "movieId": 38,
+    "reviewerName": "Screens & Scenes",
+    "comment": "Masterclass in storytelling. Exceptional character development.",
+    "rating": 5
+  },
+  {
+    "movieId": 38,
+    "reviewerName": "Popcorn-patrullen",
+    "comment": "Stark fyra! Väldigt underhållande och välgjord.",
+    "rating": 4
+  },
+  {
+    "movieId": 38,
+    "reviewerName": "The Celluloid Critic",
+    "comment": "Decent entertainment with good moments, but drags a bit in the middle.",
+    "rating": 3
+  },
+  {
+    "movieId": 38,
+    "reviewerName": "MovieZine",
+    "comment": "Flawless from start to finish. The cinematography and script are top-tier.",
+    "rating": 5
+  },
+  {
+    "movieId": 38,
+    "reviewerName": "Biobladet",
+    "comment": "Mycket bra film med starkt skådespel och snyggt foto.",
+    "rating": 4
+  },
+  {
+    "movieId": 38,
+    "reviewerName": "Cinematically Correct",
+    "comment": "Flawless from start to finish. The cinematography and script are top-tier.",
+    "rating": 5
+  },
+  {
+    "movieId": 38,
+    "reviewerName": "Cineast99",
+    "comment": "Ett mästerverk utan dess like. Högsta betyg!",
+    "rating": 5
+  },
+  {
+    "movieId": 38,
+    "reviewerName": "Svenska Dagbladet",
+    "comment": "Stark fyra! Väldigt underhållande och välgjord.",
+    "rating": 4
+  },
+  {
+    "movieId": 38,
+    "reviewerName": "Filmstaden Review",
+    "comment": "Ett mästerverk utan dess like. Högsta betyg!",
+    "rating": 5
+  },
+  {
+    "movieId": 39,
+    "reviewerName": "Filmkrönikan",
+    "comment": "Flawless from start to finish. The cinematography and script are top-tier.",
+    "rating": 5
+  },
+  {
+    "movieId": 39,
+    "reviewerName": "Biobladet",
+    "comment": "Helt enastående skådespel och en handling som stannar kvar länge.",
+    "rating": 5
+  },
+  {
+    "movieId": 39,
+    "reviewerName": "The Celluloid Critic",
+    "comment": "Engaging and well-crafted. Highly recommended for movie nights.",
+    "rating": 4
+  },
+  {
+    "movieId": 39,
+    "reviewerName": "Cinematically Correct",
+    "comment": "Stark fyra! Väldigt underhållande och välgjord.",
+    "rating": 4
+  },
+  {
+    "movieId": 39,
+    "reviewerName": "Svenska Dagbladet",
+    "comment": "An absolute masterpiece that transcends time. Stunning performances and unforgettable direction.",
+    "rating": 5
+  },
+  {
+    "movieId": 39,
+    "reviewerName": "Popcorn-patrullen",
+    "comment": "Good visuals, though the script could have been tighter.",
+    "rating": 3
+  },
+  {
+    "movieId": 39,
+    "reviewerName": "MovieZine",
+    "comment": "Very strong performances and great pacing, minor flaws towards the end.",
+    "rating": 4
+  },
+  {
+    "movieId": 39,
+    "reviewerName": "Screens & Scenes",
+    "comment": "Engaging and well-crafted. Highly recommended for movie nights.",
+    "rating": 4
+  },
+  {
+    "movieId": 39,
+    "reviewerName": "Cineast99",
+    "comment": "En tidlös klassiker som berör varje gång man ser den.",
+    "rating": 5
+  },
+  {
+    "movieId": 39,
+    "reviewerName": "Filmstaden Review",
+    "comment": "Ett mästerverk utan dess like. Högsta betyg!",
+    "rating": 5
+  },
+  {
+    "movieId": 40,
+    "reviewerName": "Dagens Nyheter",
+    "comment": "Masterclass in storytelling. Exceptional character development.",
+    "rating": 5
+  },
+  {
+    "movieId": 40,
+    "reviewerName": "Svenska Dagbladet",
+    "comment": "Stark fyra! Väldigt underhållande och välgjord.",
+    "rating": 4
+  },
+  {
+    "movieId": 40,
+    "reviewerName": "Filmstaden Review",
+    "comment": "En riktigt solid film som lever upp till förväntningarna.",
+    "rating": 4
+  },
+  {
+    "movieId": 40,
+    "reviewerName": "Screens & Scenes",
+    "comment": "En tidlös klassiker som berör varje gång man ser den.",
+    "rating": 5
+  },
+  {
+    "movieId": 40,
+    "reviewerName": "Cineast99",
+    "comment": "Masterclass in storytelling. Exceptional character development.",
+    "rating": 5
+  },
+  {
+    "movieId": 40,
+    "reviewerName": "Popcorn-patrullen",
+    "comment": "Masterclass in storytelling. Exceptional character development.",
+    "rating": 5
+  },
+  {
+    "movieId": 40,
+    "reviewerName": "The Celluloid Critic",
+    "comment": "En riktigt solid film som lever upp till förväntningarna.",
+    "rating": 4
+  },
+  {
+    "movieId": 41,
+    "reviewerName": "Screens & Scenes",
+    "comment": "Stark fyra! Väldigt underhållande och välgjord.",
+    "rating": 4
+  },
+  {
+    "movieId": 41,
+    "reviewerName": "Filmkrönikan",
+    "comment": "Flawless from start to finish. The cinematography and script are top-tier.",
+    "rating": 5
+  },
+  {
+    "movieId": 41,
+    "reviewerName": "Biobladet",
+    "comment": "Mycket bra film med starkt skådespel och snyggt foto.",
+    "rating": 4
+  },
+  {
+    "movieId": 41,
+    "reviewerName": "Cineast99",
+    "comment": "Helt enastående skådespel och en handling som stannar kvar länge.",
+    "rating": 5
+  },
+  {
+    "movieId": 41,
+    "reviewerName": "Popcorn-patrullen",
+    "comment": "Mycket bra film med starkt skådespel och snyggt foto.",
+    "rating": 4
+  },
+  {
+    "movieId": 42,
+    "reviewerName": "MovieZine",
+    "comment": "Great atmosphere and brilliant soundtrack.",
+    "rating": 4
+  },
+  {
+    "movieId": 42,
+    "reviewerName": "Cineast99",
+    "comment": "Masterclass in storytelling. Exceptional character development.",
+    "rating": 5
+  },
+  {
+    "movieId": 42,
+    "reviewerName": "Dagens Nyheter",
+    "comment": "Helt enastående skådespel och en handling som stannar kvar länge.",
+    "rating": 5
+  },
+  {
+    "movieId": 42,
+    "reviewerName": "Screens & Scenes",
+    "comment": "En tidlös klassiker som berör varje gång man ser den.",
+    "rating": 5
+  },
+  {
+    "movieId": 42,
+    "reviewerName": "Cinematically Correct",
+    "comment": "Ett mästerverk utan dess like. Högsta betyg!",
+    "rating": 5
+  },
+  {
+    "movieId": 42,
+    "reviewerName": "Svenska Dagbladet",
+    "comment": "Ett mästerverk utan dess like. Högsta betyg!",
+    "rating": 5
+  },
+  {
+    "movieId": 42,
+    "reviewerName": "Filmstaden Review",
+    "comment": "Great atmosphere and brilliant soundtrack.",
+    "rating": 4
+  },
+  {
+    "movieId": 42,
+    "reviewerName": "Filmkrönikan",
+    "comment": "En tidlös klassiker som berör varje gång man ser den.",
+    "rating": 5
+  },
+  {
+    "movieId": 42,
+    "reviewerName": "Popcorn-patrullen",
+    "comment": "Ett mästerverk utan dess like. Högsta betyg!",
+    "rating": 5
+  },
+  {
+    "movieId": 42,
+    "reviewerName": "Kulturbloggen",
+    "comment": "Engaging and well-crafted. Highly recommended for movie nights.",
+    "rating": 4
+  },
+  {
+    "movieId": 43,
+    "reviewerName": "Popcorn-patrullen",
+    "comment": "Helt enastående skådespel och en handling som stannar kvar länge.",
+    "rating": 5
+  },
+  {
+    "movieId": 43,
+    "reviewerName": "Cinematically Correct",
+    "comment": "Masterclass in storytelling. Exceptional character development.",
+    "rating": 5
+  },
+  {
+    "movieId": 43,
+    "reviewerName": "Filmstaden Review",
+    "comment": "En riktigt solid film som lever upp till förväntningarna.",
+    "rating": 4
+  },
+  {
+    "movieId": 43,
+    "reviewerName": "Cineast99",
+    "comment": "En tidlös klassiker som berör varje gång man ser den.",
+    "rating": 5
+  },
+  {
+    "movieId": 43,
+    "reviewerName": "Svenska Dagbladet",
+    "comment": "En riktigt solid film som lever upp till förväntningarna.",
+    "rating": 4
+  },
+  {
+    "movieId": 43,
+    "reviewerName": "Screens & Scenes",
+    "comment": "Masterclass in storytelling. Exceptional character development.",
+    "rating": 5
+  },
+  {
+    "movieId": 44,
+    "reviewerName": "Popcorn-patrullen",
+    "comment": "Helt enastående skådespel och en handling som stannar kvar länge.",
+    "rating": 5
+  },
+  {
+    "movieId": 44,
+    "reviewerName": "Filmstaden Review",
+    "comment": "Good visuals, though the script could have been tighter.",
+    "rating": 3
+  },
+  {
+    "movieId": 44,
+    "reviewerName": "MovieZine",
+    "comment": "Good visuals, though the script could have been tighter.",
+    "rating": 3
+  },
+  {
+    "movieId": 44,
+    "reviewerName": "Biobladet",
+    "comment": "Stark fyra! Väldigt underhållande och välgjord.",
+    "rating": 4
+  },
+  {
+    "movieId": 44,
+    "reviewerName": "Svenska Dagbladet",
+    "comment": "En tidlös klassiker som berör varje gång man ser den.",
+    "rating": 5
+  },
+  {
+    "movieId": 44,
+    "reviewerName": "Cinematically Correct",
+    "comment": "Helt okej rulle med några riktigt bra scener, men helheten känns lite ojämn.",
+    "rating": 3
+  },
+  {
+    "movieId": 45,
+    "reviewerName": "Cinematically Correct",
+    "comment": "Very strong performances and great pacing, minor flaws towards the end.",
+    "rating": 4
+  },
+  {
+    "movieId": 45,
+    "reviewerName": "The Celluloid Critic",
+    "comment": "Engaging and well-crafted. Highly recommended for movie nights.",
+    "rating": 4
+  },
+  {
+    "movieId": 45,
+    "reviewerName": "Kulturbloggen",
+    "comment": "Great atmosphere and brilliant soundtrack.",
+    "rating": 4
+  },
+  {
+    "movieId": 45,
+    "reviewerName": "Filmkrönikan",
+    "comment": "Stark fyra! Väldigt underhållande och välgjord.",
+    "rating": 4
+  },
+  {
+    "movieId": 45,
+    "reviewerName": "Svenska Dagbladet",
+    "comment": "Mycket bra film med starkt skådespel och snyggt foto.",
+    "rating": 4
+  },
+  {
+    "movieId": 45,
+    "reviewerName": "Screens & Scenes",
+    "comment": "Flawless from start to finish. The cinematography and script are top-tier.",
+    "rating": 5
+  },
+  {
+    "movieId": 45,
+    "reviewerName": "Dagens Nyheter",
+    "comment": "Masterclass in storytelling. Exceptional character development.",
+    "rating": 5
+  },
+  {
+    "movieId": 46,
+    "reviewerName": "MovieZine",
+    "comment": "Flawless from start to finish. The cinematography and script are top-tier.",
+    "rating": 5
+  },
+  {
+    "movieId": 46,
+    "reviewerName": "Cineast99",
+    "comment": "En riktigt solid film som lever upp till förväntningarna.",
+    "rating": 4
+  },
+  {
+    "movieId": 46,
+    "reviewerName": "Screens & Scenes",
+    "comment": "Great atmosphere and brilliant soundtrack.",
+    "rating": 4
+  },
+  {
+    "movieId": 46,
+    "reviewerName": "Kulturbloggen",
+    "comment": "Ett mästerverk utan dess like. Högsta betyg!",
+    "rating": 5
+  },
+  {
+    "movieId": 46,
+    "reviewerName": "Filmstaden Review",
+    "comment": "En tidlös klassiker som berör varje gång man ser den.",
+    "rating": 5
+  },
+  {
+    "movieId": 46,
+    "reviewerName": "Biobladet",
+    "comment": "En riktigt solid film som lever upp till förväntningarna.",
+    "rating": 4
+  },
+  {
+    "movieId": 46,
+    "reviewerName": "Filmkrönikan",
+    "comment": "Stark fyra! Väldigt underhållande och välgjord.",
+    "rating": 4
+  },
+  {
+    "movieId": 46,
+    "reviewerName": "Popcorn-patrullen",
+    "comment": "An absolute masterpiece that transcends time. Stunning performances and unforgettable direction.",
+    "rating": 5
+  },
+  {
+    "movieId": 46,
+    "reviewerName": "Dagens Nyheter",
+    "comment": "Masterclass in storytelling. Exceptional character development.",
+    "rating": 5
+  },
+  {
+    "movieId": 46,
+    "reviewerName": "The Celluloid Critic",
+    "comment": "An absolute masterpiece that transcends time. Stunning performances and unforgettable direction.",
+    "rating": 5
+  },
+  {
+    "movieId": 47,
+    "reviewerName": "The Celluloid Critic",
+    "comment": "Fun to watch once, standard Hollywood formula.",
+    "rating": 3
+  },
+  {
+    "movieId": 47,
+    "reviewerName": "Kulturbloggen",
+    "comment": "Helt okej rulle med några riktigt bra scener, men helheten känns lite ojämn.",
+    "rating": 3
+  },
+  {
+    "movieId": 47,
+    "reviewerName": "Popcorn-patrullen",
+    "comment": "Ett mästerverk utan dess like. Högsta betyg!",
+    "rating": 5
+  },
+  {
+    "movieId": 47,
+    "reviewerName": "Svenska Dagbladet",
+    "comment": "Helt enastående skådespel och en handling som stannar kvar länge.",
+    "rating": 5
+  },
+  {
+    "movieId": 47,
+    "reviewerName": "Dagens Nyheter",
+    "comment": "An absolute masterpiece that transcends time. Stunning performances and unforgettable direction.",
+    "rating": 5
+  },
+  {
+    "movieId": 48,
+    "reviewerName": "MovieZine",
+    "comment": "Stark fyra! Väldigt underhållande och välgjord.",
+    "rating": 4
+  },
+  {
+    "movieId": 48,
+    "reviewerName": "The Celluloid Critic",
+    "comment": "Masterclass in storytelling. Exceptional character development.",
+    "rating": 5
+  },
+  {
+    "movieId": 48,
+    "reviewerName": "Dagens Nyheter",
+    "comment": "En tidlös klassiker som berör varje gång man ser den.",
+    "rating": 5
+  },
+  {
+    "movieId": 48,
+    "reviewerName": "Svenska Dagbladet",
+    "comment": "Great atmosphere and brilliant soundtrack.",
+    "rating": 4
+  },
+  {
+    "movieId": 48,
+    "reviewerName": "Kulturbloggen",
+    "comment": "Mycket bra film med starkt skådespel och snyggt foto.",
+    "rating": 4
+  },
+  {
+    "movieId": 48,
+    "reviewerName": "Screens & Scenes",
+    "comment": "Ett mästerverk utan dess like. Högsta betyg!",
+    "rating": 5
+  },
+  {
+    "movieId": 48,
+    "reviewerName": "Cinematically Correct",
+    "comment": "An absolute masterpiece that transcends time. Stunning performances and unforgettable direction.",
+    "rating": 5
+  },
+  {
+    "movieId": 48,
+    "reviewerName": "Filmkrönikan",
+    "comment": "En tidlös klassiker som berör varje gång man ser den.",
+    "rating": 5
+  },
+  {
+    "movieId": 48,
+    "reviewerName": "Biobladet",
+    "comment": "En tidlös klassiker som berör varje gång man ser den.",
+    "rating": 5
+  },
+  {
+    "movieId": 49,
+    "reviewerName": "Popcorn-patrullen",
+    "comment": "En tidlös klassiker som berör varje gång man ser den.",
+    "rating": 5
+  },
+  {
+    "movieId": 49,
+    "reviewerName": "Cineast99",
+    "comment": "An absolute masterpiece that transcends time. Stunning performances and unforgettable direction.",
+    "rating": 5
+  },
+  {
+    "movieId": 49,
+    "reviewerName": "Filmstaden Review",
+    "comment": "Flawless from start to finish. The cinematography and script are top-tier.",
+    "rating": 5
+  },
+  {
+    "movieId": 49,
+    "reviewerName": "Biobladet",
+    "comment": "En riktigt solid film som lever upp till förväntningarna.",
+    "rating": 4
+  },
+  {
+    "movieId": 49,
+    "reviewerName": "The Celluloid Critic",
+    "comment": "En riktigt solid film som lever upp till förväntningarna.",
+    "rating": 4
+  },
+  {
+    "movieId": 49,
+    "reviewerName": "Kulturbloggen",
+    "comment": "Ett mästerverk utan dess like. Högsta betyg!",
+    "rating": 5
+  },
+  {
+    "movieId": 49,
+    "reviewerName": "Cinematically Correct",
+    "comment": "En riktigt solid film som lever upp till förväntningarna.",
+    "rating": 4
+  },
+  {
+    "movieId": 50,
+    "reviewerName": "Svenska Dagbladet",
+    "comment": "En riktigt solid film som lever upp till förväntningarna.",
+    "rating": 4
+  },
+  {
+    "movieId": 50,
+    "reviewerName": "Cinematically Correct",
+    "comment": "Ett mästerverk utan dess like. Högsta betyg!",
+    "rating": 5
+  },
+  {
+    "movieId": 50,
+    "reviewerName": "Kulturbloggen",
+    "comment": "Great atmosphere and brilliant soundtrack.",
+    "rating": 4
+  },
+  {
+    "movieId": 50,
+    "reviewerName": "Biobladet",
+    "comment": "En tidlös klassiker som berör varje gång man ser den.",
+    "rating": 5
+  },
+  {
+    "movieId": 50,
+    "reviewerName": "MovieZine",
+    "comment": "Engaging and well-crafted. Highly recommended for movie nights.",
+    "rating": 4
+  },
+  {
+    "movieId": 50,
+    "reviewerName": "Popcorn-patrullen",
+    "comment": "Helt enastående skådespel och en handling som stannar kvar länge.",
+    "rating": 5
+  },
+  {
+    "movieId": 50,
+    "reviewerName": "Filmstaden Review",
+    "comment": "Decent entertainment with good moments, but drags a bit in the middle.",
+    "rating": 3
+  },
+  {
+    "movieId": 50,
+    "reviewerName": "The Celluloid Critic",
+    "comment": "Engaging and well-crafted. Highly recommended for movie nights.",
+    "rating": 4
+  },
+  {
+    "movieId": 50,
+    "reviewerName": "Screens & Scenes",
+    "comment": "En riktigt solid film som lever upp till förväntningarna.",
+    "rating": 4
+  },
+  {
+    "movieId": 50,
+    "reviewerName": "Dagens Nyheter",
+    "comment": "Flawless from start to finish. The cinematography and script are top-tier.",
+    "rating": 5
+  },
+  {
+    "movieId": 51,
+    "reviewerName": "Kulturbloggen",
+    "comment": "Ett mästerverk utan dess like. Högsta betyg!",
+    "rating": 5
+  },
+  {
+    "movieId": 51,
+    "reviewerName": "Cineast99",
+    "comment": "An absolute masterpiece that transcends time. Stunning performances and unforgettable direction.",
+    "rating": 5
+  },
+  {
+    "movieId": 51,
+    "reviewerName": "Cinematically Correct",
+    "comment": "Ett mästerverk utan dess like. Högsta betyg!",
+    "rating": 5
+  },
+  {
+    "movieId": 51,
+    "reviewerName": "Dagens Nyheter",
+    "comment": "Helt enastående skådespel och en handling som stannar kvar länge.",
+    "rating": 5
+  },
+  {
+    "movieId": 51,
+    "reviewerName": "Filmstaden Review",
+    "comment": "Very strong performances and great pacing, minor flaws towards the end.",
+    "rating": 4
+  },
+  {
+    "movieId": 51,
+    "reviewerName": "The Celluloid Critic",
+    "comment": "Engaging and well-crafted. Highly recommended for movie nights.",
+    "rating": 4
+  },
+  {
+    "movieId": 51,
+    "reviewerName": "Biobladet",
+    "comment": "Helt enastående skådespel och en handling som stannar kvar länge.",
+    "rating": 5
+  },
+  {
+    "movieId": 51,
+    "reviewerName": "Screens & Scenes",
+    "comment": "Engaging and well-crafted. Highly recommended for movie nights.",
+    "rating": 4
+  },
+  {
+    "movieId": 52,
+    "reviewerName": "Cineast99",
+    "comment": "An absolute masterpiece that transcends time. Stunning performances and unforgettable direction.",
+    "rating": 5
+  },
+  {
+    "movieId": 52,
+    "reviewerName": "MovieZine",
+    "comment": "Decent entertainment with good moments, but drags a bit in the middle.",
+    "rating": 3
+  },
+  {
+    "movieId": 52,
+    "reviewerName": "Dagens Nyheter",
+    "comment": "En riktigt solid film som lever upp till förväntningarna.",
+    "rating": 4
+  },
+  {
+    "movieId": 52,
+    "reviewerName": "Svenska Dagbladet",
+    "comment": "Ett mästerverk utan dess like. Högsta betyg!",
+    "rating": 5
+  },
+  {
+    "movieId": 52,
+    "reviewerName": "Screens & Scenes",
+    "comment": "Masterclass in storytelling. Exceptional character development.",
+    "rating": 5
+  },
+  {
+    "movieId": 53,
+    "reviewerName": "Kulturbloggen",
+    "comment": "Great atmosphere and brilliant soundtrack.",
+    "rating": 4
+  },
+  {
+    "movieId": 53,
+    "reviewerName": "The Celluloid Critic",
+    "comment": "Engaging and well-crafted. Highly recommended for movie nights.",
+    "rating": 4
+  },
+  {
+    "movieId": 53,
+    "reviewerName": "Cineast99",
+    "comment": "Great atmosphere and brilliant soundtrack.",
+    "rating": 4
+  },
+  {
+    "movieId": 53,
+    "reviewerName": "MovieZine",
+    "comment": "En tidlös klassiker som berör varje gång man ser den.",
+    "rating": 5
+  },
+  {
+    "movieId": 53,
+    "reviewerName": "Screens & Scenes",
+    "comment": "Very strong performances and great pacing, minor flaws towards the end.",
+    "rating": 4
+  },
+  {
+    "movieId": 53,
+    "reviewerName": "Cinematically Correct",
+    "comment": "Mycket bra film med starkt skådespel och snyggt foto.",
+    "rating": 4
+  },
+  {
+    "movieId": 53,
+    "reviewerName": "Dagens Nyheter",
+    "comment": "Ett mästerverk utan dess like. Högsta betyg!",
+    "rating": 5
+  },
+  {
+    "movieId": 53,
+    "reviewerName": "Svenska Dagbladet",
+    "comment": "Great atmosphere and brilliant soundtrack.",
+    "rating": 4
+  },
+  {
+    "movieId": 53,
+    "reviewerName": "Filmstaden Review",
+    "comment": "En riktigt solid film som lever upp till förväntningarna.",
+    "rating": 4
+  },
+  {
+    "movieId": 54,
+    "reviewerName": "The Celluloid Critic",
+    "comment": "Stark fyra! Väldigt underhållande och välgjord.",
+    "rating": 4
+  },
+  {
+    "movieId": 54,
+    "reviewerName": "Screens & Scenes",
+    "comment": "Ett mästerverk utan dess like. Högsta betyg!",
+    "rating": 5
+  },
+  {
+    "movieId": 54,
+    "reviewerName": "Dagens Nyheter",
+    "comment": "Helt enastående skådespel och en handling som stannar kvar länge.",
+    "rating": 5
+  },
+  {
+    "movieId": 54,
+    "reviewerName": "Cineast99",
+    "comment": "Very strong performances and great pacing, minor flaws towards the end.",
+    "rating": 4
+  },
+  {
+    "movieId": 54,
+    "reviewerName": "MovieZine",
+    "comment": "En tidlös klassiker som berör varje gång man ser den.",
+    "rating": 5
+  },
+  {
+    "movieId": 55,
+    "reviewerName": "Cinematically Correct",
+    "comment": "Great atmosphere and brilliant soundtrack.",
+    "rating": 4
+  },
+  {
+    "movieId": 55,
+    "reviewerName": "MovieZine",
+    "comment": "Flawless from start to finish. The cinematography and script are top-tier.",
+    "rating": 5
+  },
+  {
+    "movieId": 55,
+    "reviewerName": "Screens & Scenes",
+    "comment": "An absolute masterpiece that transcends time. Stunning performances and unforgettable direction.",
+    "rating": 5
+  },
+  {
+    "movieId": 55,
+    "reviewerName": "Popcorn-patrullen",
+    "comment": "Fun to watch once, standard Hollywood formula.",
+    "rating": 3
+  },
+  {
+    "movieId": 55,
+    "reviewerName": "The Celluloid Critic",
+    "comment": "Masterclass in storytelling. Exceptional character development.",
+    "rating": 5
+  },
+  {
+    "movieId": 56,
+    "reviewerName": "Svenska Dagbladet",
+    "comment": "Helt enastående skådespel och en handling som stannar kvar länge.",
+    "rating": 5
+  },
+  {
+    "movieId": 56,
+    "reviewerName": "Filmkrönikan",
+    "comment": "En tidlös klassiker som berör varje gång man ser den.",
+    "rating": 5
+  },
+  {
+    "movieId": 56,
+    "reviewerName": "MovieZine",
+    "comment": "Great atmosphere and brilliant soundtrack.",
+    "rating": 4
+  },
+  {
+    "movieId": 56,
+    "reviewerName": "Popcorn-patrullen",
+    "comment": "Mycket bra film med starkt skådespel och snyggt foto.",
+    "rating": 4
+  },
+  {
+    "movieId": 56,
+    "reviewerName": "Screens & Scenes",
+    "comment": "Helt enastående skådespel och en handling som stannar kvar länge.",
+    "rating": 5
+  },
+  {
+    "movieId": 56,
+    "reviewerName": "Biobladet",
+    "comment": "Flawless from start to finish. The cinematography and script are top-tier.",
+    "rating": 5
+  },
+  {
+    "movieId": 56,
+    "reviewerName": "Cinematically Correct",
+    "comment": "En tidlös klassiker som berör varje gång man ser den.",
+    "rating": 5
+  },
+  {
+    "movieId": 56,
+    "reviewerName": "Dagens Nyheter",
+    "comment": "Stabil trea. Väl godkänd men lämnar inget bestående intryck.",
+    "rating": 3
+  },
+  {
+    "movieId": 57,
+    "reviewerName": "Filmkrönikan",
+    "comment": "Masterclass in storytelling. Exceptional character development.",
+    "rating": 5
+  },
+  {
+    "movieId": 57,
+    "reviewerName": "The Celluloid Critic",
+    "comment": "Ett mästerverk utan dess like. Högsta betyg!",
+    "rating": 5
+  },
+  {
+    "movieId": 57,
+    "reviewerName": "Biobladet",
+    "comment": "Engaging and well-crafted. Highly recommended for movie nights.",
+    "rating": 4
+  },
+  {
+    "movieId": 57,
+    "reviewerName": "MovieZine",
+    "comment": "Very strong performances and great pacing, minor flaws towards the end.",
+    "rating": 4
+  },
+  {
+    "movieId": 57,
+    "reviewerName": "Popcorn-patrullen",
+    "comment": "Stabil trea. Väl godkänd men lämnar inget bestående intryck.",
+    "rating": 3
+  },
+  {
+    "movieId": 57,
+    "reviewerName": "Svenska Dagbladet",
+    "comment": "En tidlös klassiker som berör varje gång man ser den.",
+    "rating": 5
+  },
+  {
+    "movieId": 58,
+    "reviewerName": "The Celluloid Critic",
+    "comment": "Great atmosphere and brilliant soundtrack.",
+    "rating": 4
+  },
+  {
+    "movieId": 58,
+    "reviewerName": "Cinematically Correct",
+    "comment": "Ett mästerverk utan dess like. Högsta betyg!",
+    "rating": 5
+  },
+  {
+    "movieId": 58,
+    "reviewerName": "Biobladet",
+    "comment": "Masterclass in storytelling. Exceptional character development.",
+    "rating": 5
+  },
+  {
+    "movieId": 58,
+    "reviewerName": "Filmstaden Review",
+    "comment": "Fun to watch once, standard Hollywood formula.",
+    "rating": 3
+  },
+  {
+    "movieId": 58,
+    "reviewerName": "Filmkrönikan",
+    "comment": "An absolute masterpiece that transcends time. Stunning performances and unforgettable direction.",
+    "rating": 5
+  },
+  {
+    "movieId": 58,
+    "reviewerName": "Popcorn-patrullen",
+    "comment": "Stark fyra! Väldigt underhållande och välgjord.",
+    "rating": 4
+  },
+  {
+    "movieId": 58,
+    "reviewerName": "Screens & Scenes",
+    "comment": "Great atmosphere and brilliant soundtrack.",
+    "rating": 4
+  },
+  {
+    "movieId": 58,
+    "reviewerName": "Svenska Dagbladet",
+    "comment": "Ett mästerverk utan dess like. Högsta betyg!",
+    "rating": 5
+  },
+  {
+    "movieId": 59,
+    "reviewerName": "Cinematically Correct",
+    "comment": "Helt enastående skådespel och en handling som stannar kvar länge.",
+    "rating": 5
+  },
+  {
+    "movieId": 59,
+    "reviewerName": "Kulturbloggen",
+    "comment": "Helt enastående skådespel och en handling som stannar kvar länge.",
+    "rating": 5
+  },
+  {
+    "movieId": 59,
+    "reviewerName": "Dagens Nyheter",
+    "comment": "Engaging and well-crafted. Highly recommended for movie nights.",
+    "rating": 4
+  },
+  {
+    "movieId": 59,
+    "reviewerName": "The Celluloid Critic",
+    "comment": "Very strong performances and great pacing, minor flaws towards the end.",
+    "rating": 4
+  },
+  {
+    "movieId": 59,
+    "reviewerName": "Filmstaden Review",
+    "comment": "En tidlös klassiker som berör varje gång man ser den.",
+    "rating": 5
+  },
+  {
+    "movieId": 59,
+    "reviewerName": "MovieZine",
+    "comment": "Stark fyra! Väldigt underhållande och välgjord.",
+    "rating": 4
+  },
+  {
+    "movieId": 59,
+    "reviewerName": "Filmkrönikan",
+    "comment": "En tidlös klassiker som berör varje gång man ser den.",
+    "rating": 5
+  },
+  {
+    "movieId": 59,
+    "reviewerName": "Svenska Dagbladet",
+    "comment": "Great atmosphere and brilliant soundtrack.",
+    "rating": 4
+  },
+  {
+    "movieId": 60,
+    "reviewerName": "The Celluloid Critic",
+    "comment": "En tidlös klassiker som berör varje gång man ser den.",
+    "rating": 5
+  },
+  {
+    "movieId": 60,
+    "reviewerName": "Cinematically Correct",
+    "comment": "Great atmosphere and brilliant soundtrack.",
+    "rating": 4
+  },
+  {
+    "movieId": 60,
+    "reviewerName": "Cineast99",
+    "comment": "Very strong performances and great pacing, minor flaws towards the end.",
+    "rating": 4
+  },
+  {
+    "movieId": 60,
+    "reviewerName": "Popcorn-patrullen",
+    "comment": "Helt enastående skådespel och en handling som stannar kvar länge.",
+    "rating": 5
+  },
+  {
+    "movieId": 60,
+    "reviewerName": "Filmkrönikan",
+    "comment": "Ett mästerverk utan dess like. Högsta betyg!",
+    "rating": 5
+  },
+  {
+    "movieId": 60,
+    "reviewerName": "Screens & Scenes",
+    "comment": "Helt enastående skådespel och en handling som stannar kvar länge.",
+    "rating": 5
+  },
+  {
+    "movieId": 60,
+    "reviewerName": "Kulturbloggen",
+    "comment": "Stark fyra! Väldigt underhållande och välgjord.",
+    "rating": 4
+  },
+  {
+    "movieId": 60,
+    "reviewerName": "Dagens Nyheter",
+    "comment": "Masterclass in storytelling. Exceptional character development.",
+    "rating": 5
+  },
+  {
+    "movieId": 61,
+    "reviewerName": "Dagens Nyheter",
+    "comment": "Helt enastående skådespel och en handling som stannar kvar länge.",
+    "rating": 5
+  },
+  {
+    "movieId": 61,
+    "reviewerName": "Popcorn-patrullen",
+    "comment": "En tidlös klassiker som berör varje gång man ser den.",
+    "rating": 5
+  },
+  {
+    "movieId": 61,
+    "reviewerName": "Filmstaden Review",
+    "comment": "En riktigt solid film som lever upp till förväntningarna.",
+    "rating": 4
+  },
+  {
+    "movieId": 61,
+    "reviewerName": "The Celluloid Critic",
+    "comment": "Flawless from start to finish. The cinematography and script are top-tier.",
+    "rating": 5
+  },
+  {
+    "movieId": 61,
+    "reviewerName": "MovieZine",
+    "comment": "En riktigt solid film som lever upp till förväntningarna.",
+    "rating": 4
+  },
+  {
+    "movieId": 61,
+    "reviewerName": "Screens & Scenes",
+    "comment": "An absolute masterpiece that transcends time. Stunning performances and unforgettable direction.",
+    "rating": 5
+  },
+  {
+    "movieId": 61,
+    "reviewerName": "Filmkrönikan",
+    "comment": "Flawless from start to finish. The cinematography and script are top-tier.",
+    "rating": 5
+  },
+  {
+    "movieId": 61,
+    "reviewerName": "Cinematically Correct",
+    "comment": "Helt enastående skådespel och en handling som stannar kvar länge.",
+    "rating": 5
+  },
+  {
+    "movieId": 61,
+    "reviewerName": "Kulturbloggen",
+    "comment": "Fun to watch once, standard Hollywood formula.",
+    "rating": 3
+  },
+  {
+    "movieId": 62,
+    "reviewerName": "Cineast99",
+    "comment": "Stabil trea. Väl godkänd men lämnar inget bestående intryck.",
+    "rating": 3
+  },
+  {
+    "movieId": 62,
+    "reviewerName": "Dagens Nyheter",
+    "comment": "Helt enastående skådespel och en handling som stannar kvar länge.",
+    "rating": 5
+  },
+  {
+    "movieId": 62,
+    "reviewerName": "Biobladet",
+    "comment": "Stabil trea. Väl godkänd men lämnar inget bestående intryck.",
+    "rating": 3
+  },
+  {
+    "movieId": 62,
+    "reviewerName": "Screens & Scenes",
+    "comment": "En tidlös klassiker som berör varje gång man ser den.",
+    "rating": 5
+  },
+  {
+    "movieId": 62,
+    "reviewerName": "The Celluloid Critic",
+    "comment": "An absolute masterpiece that transcends time. Stunning performances and unforgettable direction.",
+    "rating": 5
+  },
+  {
+    "movieId": 62,
+    "reviewerName": "Kulturbloggen",
+    "comment": "Very strong performances and great pacing, minor flaws towards the end.",
+    "rating": 4
+  },
+  {
+    "movieId": 62,
+    "reviewerName": "Popcorn-patrullen",
+    "comment": "Flawless from start to finish. The cinematography and script are top-tier.",
+    "rating": 5
+  },
+  {
+    "movieId": 63,
+    "reviewerName": "MovieZine",
+    "comment": "Engaging and well-crafted. Highly recommended for movie nights.",
+    "rating": 4
+  },
+  {
+    "movieId": 63,
+    "reviewerName": "Filmstaden Review",
+    "comment": "Ett mästerverk utan dess like. Högsta betyg!",
+    "rating": 5
+  },
+  {
+    "movieId": 63,
+    "reviewerName": "Filmkrönikan",
+    "comment": "Flawless from start to finish. The cinematography and script are top-tier.",
+    "rating": 5
+  },
+  {
+    "movieId": 63,
+    "reviewerName": "Dagens Nyheter",
+    "comment": "An absolute masterpiece that transcends time. Stunning performances and unforgettable direction.",
+    "rating": 5
+  },
+  {
+    "movieId": 63,
+    "reviewerName": "Svenska Dagbladet",
+    "comment": "Engaging and well-crafted. Highly recommended for movie nights.",
+    "rating": 4
+  },
+  {
+    "movieId": 63,
+    "reviewerName": "Cinematically Correct",
+    "comment": "Very strong performances and great pacing, minor flaws towards the end.",
+    "rating": 4
+  },
+  {
+    "movieId": 63,
+    "reviewerName": "The Celluloid Critic",
+    "comment": "Great atmosphere and brilliant soundtrack.",
+    "rating": 4
+  },
+  {
+    "movieId": 63,
+    "reviewerName": "Biobladet",
+    "comment": "Flawless from start to finish. The cinematography and script are top-tier.",
+    "rating": 5
+  },
+  {
+    "movieId": 63,
+    "reviewerName": "Kulturbloggen",
+    "comment": "En tidlös klassiker som berör varje gång man ser den.",
+    "rating": 5
+  },
+  {
+    "movieId": 64,
+    "reviewerName": "Kulturbloggen",
+    "comment": "Stark fyra! Väldigt underhållande och välgjord.",
+    "rating": 4
+  },
+  {
+    "movieId": 64,
+    "reviewerName": "Popcorn-patrullen",
+    "comment": "Flawless from start to finish. The cinematography and script are top-tier.",
+    "rating": 5
+  },
+  {
+    "movieId": 64,
+    "reviewerName": "Dagens Nyheter",
+    "comment": "Very strong performances and great pacing, minor flaws towards the end.",
+    "rating": 4
+  },
+  {
+    "movieId": 64,
+    "reviewerName": "Svenska Dagbladet",
+    "comment": "Helt enastående skådespel och en handling som stannar kvar länge.",
+    "rating": 5
+  },
+  {
+    "movieId": 64,
+    "reviewerName": "Filmkrönikan",
+    "comment": "En tidlös klassiker som berör varje gång man ser den.",
+    "rating": 5
+  },
+  {
+    "movieId": 64,
+    "reviewerName": "Screens & Scenes",
+    "comment": "Flawless from start to finish. The cinematography and script are top-tier.",
+    "rating": 5
+  },
+  {
+    "movieId": 65,
+    "reviewerName": "Svenska Dagbladet",
+    "comment": "Good visuals, though the script could have been tighter.",
+    "rating": 3
+  },
+  {
+    "movieId": 65,
+    "reviewerName": "Kulturbloggen",
+    "comment": "Decent entertainment with good moments, but drags a bit in the middle.",
+    "rating": 3
+  },
+  {
+    "movieId": 65,
+    "reviewerName": "Cinematically Correct",
+    "comment": "En riktigt solid film som lever upp till förväntningarna.",
+    "rating": 4
+  },
+  {
+    "movieId": 65,
+    "reviewerName": "Biobladet",
+    "comment": "Good visuals, though the script could have been tighter.",
+    "rating": 3
+  },
+  {
+    "movieId": 65,
+    "reviewerName": "MovieZine",
+    "comment": "Helt enastående skådespel och en handling som stannar kvar länge.",
+    "rating": 5
+  },
+  {
+    "movieId": 65,
+    "reviewerName": "Screens & Scenes",
+    "comment": "Mycket bra film med starkt skådespel och snyggt foto.",
+    "rating": 4
+  },
+  {
+    "movieId": 65,
+    "reviewerName": "Cineast99",
+    "comment": "Masterclass in storytelling. Exceptional character development.",
+    "rating": 5
+  },
+  {
+    "movieId": 66,
+    "reviewerName": "Kulturbloggen",
+    "comment": "Flawless from start to finish. The cinematography and script are top-tier.",
+    "rating": 5
+  },
+  {
+    "movieId": 66,
+    "reviewerName": "Screens & Scenes",
+    "comment": "Great atmosphere and brilliant soundtrack.",
+    "rating": 4
+  },
+  {
+    "movieId": 66,
+    "reviewerName": "Svenska Dagbladet",
+    "comment": "Stabil trea. Väl godkänd men lämnar inget bestående intryck.",
+    "rating": 3
+  },
+  {
+    "movieId": 66,
+    "reviewerName": "The Celluloid Critic",
+    "comment": "Ett mästerverk utan dess like. Högsta betyg!",
+    "rating": 5
+  },
+  {
+    "movieId": 66,
+    "reviewerName": "Cineast99",
+    "comment": "Fun to watch once, standard Hollywood formula.",
+    "rating": 3
+  },
+  {
+    "movieId": 66,
+    "reviewerName": "Cinematically Correct",
+    "comment": "Fun to watch once, standard Hollywood formula.",
+    "rating": 3
+  },
+  {
+    "movieId": 66,
+    "reviewerName": "Biobladet",
+    "comment": "Engaging and well-crafted. Highly recommended for movie nights.",
+    "rating": 4
+  },
+  {
+    "movieId": 66,
+    "reviewerName": "MovieZine",
+    "comment": "An absolute masterpiece that transcends time. Stunning performances and unforgettable direction.",
+    "rating": 5
+  },
+  {
+    "movieId": 66,
+    "reviewerName": "Popcorn-patrullen",
+    "comment": "Ett mästerverk utan dess like. Högsta betyg!",
+    "rating": 5
+  },
+  {
+    "movieId": 67,
+    "reviewerName": "Screens & Scenes",
+    "comment": "Very strong performances and great pacing, minor flaws towards the end.",
+    "rating": 4
+  },
+  {
+    "movieId": 67,
+    "reviewerName": "The Celluloid Critic",
+    "comment": "Helt enastående skådespel och en handling som stannar kvar länge.",
+    "rating": 5
+  },
+  {
+    "movieId": 67,
+    "reviewerName": "Biobladet",
+    "comment": "Mycket bra film med starkt skådespel och snyggt foto.",
+    "rating": 4
+  },
+  {
+    "movieId": 67,
+    "reviewerName": "Filmkrönikan",
+    "comment": "Fun to watch once, standard Hollywood formula.",
+    "rating": 3
+  },
+  {
+    "movieId": 67,
+    "reviewerName": "Filmstaden Review",
+    "comment": "Decent entertainment with good moments, but drags a bit in the middle.",
+    "rating": 3
+  },
+  {
+    "movieId": 68,
+    "reviewerName": "Svenska Dagbladet",
+    "comment": "Helt enastående skådespel och en handling som stannar kvar länge.",
+    "rating": 5
+  },
+  {
+    "movieId": 68,
+    "reviewerName": "Popcorn-patrullen",
+    "comment": "Stark fyra! Väldigt underhållande och välgjord.",
+    "rating": 4
+  },
+  {
+    "movieId": 68,
+    "reviewerName": "Biobladet",
+    "comment": "En tidlös klassiker som berör varje gång man ser den.",
+    "rating": 5
+  },
+  {
+    "movieId": 68,
+    "reviewerName": "Dagens Nyheter",
+    "comment": "Fun to watch once, standard Hollywood formula.",
+    "rating": 3
+  },
+  {
+    "movieId": 68,
+    "reviewerName": "Cinematically Correct",
+    "comment": "Great atmosphere and brilliant soundtrack.",
+    "rating": 4
+  },
+  {
+    "movieId": 68,
+    "reviewerName": "Screens & Scenes",
+    "comment": "Decent entertainment with good moments, but drags a bit in the middle.",
+    "rating": 3
+  },
+  {
+    "movieId": 69,
+    "reviewerName": "Filmstaden Review",
+    "comment": "Very strong performances and great pacing, minor flaws towards the end.",
+    "rating": 4
+  },
+  {
+    "movieId": 69,
+    "reviewerName": "Svenska Dagbladet",
+    "comment": "Helt enastående skådespel och en handling som stannar kvar länge.",
+    "rating": 5
+  },
+  {
+    "movieId": 69,
+    "reviewerName": "Cineast99",
+    "comment": "Stark fyra! Väldigt underhållande och välgjord.",
+    "rating": 4
+  },
+  {
+    "movieId": 69,
+    "reviewerName": "Filmkrönikan",
+    "comment": "An absolute masterpiece that transcends time. Stunning performances and unforgettable direction.",
+    "rating": 5
+  },
+  {
+    "movieId": 69,
+    "reviewerName": "Screens & Scenes",
+    "comment": "Ett mästerverk utan dess like. Högsta betyg!",
+    "rating": 5
+  },
+  {
+    "movieId": 70,
+    "reviewerName": "Popcorn-patrullen",
+    "comment": "Very strong performances and great pacing, minor flaws towards the end.",
+    "rating": 4
+  },
+  {
+    "movieId": 70,
+    "reviewerName": "MovieZine",
+    "comment": "Stark fyra! Väldigt underhållande och välgjord.",
+    "rating": 4
+  },
+  {
+    "movieId": 70,
+    "reviewerName": "Cineast99",
+    "comment": "Stark fyra! Väldigt underhållande och välgjord.",
+    "rating": 4
+  },
+  {
+    "movieId": 70,
+    "reviewerName": "Cinematically Correct",
+    "comment": "Ett mästerverk utan dess like. Högsta betyg!",
+    "rating": 5
+  },
+  {
+    "movieId": 70,
+    "reviewerName": "The Celluloid Critic",
+    "comment": "Decent entertainment with good moments, but drags a bit in the middle.",
+    "rating": 3
+  },
+  {
+    "movieId": 70,
+    "reviewerName": "Kulturbloggen",
+    "comment": "Good visuals, though the script could have been tighter.",
+    "rating": 3
+  },
+  {
+    "movieId": 71,
+    "reviewerName": "Popcorn-patrullen",
+    "comment": "Flawless from start to finish. The cinematography and script are top-tier.",
+    "rating": 5
+  },
+  {
+    "movieId": 71,
+    "reviewerName": "Biobladet",
+    "comment": "Helt enastående skådespel och en handling som stannar kvar länge.",
+    "rating": 5
+  },
+  {
+    "movieId": 71,
+    "reviewerName": "Filmkrönikan",
+    "comment": "Stark fyra! Väldigt underhållande och välgjord.",
+    "rating": 4
+  },
+  {
+    "movieId": 71,
+    "reviewerName": "The Celluloid Critic",
+    "comment": "Masterclass in storytelling. Exceptional character development.",
+    "rating": 5
+  },
+  {
+    "movieId": 71,
+    "reviewerName": "MovieZine",
+    "comment": "Engaging and well-crafted. Highly recommended for movie nights.",
+    "rating": 4
+  },
+  {
+    "movieId": 71,
+    "reviewerName": "Cineast99",
+    "comment": "Very strong performances and great pacing, minor flaws towards the end.",
+    "rating": 4
+  },
+  {
+    "movieId": 71,
+    "reviewerName": "Filmstaden Review",
+    "comment": "An absolute masterpiece that transcends time. Stunning performances and unforgettable direction.",
+    "rating": 5
+  },
+  {
+    "movieId": 71,
+    "reviewerName": "Dagens Nyheter",
+    "comment": "Helt enastående skådespel och en handling som stannar kvar länge.",
+    "rating": 5
+  },
+  {
+    "movieId": 71,
+    "reviewerName": "Svenska Dagbladet",
+    "comment": "Fun to watch once, standard Hollywood formula.",
+    "rating": 3
+  },
+  {
+    "movieId": 72,
+    "reviewerName": "Popcorn-patrullen",
+    "comment": "Engaging and well-crafted. Highly recommended for movie nights.",
+    "rating": 4
+  },
+  {
+    "movieId": 72,
+    "reviewerName": "Screens & Scenes",
+    "comment": "Flawless from start to finish. The cinematography and script are top-tier.",
+    "rating": 5
+  },
+  {
+    "movieId": 72,
+    "reviewerName": "Svenska Dagbladet",
+    "comment": "An absolute masterpiece that transcends time. Stunning performances and unforgettable direction.",
+    "rating": 5
+  },
+  {
+    "movieId": 72,
+    "reviewerName": "The Celluloid Critic",
+    "comment": "Great atmosphere and brilliant soundtrack.",
+    "rating": 4
+  },
+  {
+    "movieId": 72,
+    "reviewerName": "Dagens Nyheter",
+    "comment": "Stark fyra! Väldigt underhållande och välgjord.",
+    "rating": 4
+  },
+  {
+    "movieId": 72,
+    "reviewerName": "Biobladet",
+    "comment": "Flawless from start to finish. The cinematography and script are top-tier.",
+    "rating": 5
+  },
+  {
+    "movieId": 72,
+    "reviewerName": "Filmkrönikan",
+    "comment": "An absolute masterpiece that transcends time. Stunning performances and unforgettable direction.",
+    "rating": 5
+  },
+  {
+    "movieId": 72,
+    "reviewerName": "MovieZine",
+    "comment": "Masterclass in storytelling. Exceptional character development.",
+    "rating": 5
+  },
+  {
+    "movieId": 73,
+    "reviewerName": "Svenska Dagbladet",
+    "comment": "Flawless from start to finish. The cinematography and script are top-tier.",
+    "rating": 5
+  },
+  {
+    "movieId": 73,
+    "reviewerName": "Screens & Scenes",
+    "comment": "Decent entertainment with good moments, but drags a bit in the middle.",
+    "rating": 3
+  },
+  {
+    "movieId": 73,
+    "reviewerName": "The Celluloid Critic",
+    "comment": "Fun to watch once, standard Hollywood formula.",
+    "rating": 3
+  },
+  {
+    "movieId": 73,
+    "reviewerName": "Cinematically Correct",
+    "comment": "Flawless from start to finish. The cinematography and script are top-tier.",
+    "rating": 5
+  },
+  {
+    "movieId": 73,
+    "reviewerName": "Filmstaden Review",
+    "comment": "Fun to watch once, standard Hollywood formula.",
+    "rating": 3
+  },
+  {
+    "movieId": 73,
+    "reviewerName": "Kulturbloggen",
+    "comment": "Ett mästerverk utan dess like. Högsta betyg!",
+    "rating": 5
+  },
+  {
+    "movieId": 74,
+    "reviewerName": "Popcorn-patrullen",
+    "comment": "Engaging and well-crafted. Highly recommended for movie nights.",
+    "rating": 4
+  },
+  {
+    "movieId": 74,
+    "reviewerName": "MovieZine",
+    "comment": "Ett mästerverk utan dess like. Högsta betyg!",
+    "rating": 5
+  },
+  {
+    "movieId": 74,
+    "reviewerName": "Kulturbloggen",
+    "comment": "En riktigt solid film som lever upp till förväntningarna.",
+    "rating": 4
+  },
+  {
+    "movieId": 74,
+    "reviewerName": "Filmkrönikan",
+    "comment": "En tidlös klassiker som berör varje gång man ser den.",
+    "rating": 5
+  },
+  {
+    "movieId": 74,
+    "reviewerName": "Cineast99",
+    "comment": "Very strong performances and great pacing, minor flaws towards the end.",
+    "rating": 4
+  },
+  {
+    "movieId": 74,
+    "reviewerName": "Biobladet",
+    "comment": "Helt enastående skådespel och en handling som stannar kvar länge.",
+    "rating": 5
+  },
+  {
+    "movieId": 74,
+    "reviewerName": "Cinematically Correct",
+    "comment": "Good visuals, though the script could have been tighter.",
+    "rating": 3
+  },
+  {
+    "movieId": 75,
+    "reviewerName": "Cinematically Correct",
+    "comment": "An absolute masterpiece that transcends time. Stunning performances and unforgettable direction.",
+    "rating": 5
+  },
+  {
+    "movieId": 75,
+    "reviewerName": "Screens & Scenes",
+    "comment": "Mycket bra film med starkt skådespel och snyggt foto.",
+    "rating": 4
+  },
+  {
+    "movieId": 75,
+    "reviewerName": "Svenska Dagbladet",
+    "comment": "Great atmosphere and brilliant soundtrack.",
+    "rating": 4
+  },
+  {
+    "movieId": 75,
+    "reviewerName": "MovieZine",
+    "comment": "Engaging and well-crafted. Highly recommended for movie nights.",
+    "rating": 4
+  },
+  {
+    "movieId": 75,
+    "reviewerName": "Kulturbloggen",
+    "comment": "Masterclass in storytelling. Exceptional character development.",
+    "rating": 5
+  },
+  {
+    "movieId": 75,
+    "reviewerName": "Cineast99",
+    "comment": "An absolute masterpiece that transcends time. Stunning performances and unforgettable direction.",
+    "rating": 5
+  },
+  {
+    "movieId": 75,
+    "reviewerName": "Filmkrönikan",
+    "comment": "Engaging and well-crafted. Highly recommended for movie nights.",
+    "rating": 4
+  },
+  {
+    "movieId": 75,
+    "reviewerName": "Popcorn-patrullen",
+    "comment": "Engaging and well-crafted. Highly recommended for movie nights.",
+    "rating": 4
+  },
+  {
+    "movieId": 76,
+    "reviewerName": "Biobladet",
+    "comment": "Ett mästerverk utan dess like. Högsta betyg!",
+    "rating": 5
+  },
+  {
+    "movieId": 76,
+    "reviewerName": "Kulturbloggen",
+    "comment": "En tidlös klassiker som berör varje gång man ser den.",
+    "rating": 5
+  },
+  {
+    "movieId": 76,
+    "reviewerName": "Dagens Nyheter",
+    "comment": "Flawless from start to finish. The cinematography and script are top-tier.",
+    "rating": 5
+  },
+  {
+    "movieId": 76,
+    "reviewerName": "Filmstaden Review",
+    "comment": "En riktigt solid film som lever upp till förväntningarna.",
+    "rating": 4
+  },
+  {
+    "movieId": 76,
+    "reviewerName": "Svenska Dagbladet",
+    "comment": "Flawless from start to finish. The cinematography and script are top-tier.",
+    "rating": 5
+  },
+  {
+    "movieId": 76,
+    "reviewerName": "The Celluloid Critic",
+    "comment": "Very strong performances and great pacing, minor flaws towards the end.",
+    "rating": 4
+  },
+  {
+    "movieId": 76,
+    "reviewerName": "Screens & Scenes",
+    "comment": "Ett mästerverk utan dess like. Högsta betyg!",
+    "rating": 5
+  },
+  {
+    "movieId": 76,
+    "reviewerName": "Filmkrönikan",
+    "comment": "An absolute masterpiece that transcends time. Stunning performances and unforgettable direction.",
+    "rating": 5
+  },
+  {
+    "movieId": 77,
+    "reviewerName": "Biobladet",
+    "comment": "Helt enastående skådespel och en handling som stannar kvar länge.",
+    "rating": 5
+  },
+  {
+    "movieId": 77,
+    "reviewerName": "Cineast99",
+    "comment": "Helt enastående skådespel och en handling som stannar kvar länge.",
+    "rating": 5
+  },
+  {
+    "movieId": 77,
+    "reviewerName": "Popcorn-patrullen",
+    "comment": "Great atmosphere and brilliant soundtrack.",
+    "rating": 4
+  },
+  {
+    "movieId": 77,
+    "reviewerName": "Filmkrönikan",
+    "comment": "Masterclass in storytelling. Exceptional character development.",
+    "rating": 5
+  },
+  {
+    "movieId": 77,
+    "reviewerName": "Screens & Scenes",
+    "comment": "Helt enastående skådespel och en handling som stannar kvar länge.",
+    "rating": 5
+  },
+  {
+    "movieId": 78,
+    "reviewerName": "Popcorn-patrullen",
+    "comment": "Stark fyra! Väldigt underhållande och välgjord.",
+    "rating": 4
+  },
+  {
+    "movieId": 78,
+    "reviewerName": "Biobladet",
+    "comment": "Very strong performances and great pacing, minor flaws towards the end.",
+    "rating": 4
+  },
+  {
+    "movieId": 78,
+    "reviewerName": "Cineast99",
+    "comment": "Mycket bra film med starkt skådespel och snyggt foto.",
+    "rating": 4
+  },
+  {
+    "movieId": 78,
+    "reviewerName": "The Celluloid Critic",
+    "comment": "En riktigt solid film som lever upp till förväntningarna.",
+    "rating": 4
+  },
+  {
+    "movieId": 78,
+    "reviewerName": "Kulturbloggen",
+    "comment": "Stark fyra! Väldigt underhållande och välgjord.",
+    "rating": 4
+  },
+  {
+    "movieId": 78,
+    "reviewerName": "Svenska Dagbladet",
+    "comment": "An absolute masterpiece that transcends time. Stunning performances and unforgettable direction.",
+    "rating": 5
+  },
+  {
+    "movieId": 78,
+    "reviewerName": "Filmkrönikan",
+    "comment": "En riktigt solid film som lever upp till förväntningarna.",
+    "rating": 4
+  },
+  {
+    "movieId": 78,
+    "reviewerName": "Filmstaden Review",
+    "comment": "Fun to watch once, standard Hollywood formula.",
+    "rating": 3
+  },
+  {
+    "movieId": 78,
+    "reviewerName": "Screens & Scenes",
+    "comment": "Very strong performances and great pacing, minor flaws towards the end.",
+    "rating": 4
+  },
+  {
+    "movieId": 79,
+    "reviewerName": "The Celluloid Critic",
+    "comment": "Great atmosphere and brilliant soundtrack.",
+    "rating": 4
+  },
+  {
+    "movieId": 79,
+    "reviewerName": "Svenska Dagbladet",
+    "comment": "En riktigt solid film som lever upp till förväntningarna.",
+    "rating": 4
+  },
+  {
+    "movieId": 79,
+    "reviewerName": "Filmkrönikan",
+    "comment": "En tidlös klassiker som berör varje gång man ser den.",
+    "rating": 5
+  },
+  {
+    "movieId": 79,
+    "reviewerName": "Cineast99",
+    "comment": "Flawless from start to finish. The cinematography and script are top-tier.",
+    "rating": 5
+  },
+  {
+    "movieId": 79,
+    "reviewerName": "Biobladet",
+    "comment": "Helt enastående skådespel och en handling som stannar kvar länge.",
+    "rating": 5
+  },
+  {
+    "movieId": 79,
+    "reviewerName": "Screens & Scenes",
+    "comment": "Great atmosphere and brilliant soundtrack.",
+    "rating": 4
+  },
+  {
+    "movieId": 79,
+    "reviewerName": "Dagens Nyheter",
+    "comment": "Stark fyra! Väldigt underhållande och välgjord.",
+    "rating": 4
+  },
+  {
+    "movieId": 79,
+    "reviewerName": "Kulturbloggen",
+    "comment": "Good visuals, though the script could have been tighter.",
+    "rating": 3
+  },
+  {
+    "movieId": 80,
+    "reviewerName": "Kulturbloggen",
+    "comment": "Stark fyra! Väldigt underhållande och välgjord.",
+    "rating": 4
+  },
+  {
+    "movieId": 80,
+    "reviewerName": "Filmstaden Review",
+    "comment": "Good visuals, though the script could have been tighter.",
+    "rating": 3
+  },
+  {
+    "movieId": 80,
+    "reviewerName": "Svenska Dagbladet",
+    "comment": "Engaging and well-crafted. Highly recommended for movie nights.",
+    "rating": 4
+  },
+  {
+    "movieId": 80,
+    "reviewerName": "MovieZine",
+    "comment": "Stabil trea. Väl godkänd men lämnar inget bestående intryck.",
+    "rating": 3
+  },
+  {
+    "movieId": 80,
+    "reviewerName": "Popcorn-patrullen",
+    "comment": "Mycket bra film med starkt skådespel och snyggt foto.",
+    "rating": 4
+  },
+  {
+    "movieId": 80,
+    "reviewerName": "Filmkrönikan",
+    "comment": "Mycket bra film med starkt skådespel och snyggt foto.",
+    "rating": 4
+  },
+  {
+    "movieId": 80,
+    "reviewerName": "Screens & Scenes",
+    "comment": "Very strong performances and great pacing, minor flaws towards the end.",
+    "rating": 4
+  },
+  {
+    "movieId": 80,
+    "reviewerName": "Cineast99",
+    "comment": "Very strong performances and great pacing, minor flaws towards the end.",
+    "rating": 4
+  },
+  {
+    "movieId": 80,
+    "reviewerName": "Cinematically Correct",
+    "comment": "En tidlös klassiker som berör varje gång man ser den.",
+    "rating": 5
+  },
+  {
+    "movieId": 80,
+    "reviewerName": "Biobladet",
+    "comment": "Decent entertainment with good moments, but drags a bit in the middle.",
+    "rating": 3
+  },
+  {
+    "movieId": 81,
+    "reviewerName": "The Celluloid Critic",
+    "comment": "Stabil trea. Väl godkänd men lämnar inget bestående intryck.",
+    "rating": 3
+  },
+  {
+    "movieId": 81,
+    "reviewerName": "Screens & Scenes",
+    "comment": "Masterclass in storytelling. Exceptional character development.",
+    "rating": 5
+  },
+  {
+    "movieId": 81,
+    "reviewerName": "MovieZine",
+    "comment": "En tidlös klassiker som berör varje gång man ser den.",
+    "rating": 5
+  },
+  {
+    "movieId": 81,
+    "reviewerName": "Kulturbloggen",
+    "comment": "Flawless from start to finish. The cinematography and script are top-tier.",
+    "rating": 5
+  },
+  {
+    "movieId": 81,
+    "reviewerName": "Cineast99",
+    "comment": "Flawless from start to finish. The cinematography and script are top-tier.",
+    "rating": 5
+  },
+  {
+    "movieId": 82,
+    "reviewerName": "Filmkrönikan",
+    "comment": "Engaging and well-crafted. Highly recommended for movie nights.",
+    "rating": 4
+  },
+  {
+    "movieId": 82,
+    "reviewerName": "Cineast99",
+    "comment": "Great atmosphere and brilliant soundtrack.",
+    "rating": 4
+  },
+  {
+    "movieId": 82,
+    "reviewerName": "Kulturbloggen",
+    "comment": "Flawless from start to finish. The cinematography and script are top-tier.",
+    "rating": 5
+  },
+  {
+    "movieId": 82,
+    "reviewerName": "Popcorn-patrullen",
+    "comment": "Helt enastående skådespel och en handling som stannar kvar länge.",
+    "rating": 5
+  },
+  {
+    "movieId": 82,
+    "reviewerName": "MovieZine",
+    "comment": "Stark fyra! Väldigt underhållande och välgjord.",
+    "rating": 4
+  },
+  {
+    "movieId": 83,
+    "reviewerName": "The Celluloid Critic",
+    "comment": "Helt enastående skådespel och en handling som stannar kvar länge.",
+    "rating": 5
+  },
+  {
+    "movieId": 83,
+    "reviewerName": "Biobladet",
+    "comment": "Masterclass in storytelling. Exceptional character development.",
+    "rating": 5
+  },
+  {
+    "movieId": 83,
+    "reviewerName": "MovieZine",
+    "comment": "Helt enastående skådespel och en handling som stannar kvar länge.",
+    "rating": 5
+  },
+  {
+    "movieId": 83,
+    "reviewerName": "Popcorn-patrullen",
+    "comment": "En tidlös klassiker som berör varje gång man ser den.",
+    "rating": 5
+  },
+  {
+    "movieId": 83,
+    "reviewerName": "Cineast99",
+    "comment": "Engaging and well-crafted. Highly recommended for movie nights.",
+    "rating": 4
+  },
+  {
+    "movieId": 83,
+    "reviewerName": "Filmkrönikan",
+    "comment": "Very strong performances and great pacing, minor flaws towards the end.",
+    "rating": 4
+  },
+  {
+    "movieId": 83,
+    "reviewerName": "Cinematically Correct",
+    "comment": "En riktigt solid film som lever upp till förväntningarna.",
+    "rating": 4
+  },
+  {
+    "movieId": 83,
+    "reviewerName": "Dagens Nyheter",
+    "comment": "En tidlös klassiker som berör varje gång man ser den.",
+    "rating": 5
+  },
+  {
+    "movieId": 84,
+    "reviewerName": "MovieZine",
+    "comment": "An absolute masterpiece that transcends time. Stunning performances and unforgettable direction.",
+    "rating": 5
+  },
+  {
+    "movieId": 84,
+    "reviewerName": "Filmstaden Review",
+    "comment": "Ett mästerverk utan dess like. Högsta betyg!",
+    "rating": 5
+  },
+  {
+    "movieId": 84,
+    "reviewerName": "Cineast99",
+    "comment": "Stabil trea. Väl godkänd men lämnar inget bestående intryck.",
+    "rating": 3
+  },
+  {
+    "movieId": 84,
+    "reviewerName": "Popcorn-patrullen",
+    "comment": "Helt enastående skådespel och en handling som stannar kvar länge.",
+    "rating": 5
+  },
+  {
+    "movieId": 84,
+    "reviewerName": "Svenska Dagbladet",
+    "comment": "An absolute masterpiece that transcends time. Stunning performances and unforgettable direction.",
+    "rating": 5
+  },
+  {
+    "movieId": 84,
+    "reviewerName": "The Celluloid Critic",
+    "comment": "Flawless from start to finish. The cinematography and script are top-tier.",
+    "rating": 5
+  },
+  {
+    "movieId": 84,
+    "reviewerName": "Biobladet",
+    "comment": "En riktigt solid film som lever upp till förväntningarna.",
+    "rating": 4
+  },
+  {
+    "movieId": 84,
+    "reviewerName": "Filmkrönikan",
+    "comment": "Great atmosphere and brilliant soundtrack.",
+    "rating": 4
+  },
+  {
+    "movieId": 84,
+    "reviewerName": "Kulturbloggen",
+    "comment": "Ett mästerverk utan dess like. Högsta betyg!",
+    "rating": 5
+  },
+  {
+    "movieId": 85,
+    "reviewerName": "Kulturbloggen",
+    "comment": "An absolute masterpiece that transcends time. Stunning performances and unforgettable direction.",
+    "rating": 5
+  },
+  {
+    "movieId": 85,
+    "reviewerName": "Filmkrönikan",
+    "comment": "Very strong performances and great pacing, minor flaws towards the end.",
+    "rating": 4
+  },
+  {
+    "movieId": 85,
+    "reviewerName": "MovieZine",
+    "comment": "Masterclass in storytelling. Exceptional character development.",
+    "rating": 5
+  },
+  {
+    "movieId": 85,
+    "reviewerName": "Cinematically Correct",
+    "comment": "Masterclass in storytelling. Exceptional character development.",
+    "rating": 5
+  },
+  {
+    "movieId": 85,
+    "reviewerName": "The Celluloid Critic",
+    "comment": "Mycket bra film med starkt skådespel och snyggt foto.",
+    "rating": 4
+  },
+  {
+    "movieId": 86,
+    "reviewerName": "Cineast99",
+    "comment": "Stark fyra! Väldigt underhållande och välgjord.",
+    "rating": 4
+  },
+  {
+    "movieId": 86,
+    "reviewerName": "Svenska Dagbladet",
+    "comment": "Decent entertainment with good moments, but drags a bit in the middle.",
+    "rating": 3
+  },
+  {
+    "movieId": 86,
+    "reviewerName": "Biobladet",
+    "comment": "En tidlös klassiker som berör varje gång man ser den.",
+    "rating": 5
+  },
+  {
+    "movieId": 86,
+    "reviewerName": "The Celluloid Critic",
+    "comment": "Flawless from start to finish. The cinematography and script are top-tier.",
+    "rating": 5
+  },
+  {
+    "movieId": 86,
+    "reviewerName": "Filmkrönikan",
+    "comment": "An absolute masterpiece that transcends time. Stunning performances and unforgettable direction.",
+    "rating": 5
+  },
+  {
+    "movieId": 86,
+    "reviewerName": "Popcorn-patrullen",
+    "comment": "Flawless from start to finish. The cinematography and script are top-tier.",
+    "rating": 5
+  },
+  {
+    "movieId": 86,
+    "reviewerName": "Cinematically Correct",
+    "comment": "Helt enastående skådespel och en handling som stannar kvar länge.",
+    "rating": 5
+  },
+  {
+    "movieId": 86,
+    "reviewerName": "Kulturbloggen",
+    "comment": "Helt enastående skådespel och en handling som stannar kvar länge.",
+    "rating": 5
+  },
+  {
+    "movieId": 86,
+    "reviewerName": "Dagens Nyheter",
+    "comment": "Stark fyra! Väldigt underhållande och välgjord.",
+    "rating": 4
+  },
+  {
+    "movieId": 86,
+    "reviewerName": "MovieZine",
+    "comment": "En tidlös klassiker som berör varje gång man ser den.",
+    "rating": 5
+  },
+  {
+    "movieId": 87,
+    "reviewerName": "Popcorn-patrullen",
+    "comment": "En tidlös klassiker som berör varje gång man ser den.",
+    "rating": 5
+  },
+  {
+    "movieId": 87,
+    "reviewerName": "Screens & Scenes",
+    "comment": "Stabil trea. Väl godkänd men lämnar inget bestående intryck.",
+    "rating": 3
+  },
+  {
+    "movieId": 87,
+    "reviewerName": "Dagens Nyheter",
+    "comment": "Stark fyra! Väldigt underhållande och välgjord.",
+    "rating": 4
+  },
+  {
+    "movieId": 87,
+    "reviewerName": "Biobladet",
+    "comment": "Flawless from start to finish. The cinematography and script are top-tier.",
+    "rating": 5
+  },
+  {
+    "movieId": 87,
+    "reviewerName": "Kulturbloggen",
+    "comment": "En tidlös klassiker som berör varje gång man ser den.",
+    "rating": 5
+  },
+  {
+    "movieId": 87,
+    "reviewerName": "Cineast99",
+    "comment": "Flawless from start to finish. The cinematography and script are top-tier.",
+    "rating": 5
+  },
+  {
+    "movieId": 87,
+    "reviewerName": "Svenska Dagbladet",
+    "comment": "Decent entertainment with good moments, but drags a bit in the middle.",
+    "rating": 3
+  },
+  {
+    "movieId": 87,
+    "reviewerName": "MovieZine",
+    "comment": "Stabil trea. Väl godkänd men lämnar inget bestående intryck.",
+    "rating": 3
+  },
+  {
+    "movieId": 87,
+    "reviewerName": "Filmstaden Review",
+    "comment": "Helt okej rulle med några riktigt bra scener, men helheten känns lite ojämn.",
+    "rating": 3
+  },
+  {
+    "movieId": 88,
+    "reviewerName": "Dagens Nyheter",
+    "comment": "Helt okej rulle med några riktigt bra scener, men helheten känns lite ojämn.",
+    "rating": 3
+  },
+  {
+    "movieId": 88,
+    "reviewerName": "Filmstaden Review",
+    "comment": "Ett mästerverk utan dess like. Högsta betyg!",
+    "rating": 5
+  },
+  {
+    "movieId": 88,
+    "reviewerName": "Svenska Dagbladet",
+    "comment": "Stark fyra! Väldigt underhållande och välgjord.",
+    "rating": 4
+  },
+  {
+    "movieId": 88,
+    "reviewerName": "MovieZine",
+    "comment": "Mycket bra film med starkt skådespel och snyggt foto.",
+    "rating": 4
+  },
+  {
+    "movieId": 88,
+    "reviewerName": "Cineast99",
+    "comment": "Good visuals, though the script could have been tighter.",
+    "rating": 3
+  },
+  {
+    "movieId": 89,
+    "reviewerName": "Kulturbloggen",
+    "comment": "Very strong performances and great pacing, minor flaws towards the end.",
+    "rating": 4
+  },
+  {
+    "movieId": 89,
+    "reviewerName": "MovieZine",
+    "comment": "Very strong performances and great pacing, minor flaws towards the end.",
+    "rating": 4
+  },
+  {
+    "movieId": 89,
+    "reviewerName": "Screens & Scenes",
+    "comment": "Mycket bra film med starkt skådespel och snyggt foto.",
+    "rating": 4
+  },
+  {
+    "movieId": 89,
+    "reviewerName": "Filmstaden Review",
+    "comment": "Very strong performances and great pacing, minor flaws towards the end.",
+    "rating": 4
+  },
+  {
+    "movieId": 89,
+    "reviewerName": "Biobladet",
+    "comment": "Helt okej rulle med några riktigt bra scener, men helheten känns lite ojämn.",
+    "rating": 3
+  },
+  {
+    "movieId": 89,
+    "reviewerName": "The Celluloid Critic",
+    "comment": "Helt enastående skådespel och en handling som stannar kvar länge.",
+    "rating": 5
+  },
+  {
+    "movieId": 89,
+    "reviewerName": "Cineast99",
+    "comment": "Masterclass in storytelling. Exceptional character development.",
+    "rating": 5
+  },
+  {
+    "movieId": 89,
+    "reviewerName": "Svenska Dagbladet",
+    "comment": "Good visuals, though the script could have been tighter.",
+    "rating": 3
+  },
+  {
+    "movieId": 90,
+    "reviewerName": "Filmkrönikan",
+    "comment": "Engaging and well-crafted. Highly recommended for movie nights.",
+    "rating": 4
+  },
+  {
+    "movieId": 90,
+    "reviewerName": "Popcorn-patrullen",
+    "comment": "An absolute masterpiece that transcends time. Stunning performances and unforgettable direction.",
+    "rating": 5
+  },
+  {
+    "movieId": 90,
+    "reviewerName": "Dagens Nyheter",
+    "comment": "Flawless from start to finish. The cinematography and script are top-tier.",
+    "rating": 5
+  },
+  {
+    "movieId": 90,
+    "reviewerName": "Svenska Dagbladet",
+    "comment": "An absolute masterpiece that transcends time. Stunning performances and unforgettable direction.",
+    "rating": 5
+  },
+  {
+    "movieId": 90,
+    "reviewerName": "Kulturbloggen",
+    "comment": "Fun to watch once, standard Hollywood formula.",
+    "rating": 3
+  },
+  {
+    "movieId": 90,
+    "reviewerName": "The Celluloid Critic",
+    "comment": "Flawless from start to finish. The cinematography and script are top-tier.",
+    "rating": 5
+  },
+  {
+    "movieId": 90,
+    "reviewerName": "Cinematically Correct",
+    "comment": "Ett mästerverk utan dess like. Högsta betyg!",
+    "rating": 5
+  },
+  {
+    "movieId": 90,
+    "reviewerName": "Filmstaden Review",
+    "comment": "Engaging and well-crafted. Highly recommended for movie nights.",
+    "rating": 4
+  },
+  {
+    "movieId": 90,
+    "reviewerName": "Biobladet",
+    "comment": "Great atmosphere and brilliant soundtrack.",
+    "rating": 4
+  },
+  {
+    "movieId": 91,
+    "reviewerName": "Screens & Scenes",
+    "comment": "Stabil trea. Väl godkänd men lämnar inget bestående intryck.",
+    "rating": 3
+  },
+  {
+    "movieId": 91,
+    "reviewerName": "Kulturbloggen",
+    "comment": "Very strong performances and great pacing, minor flaws towards the end.",
+    "rating": 4
+  },
+  {
+    "movieId": 91,
+    "reviewerName": "Filmkrönikan",
+    "comment": "Helt okej rulle med några riktigt bra scener, men helheten känns lite ojämn.",
+    "rating": 3
+  },
+  {
+    "movieId": 91,
+    "reviewerName": "Dagens Nyheter",
+    "comment": "Very strong performances and great pacing, minor flaws towards the end.",
+    "rating": 4
+  },
+  {
+    "movieId": 91,
+    "reviewerName": "Biobladet",
+    "comment": "Helt enastående skådespel och en handling som stannar kvar länge.",
+    "rating": 5
+  },
+  {
+    "movieId": 91,
+    "reviewerName": "MovieZine",
+    "comment": "Helt enastående skådespel och en handling som stannar kvar länge.",
+    "rating": 5
+  },
+  {
+    "movieId": 92,
+    "reviewerName": "Filmstaden Review",
+    "comment": "Stark fyra! Väldigt underhållande och välgjord.",
+    "rating": 4
+  },
+  {
+    "movieId": 92,
+    "reviewerName": "The Celluloid Critic",
+    "comment": "Stark fyra! Väldigt underhållande och välgjord.",
+    "rating": 4
+  },
+  {
+    "movieId": 92,
+    "reviewerName": "Screens & Scenes",
+    "comment": "Mycket bra film med starkt skådespel och snyggt foto.",
+    "rating": 4
+  },
+  {
+    "movieId": 92,
+    "reviewerName": "MovieZine",
+    "comment": "Very strong performances and great pacing, minor flaws towards the end.",
+    "rating": 4
+  },
+  {
+    "movieId": 92,
+    "reviewerName": "Filmkrönikan",
+    "comment": "An absolute masterpiece that transcends time. Stunning performances and unforgettable direction.",
+    "rating": 5
+  },
+  {
+    "movieId": 92,
+    "reviewerName": "Cineast99",
+    "comment": "Fun to watch once, standard Hollywood formula.",
+    "rating": 3
+  },
+  {
+    "movieId": 92,
+    "reviewerName": "Cinematically Correct",
+    "comment": "En riktigt solid film som lever upp till förväntningarna.",
+    "rating": 4
+  },
+  {
+    "movieId": 92,
+    "reviewerName": "Biobladet",
+    "comment": "Stark fyra! Väldigt underhållande och välgjord.",
+    "rating": 4
+  },
+  {
+    "movieId": 92,
+    "reviewerName": "Dagens Nyheter",
+    "comment": "En tidlös klassiker som berör varje gång man ser den.",
+    "rating": 5
+  },
+  {
+    "movieId": 92,
+    "reviewerName": "Svenska Dagbladet",
+    "comment": "Helt enastående skådespel och en handling som stannar kvar länge.",
+    "rating": 5
+  },
+  {
+    "movieId": 93,
+    "reviewerName": "MovieZine",
+    "comment": "En riktigt solid film som lever upp till förväntningarna.",
+    "rating": 4
+  },
+  {
+    "movieId": 93,
+    "reviewerName": "Biobladet",
+    "comment": "An absolute masterpiece that transcends time. Stunning performances and unforgettable direction.",
+    "rating": 5
+  },
+  {
+    "movieId": 93,
+    "reviewerName": "Dagens Nyheter",
+    "comment": "Engaging and well-crafted. Highly recommended for movie nights.",
+    "rating": 4
+  },
+  {
+    "movieId": 93,
+    "reviewerName": "Cinematically Correct",
+    "comment": "Engaging and well-crafted. Highly recommended for movie nights.",
+    "rating": 4
+  },
+  {
+    "movieId": 93,
+    "reviewerName": "Popcorn-patrullen",
+    "comment": "Mycket bra film med starkt skådespel och snyggt foto.",
+    "rating": 4
+  },
+  {
+    "movieId": 93,
+    "reviewerName": "The Celluloid Critic",
+    "comment": "Great atmosphere and brilliant soundtrack.",
+    "rating": 4
+  },
+  {
+    "movieId": 93,
+    "reviewerName": "Kulturbloggen",
+    "comment": "En riktigt solid film som lever upp till förväntningarna.",
+    "rating": 4
+  },
+  {
+    "movieId": 93,
+    "reviewerName": "Filmstaden Review",
+    "comment": "Very strong performances and great pacing, minor flaws towards the end.",
+    "rating": 4
+  },
+  {
+    "movieId": 93,
+    "reviewerName": "Svenska Dagbladet",
+    "comment": "Decent entertainment with good moments, but drags a bit in the middle.",
+    "rating": 3
+  },
+  {
+    "movieId": 94,
+    "reviewerName": "Cinematically Correct",
+    "comment": "Stabil trea. Väl godkänd men lämnar inget bestående intryck.",
+    "rating": 3
+  },
+  {
+    "movieId": 94,
+    "reviewerName": "Filmkrönikan",
+    "comment": "Ett mästerverk utan dess like. Högsta betyg!",
+    "rating": 5
+  },
+  {
+    "movieId": 94,
+    "reviewerName": "The Celluloid Critic",
+    "comment": "Mycket bra film med starkt skådespel och snyggt foto.",
+    "rating": 4
+  },
+  {
+    "movieId": 94,
+    "reviewerName": "MovieZine",
+    "comment": "En tidlös klassiker som berör varje gång man ser den.",
+    "rating": 5
+  },
+  {
+    "movieId": 94,
+    "reviewerName": "Kulturbloggen",
+    "comment": "Flawless from start to finish. The cinematography and script are top-tier.",
+    "rating": 5
+  },
+  {
+    "movieId": 94,
+    "reviewerName": "Screens & Scenes",
+    "comment": "En tidlös klassiker som berör varje gång man ser den.",
+    "rating": 5
+  },
+  {
+    "movieId": 94,
+    "reviewerName": "Popcorn-patrullen",
+    "comment": "Decent entertainment with good moments, but drags a bit in the middle.",
+    "rating": 3
+  },
+  {
+    "movieId": 94,
+    "reviewerName": "Cineast99",
+    "comment": "Helt enastående skådespel och en handling som stannar kvar länge.",
+    "rating": 5
+  },
+  {
+    "movieId": 95,
+    "reviewerName": "Cineast99",
+    "comment": "Decent entertainment with good moments, but drags a bit in the middle.",
+    "rating": 3
+  },
+  {
+    "movieId": 95,
+    "reviewerName": "Screens & Scenes",
+    "comment": "Good visuals, though the script could have been tighter.",
+    "rating": 3
+  },
+  {
+    "movieId": 95,
+    "reviewerName": "Filmstaden Review",
+    "comment": "En tidlös klassiker som berör varje gång man ser den.",
+    "rating": 5
+  },
+  {
+    "movieId": 95,
+    "reviewerName": "Biobladet",
+    "comment": "En riktigt solid film som lever upp till förväntningarna.",
+    "rating": 4
+  },
+  {
+    "movieId": 95,
+    "reviewerName": "Popcorn-patrullen",
+    "comment": "Mycket bra film med starkt skådespel och snyggt foto.",
+    "rating": 4
+  },
+  {
+    "movieId": 95,
+    "reviewerName": "Filmkrönikan",
+    "comment": "En riktigt solid film som lever upp till förväntningarna.",
+    "rating": 4
+  },
+  {
+    "movieId": 96,
+    "reviewerName": "Biobladet",
+    "comment": "En tidlös klassiker som berör varje gång man ser den.",
+    "rating": 5
+  },
+  {
+    "movieId": 96,
+    "reviewerName": "Kulturbloggen",
+    "comment": "En tidlös klassiker som berör varje gång man ser den.",
+    "rating": 5
+  },
+  {
+    "movieId": 96,
+    "reviewerName": "Cinematically Correct",
+    "comment": "Fun to watch once, standard Hollywood formula.",
+    "rating": 3
+  },
+  {
+    "movieId": 96,
+    "reviewerName": "Screens & Scenes",
+    "comment": "An absolute masterpiece that transcends time. Stunning performances and unforgettable direction.",
+    "rating": 5
+  },
+  {
+    "movieId": 96,
+    "reviewerName": "Popcorn-patrullen",
+    "comment": "Decent entertainment with good moments, but drags a bit in the middle.",
+    "rating": 3
+  },
+  {
+    "movieId": 96,
+    "reviewerName": "MovieZine",
+    "comment": "Helt okej rulle med några riktigt bra scener, men helheten känns lite ojämn.",
+    "rating": 3
+  },
+  {
+    "movieId": 96,
+    "reviewerName": "Cineast99",
+    "comment": "En tidlös klassiker som berör varje gång man ser den.",
+    "rating": 5
+  },
+  {
+    "movieId": 96,
+    "reviewerName": "Filmstaden Review",
+    "comment": "Very strong performances and great pacing, minor flaws towards the end.",
+    "rating": 4
+  },
+  {
+    "movieId": 96,
+    "reviewerName": "The Celluloid Critic",
+    "comment": "Masterclass in storytelling. Exceptional character development.",
+    "rating": 5
+  },
+  {
+    "movieId": 96,
+    "reviewerName": "Dagens Nyheter",
+    "comment": "An absolute masterpiece that transcends time. Stunning performances and unforgettable direction.",
+    "rating": 5
+  },
+  {
+    "movieId": 97,
+    "reviewerName": "The Celluloid Critic",
+    "comment": "Great atmosphere and brilliant soundtrack.",
+    "rating": 4
+  },
+  {
+    "movieId": 97,
+    "reviewerName": "Filmkrönikan",
+    "comment": "Stabil trea. Väl godkänd men lämnar inget bestående intryck.",
+    "rating": 3
+  },
+  {
+    "movieId": 97,
+    "reviewerName": "Biobladet",
+    "comment": "Helt okej rulle med några riktigt bra scener, men helheten känns lite ojämn.",
+    "rating": 3
+  },
+  {
+    "movieId": 97,
+    "reviewerName": "Kulturbloggen",
+    "comment": "Masterclass in storytelling. Exceptional character development.",
+    "rating": 5
+  },
+  {
+    "movieId": 97,
+    "reviewerName": "Dagens Nyheter",
+    "comment": "Engaging and well-crafted. Highly recommended for movie nights.",
+    "rating": 4
+  },
+  {
+    "movieId": 97,
+    "reviewerName": "Svenska Dagbladet",
+    "comment": "Masterclass in storytelling. Exceptional character development.",
+    "rating": 5
+  },
+  {
+    "movieId": 97,
+    "reviewerName": "Cineast99",
+    "comment": "Flawless from start to finish. The cinematography and script are top-tier.",
+    "rating": 5
+  },
+  {
+    "movieId": 98,
+    "reviewerName": "Biobladet",
+    "comment": "An absolute masterpiece that transcends time. Stunning performances and unforgettable direction.",
+    "rating": 5
+  },
+  {
+    "movieId": 98,
+    "reviewerName": "Kulturbloggen",
+    "comment": "Engaging and well-crafted. Highly recommended for movie nights.",
+    "rating": 4
+  },
+  {
+    "movieId": 98,
+    "reviewerName": "Cineast99",
+    "comment": "Stark fyra! Väldigt underhållande och välgjord.",
+    "rating": 4
+  },
+  {
+    "movieId": 98,
+    "reviewerName": "Filmstaden Review",
+    "comment": "Ett mästerverk utan dess like. Högsta betyg!",
+    "rating": 5
+  },
+  {
+    "movieId": 98,
+    "reviewerName": "The Celluloid Critic",
+    "comment": "Ett mästerverk utan dess like. Högsta betyg!",
+    "rating": 5
+  },
+  {
+    "movieId": 98,
+    "reviewerName": "Cinematically Correct",
+    "comment": "Decent entertainment with good moments, but drags a bit in the middle.",
+    "rating": 3
+  },
+  {
+    "movieId": 98,
+    "reviewerName": "Filmkrönikan",
+    "comment": "Decent entertainment with good moments, but drags a bit in the middle.",
+    "rating": 3
+  },
+  {
+    "movieId": 99,
+    "reviewerName": "Filmkrönikan",
+    "comment": "En riktigt solid film som lever upp till förväntningarna.",
+    "rating": 4
+  },
+  {
+    "movieId": 99,
+    "reviewerName": "MovieZine",
+    "comment": "Masterclass in storytelling. Exceptional character development.",
+    "rating": 5
+  },
+  {
+    "movieId": 99,
+    "reviewerName": "Biobladet",
+    "comment": "Masterclass in storytelling. Exceptional character development.",
+    "rating": 5
+  },
+  {
+    "movieId": 99,
+    "reviewerName": "The Celluloid Critic",
+    "comment": "Great atmosphere and brilliant soundtrack.",
+    "rating": 4
+  },
+  {
+    "movieId": 99,
+    "reviewerName": "Filmstaden Review",
+    "comment": "Stark fyra! Väldigt underhållande och välgjord.",
+    "rating": 4
+  },
+  {
+    "movieId": 99,
+    "reviewerName": "Popcorn-patrullen",
+    "comment": "Flawless from start to finish. The cinematography and script are top-tier.",
+    "rating": 5
+  },
+  {
+    "movieId": 99,
+    "reviewerName": "Screens & Scenes",
+    "comment": "Masterclass in storytelling. Exceptional character development.",
+    "rating": 5
+  },
+  {
+    "movieId": 99,
+    "reviewerName": "Kulturbloggen",
+    "comment": "Mycket bra film med starkt skådespel och snyggt foto.",
+    "rating": 4
+  },
+  {
+    "movieId": 100,
+    "reviewerName": "Biobladet",
+    "comment": "En tidlös klassiker som berör varje gång man ser den.",
+    "rating": 5
+  },
+  {
+    "movieId": 100,
+    "reviewerName": "Cinematically Correct",
+    "comment": "Ett mästerverk utan dess like. Högsta betyg!",
+    "rating": 5
+  },
+  {
+    "movieId": 100,
+    "reviewerName": "Screens & Scenes",
+    "comment": "Fun to watch once, standard Hollywood formula.",
+    "rating": 3
+  },
+  {
+    "movieId": 100,
+    "reviewerName": "Dagens Nyheter",
+    "comment": "Ett mästerverk utan dess like. Högsta betyg!",
+    "rating": 5
+  },
+  {
+    "movieId": 100,
+    "reviewerName": "Popcorn-patrullen",
+    "comment": "Stark fyra! Väldigt underhållande och välgjord.",
+    "rating": 4
+  }
+]
