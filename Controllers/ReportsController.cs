@@ -121,12 +121,24 @@ public class ReportsController : ControllerBase
     [HttpGet("genres/popular")]
     public async Task<IActionResult> GetPopularGenres()
     {
-        var result = await _context.Movies
-            .GroupBy(m => m.Genre)
-            .Select(g => new
+        var result = await _context.Genres
+            .Select(genre => new
             {
-                Genre = g.Key,
-                MovieCount = g.Count()
+                Genre = new
+                {
+                    genre.Id,
+                    genre.Name,
+                    Movies = genre.Movies
+                        .Select(m => new
+                        {
+                            m.Id,
+                            m.Title,
+                            m.ReleaseYear,
+                            m.Duration
+                        })
+                        .ToList()
+                },
+                MovieCount = genre.Movies.Count
             })
             .OrderByDescending(g => g.MovieCount)
             .ToListAsync(); 
