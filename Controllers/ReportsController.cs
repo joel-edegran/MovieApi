@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
@@ -21,21 +21,25 @@ public class ReportsController : ControllerBase
     [HttpGet("movies/top5pergenre")]
     public async Task<IActionResult> GetTop5PerGenre()
     {
-        var result = await _context.Movies
-            .Where(m => m.Reviews.Any())
-            .GroupBy(m => m.Genre)
-            .Select(g => new
+        var result = await _context.Genres
+            .Select(genre => new
             {
-                Genre = g.Key,
-                TopMovies = g.Select(m => new
+                Genre = new
                 {
-                    m.Id,
-                    m.Title,
-                    AverageRating = m.Reviews.Average(r => r.Rating)
-                })
-                .OrderByDescending(m => m.AverageRating)
-                .Take(5)
-                .ToList()
+                    genre.Id,
+                    genre.Name,
+                    Movies = genre.Movies
+                        .Where(m => m.Reviews.Any())
+                        .OrderByDescending(m => m.Reviews.Average(r => r.Rating))
+                        .Take(5)
+                        .Select(m => new
+                        {
+                            m.Id,
+                            m.Title,
+                            AverageRating = m.Reviews.Average(r => r.Rating)
+                        })
+                        .ToList()
+                }
             })
             .ToListAsync();
 
