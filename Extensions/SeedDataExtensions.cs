@@ -27,6 +27,7 @@ public static class SeedDataExtensions
         var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
         var dataDirectory = Path.Combine(Directory.GetCurrentDirectory(), "Data");
 
+        // Actors
         var actorsFilePath = Path.Combine(dataDirectory, "actors.json");
         List<Actor> actors = new();
         var actorEntityMap = new Dictionary<int, Actor>();
@@ -62,6 +63,7 @@ public static class SeedDataExtensions
             }
         }
 
+        // Movies
         var moviesFilePath = Path.Combine(dataDirectory, "movies.json");
         if (!File.Exists(moviesFilePath))
         {
@@ -106,8 +108,34 @@ public static class SeedDataExtensions
         var movies = new List<Movie>();
         var movieActors = new List<MovieActor>();
 
+        // Track already processed movies in this batch to avoid internal duplicates
+        var processedMovieKeys = new HashSet<string>();
+
         foreach (var dto in movieDtos)
         {
+            var directorName = !string.IsNullOrWhiteSpace(dto.Director) ? dto.Director.Trim() : string.Empty;
+            var uniqueKey = $"{dto.Title?.Trim().ToLower()}_{dto.ReleaseYear}_{directorName.ToLower()}";
+
+            if (processedMovieKeys.Contains(uniqueKey))
+            {
+                continue; // Skip duplicate within the JSON file
+            }
+
+            // Check if the movie already exists in the database by Title, ReleaseYear, and Director
+            var movieExistsInDb = await context.Movies
+                .Include(m => m.Director)
+                .AnyAsync(m => m.Title.ToLower() == dto.Title.ToLower() &&
+                               m.ReleaseYear == dto.ReleaseYear &&
+                               ((m.Director == null && string.IsNullOrEmpty(directorName)) ||
+                                (m.Director != null && m.Director.Name.ToLower() == directorName.ToLower())));
+
+            if (movieExistsInDb)
+            {
+                continue; // Skip if it already exists in the database
+            }
+
+            processedMovieKeys.Add(uniqueKey);
+
             var movie = new Movie
             {
                 Title = dto.Title,
@@ -145,6 +173,7 @@ public static class SeedDataExtensions
         await context.MovieActors.AddRangeAsync(movieActors);
         await context.SaveChangesAsync();
 
+        // Reviews
         var reviewsFilePath = Path.Combine(dataDirectory, "reviews.json");
         if (File.Exists(reviewsFilePath))
         {
