@@ -25,7 +25,9 @@ public class MoviesController : ControllerBase
         [FromQuery] int? year,
         [FromQuery] string? actor)
     {
-        var query = _context.Movies.AsQueryable();
+        var query = _context.Movies
+            .Include(m => m.Director)
+            .AsQueryable();
 
         if (!string.IsNullOrWhiteSpace(genre))
         {
@@ -48,6 +50,7 @@ public class MoviesController : ControllerBase
                 Id = movie.Id,
                 Title = movie.Title,
                 Genre = movie.Genre != null ? movie.Genre.Name : string.Empty,
+                Director = movie.Director != null ? movie.Director.Name : string.Empty,
                 ReleaseYear = movie.ReleaseYear,
                 Duration = movie.Duration
             })
@@ -60,6 +63,7 @@ public class MoviesController : ControllerBase
     {
         var movie = await _context.Movies
             .Include(m => m.Genre)
+            .Include(m => m.Director)
             .FirstOrDefaultAsync(m => m.Id == id);
 
         if (movie == null)
@@ -72,6 +76,7 @@ public class MoviesController : ControllerBase
             Id = movie.Id,
             Title = movie.Title,
             Genre = movie.Genre?.Name ?? string.Empty,
+            Director = movie.Director?.Name ?? string.Empty,
             ReleaseYear = movie.ReleaseYear,
             Duration = movie.Duration
         };
@@ -89,10 +94,11 @@ public class MoviesController : ControllerBase
                 Title = movie.Title,
                 ReleaseYear = movie.ReleaseYear,
                 Genre = movie.Genre != null ? movie.Genre.Name : string.Empty,
+                Director = movie.Director != null ? movie.Director.Name : string.Empty,
                 Duration = movie.Duration,
 
-                Synopsis = movie.Details != null ? movie.Details.Synopsis : string.Empty,
-                Language = movie.Details != null ? movie.Details.Language : string.Empty,
+                Synopsis = movie.Details != null ? movie.Details.Synopsis ?? string.Empty : string.Empty,
+                Language = movie.Details != null ? movie.Details.Language ?? string.Empty : string.Empty,
                 Budget = movie.Details != null ? movie.Details.Budget : 0,
 
                 Reviews = movie.Reviews.Select(review => new ReviewDto
@@ -195,6 +201,7 @@ public class MoviesController : ControllerBase
             Id = movie.Id,
             Title = movie.Title,
             Genre = movie.Genre?.Name ?? string.Empty,
+            Director = movie.Director?.Name ?? string.Empty,
             ReleaseYear = movie.ReleaseYear,
             Duration = movie.Duration
         };

@@ -7,4 +7,5 @@ public class MovieDto
     public required string Genre { get; set; }
     public int ReleaseYear { get; set; }
     public int Duration { get; set; }
+    public required string Director { get; set; }
 }
