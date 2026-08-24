@@ -23,25 +23,66 @@ public class MoviesController : ControllerBase
     public async Task<ActionResult<IEnumerable<MovieDto>>> GetMovie(
         [FromQuery] string? genre,
         [FromQuery] int? year,
-        [FromQuery] string? actor)
+        [FromQuery] string? actor,
+        [FromQuery] string? title,
+        [FromQuery] string? search)
     {
         var query = _context.Movies
             .Include(m => m.Director)
+            .Include(m => m.Genre)
+            .Include(m => m.MovieActors)
+            .ThenInclude(ma => ma.Actor)
+            .Include(m => m.Reviews)
             .AsQueryable();
 
+        // Filter by genre if specified (case-insensitive partial match)
         if (!string.IsNullOrWhiteSpace(genre))
         {
             query = query.Where(m => m.Genre != null && m.Genre.Name.Contains(genre));
         }
 
+        // Filter by exact release year if specified
         if (year.HasValue)
         {
-            query = query.AsQueryable().Where(m => m.ReleaseYear == year.Value);
+            query = query.Where(m => m.ReleaseYear == year.Value);
         }
 
-        if (!string.IsNullOrWhiteSpace(actor)) 
+        // Filter by actor name if specified (checks if any related actor matches)
+        if (!string.IsNullOrWhiteSpace(actor))
         {
             query = query.Where(m => m.MovieActors.Any(ma => ma.Actor != null && ma.Actor.Name.Contains(actor)));
+        }
+
+        // Filter by movie title if specified (partial match)
+        if (!string.IsNullOrWhiteSpace(title))
+        {
+            query = query.Where(m => m.Title.Contains(title));
+        }
+
+        // Global search parameter matching across title, genre, director, actors, roles, or release year
+        if (!string.IsNullOrWhiteSpace(search))
+        {
+            var searchTerm = search.Trim();
+            bool isYear = int.TryParse(searchTerm, out int searchYear);
+
+            // 1. Filter to include movies that match anywhere
+            query = query.Where(m =>
+                m.Title.Contains(searchTerm) ||
+                (m.Genre != null && m.Genre.Name.Contains(searchTerm)) ||
+                (m.Director != null && m.Director.Name.Contains(searchTerm)) ||
+                m.MovieActors.Any(ma => (ma.Actor != null && ma.Actor.Name.Contains(searchTerm)) || ma.Role.Contains(searchTerm)) ||
+                m.Reviews.Any(r => r.Comment.Contains(searchTerm) || r.ReviewerName.Contains(searchTerm)) ||
+                (isYear && m.ReleaseYear == searchYear)
+            );
+
+            // 2. Order by relevance: Title matches first, followed by Director, Genre, Actor names, and lastly Roles/Reviews
+            query = query
+                .OrderByDescending(m => m.Title.Contains(searchTerm))
+                .ThenByDescending(m => m.Director != null && m.Director.Name.Contains(searchTerm))
+                .ThenByDescending(m => m.Genre != null && m.Genre.Name.Contains(searchTerm))
+                .ThenByDescending(m => m.MovieActors.Any(ma => ma.Actor != null && ma.Actor.Name.Contains(searchTerm)))
+                .ThenByDescending(m => m.MovieActors.Any(ma => ma.Role.Contains(searchTerm)))
+                .ThenByDescending(m => m.Reviews.Any(r => r.Comment.Contains(searchTerm)));
         }
 
         return await query
