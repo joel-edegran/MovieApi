@@ -144,5 +144,41 @@ public static class SeedDataExtensions
 
         await context.MovieActors.AddRangeAsync(movieActors);
         await context.SaveChangesAsync();
+
+        var reviewsFilePath = Path.Combine(dataDirectory, "reviews.json");
+        if (File.Exists(reviewsFilePath))
+        {
+            var reviewJsonString = await File.ReadAllTextAsync(reviewsFilePath);
+            if (!reviewJsonString.TrimStart().StartsWith("["))
+            {
+                reviewJsonString = "[\n" + reviewJsonString + "\n]";
+            }
+
+            var reviewDtos = JsonSerializer.Deserialize<List<ReviewSeedDto>>(reviewJsonString, options);
+            if (reviewDtos != null && reviewDtos.Any())
+            {
+                var reviews = new List<Review>();
+                foreach (var dto in reviewDtos)
+                {
+                    var movieExists = await context.Movies.AnyAsync(m => m.Id == dto.MovieId);
+                    if (movieExists)
+                    {
+                        reviews.Add(new Review
+                        {
+                            MovieId = dto.MovieId,
+                            ReviewerName = dto.ReviewerName,
+                            Comment = dto.Comment,
+                            Rating = dto.Rating
+                        });
+                    }
+                }
+
+                if (reviews.Any())
+                {
+                    await context.Reviews.AddRangeAsync(reviews);
+                    await context.SaveChangesAsync();
+                }
+            }
+        }
     }
 }

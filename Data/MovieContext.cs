@@ -22,6 +22,7 @@ public class MovieContext : DbContext
     {
         base.OnModelCreating(modelBuilder);
 
+        // Movie relationships
         modelBuilder.Entity<Movie>()
             .HasOne(m => m.Director)
             .WithMany(d => d.Movies)
@@ -40,6 +41,13 @@ public class MovieContext : DbContext
             .HasForeignKey(m => m.CountryId)
             .OnDelete(DeleteBehavior.SetNull);
 
+        modelBuilder.Entity<Movie>()
+            .HasMany(m => m.Reviews)
+            .WithOne(r => r.Movie)
+            .HasForeignKey(r => r.MovieId)
+            .OnDelete(DeleteBehavior.Cascade);
+
+        // Many-to-many relationship between Movie and Actor
         modelBuilder.Entity<MovieActor>()
             .HasKey(ma => new { ma.MovieId, ma.ActorId });
 
@@ -53,6 +61,7 @@ public class MovieContext : DbContext
             .WithMany(a => a.MovieActors)
             .HasForeignKey(ma => ma.ActorId);
 
+        // Properties and precision
         modelBuilder.Entity<MovieDetails>()
             .Property(d => d.Budget)
             .HasPrecision(18, 2);
