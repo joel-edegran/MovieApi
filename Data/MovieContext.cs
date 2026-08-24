@@ -1,4 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using MovieApi.Models;
 
 namespace MovieApi.Data;
@@ -9,14 +9,14 @@ public class MovieContext : DbContext
     {
     }
 
-    public DbSet<Movie> Movies { get; set; } = null!;
+    public DbSet<Movie> Movies => Set<Movie>();
     public DbSet<Director> Directors => Set<Director>();
     public DbSet<Genre> Genres => Set<Genre>();
     public DbSet<Country> Countries => Set<Country>();
-    public DbSet<MovieDetails> MovieDetails { get; set; } = null!;
-    public DbSet<Review> Reviews { get; set; } = null!;
-    public DbSet<Actor> Actors { get; set; } = null!;
-    public DbSet<MovieActor> MovieActors { get; set; } = null!;
+    public DbSet<MovieDetails> MovieDetails => Set<MovieDetails>();
+    public DbSet<Review> Reviews => Set<Review>();
+    public DbSet<Actor> Actors => Set<Actor>();
+    public DbSet<MovieActor> MovieActors => Set<MovieActor>();
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

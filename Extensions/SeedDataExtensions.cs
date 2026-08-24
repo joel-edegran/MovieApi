@@ -7,29 +7,10 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using MovieApi.Data;
+using MovieApi.DTOs;
 using MovieApi.Models;
 
 namespace MovieApi.Extensions;
-
-public class ActorSeedDto
-{
-    public string Name { get; set; } = string.Empty;
-    public string Role { get; set; } = string.Empty;
-}
-
-public class MovieSeedDto
-{
-    public string Title { get; set; } = string.Empty;
-    public int ReleaseYear { get; set; }
-    public int Duration { get; set; }
-    public string Genre { get; set; } = string.Empty;
-    public string Director { get; set; } = string.Empty;
-    public string Country { get; set; } = string.Empty;
-    public string? Synopsis {  get; set; }
-    public string? Language {  get; set; }
-    public decimal? Budget {  get; set; }
-    public List<ActorSeedDto> Actors { get; set; } = new();
-}
 
 public static class SeedDataExtensions
 {
@@ -38,21 +19,62 @@ public static class SeedDataExtensions
         using var scope = app.ApplicationServices.CreateScope();
         var context = scope.ServiceProvider.GetRequiredService<MovieContext>();
 
-        if (await context.Movies.AnyAsync())
+        if (await context.Movies.AnyAsync() || await context.Actors.AnyAsync())
         {
             return;
         }
 
-        var jsonFilePath = Path.Combine(Directory.GetCurrentDirectory(), "Data", "movies.json");
-        if (!File.Exists(jsonFilePath))
-        {
-            return;
-        }
-
-        var jsonString = await File.ReadAllTextAsync(jsonFilePath);
         var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
-        var movieDtos = JsonSerializer.Deserialize<List<MovieSeedDto>>(jsonString, options);
+        var dataDirectory = Path.Combine(Directory.GetCurrentDirectory(), "Data");
 
+        var actorsFilePath = Path.Combine(dataDirectory, "actors.json");
+        List<Actor> actors = new();
+        var actorEntityMap = new Dictionary<int, Actor>();
+
+        if (File.Exists(actorsFilePath))
+        {
+            var actorJsonString = await File.ReadAllTextAsync(actorsFilePath);
+            if (!actorJsonString.TrimStart().StartsWith("["))
+            {
+                actorJsonString = "[\n" + actorJsonString + "\n]";
+            }
+
+            var actorDtos = JsonSerializer.Deserialize<List<ActorJsonDto>>(actorJsonString, options);
+            if (actorDtos != null)
+            {
+                foreach (var dto in actorDtos)
+                {
+                    var actor = new Actor
+                    {
+                        Name = dto.Name,
+                        BirthYear = dto.BirthYear
+                    };
+                    actors.Add(actor);
+                }
+
+                await context.Actors.AddRangeAsync(actors);
+                await context.SaveChangesAsync();
+
+                for (int i = 0; i < actorDtos.Count; i++)
+                {
+                    actorEntityMap[actorDtos[i].ActorId] = actors[i];
+                }
+            }
+        }
+
+        var moviesFilePath = Path.Combine(dataDirectory, "movies.json");
+        if (!File.Exists(moviesFilePath))
+        {
+            return;
+        }
+
+        var movieJsonString = await File.ReadAllTextAsync(moviesFilePath);
+        if (!movieJsonString.TrimStart().StartsWith("["))
+        {
+            movieJsonString = "[\n" + movieJsonString + "\n]";
+        }
+
+        var movieDtos = JsonSerializer.Deserialize<List<MovieSeedDto>>(movieJsonString, options);
         if (movieDtos == null || !movieDtos.Any())
         {
             return;
@@ -76,17 +98,10 @@ public static class SeedDataExtensions
             .Distinct()
             .ToDictionary(name => name, name => new Country { Name = name });
 
-        var actorMap = movieDtos
-            .SelectMany(m => m.Actors)
-            .Where(a => !string.IsNullOrWhiteSpace(a.Name))
-            .Select(a => a.Name.Trim())
-            .Distinct()
-            .ToDictionary(name => name, name => new Actor { Name = name });
-
         await context.Genres.AddRangeAsync(genreMap.Values);
         await context.Directors.AddRangeAsync(directorMap.Values);
         await context.Countries.AddRangeAsync(countryMap.Values);
-        await context.Actors.AddRangeAsync(actorMap.Values);
+        await context.SaveChangesAsync();
 
         var movies = new List<Movie>();
         var movieActors = new List<MovieActor>();
@@ -110,24 +125,24 @@ public static class SeedDataExtensions
             };
 
             movies.Add(movie);
+            await context.Movies.AddAsync(movie);
+            await context.SaveChangesAsync();
 
-            foreach (var actorDto in dto.Actors)
+            foreach (var actorRef in dto.Actors)
             {
-                if (!string.IsNullOrWhiteSpace(actorDto.Name) && actorMap.TryGetValue(actorDto.Name.Trim(), out var actor))
+                if (actorEntityMap.TryGetValue(actorRef.ActorId, out var actor))
                 {
                     movieActors.Add(new MovieActor
                     {
-                        Movie = movie,
-                        Actor = actor,
-                        Role = actorDto.Role.Trim()
+                        MovieId = movie.Id,
+                        ActorId = actor.Id,
+                        Role = actorRef.Role.Trim()
                     });
                 }
             }
         }
 
-        await context.Movies.AddRangeAsync(movies);
         await context.MovieActors.AddRangeAsync(movieActors);
-
         await context.SaveChangesAsync();
     }
 }

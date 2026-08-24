@@ -10,18 +10,16 @@
     "language": "English",
     "budget": 25000000.0,
     "actors": [
-      {
-        "name": "Tim Robbins",
-        "role": "Andy Dufresne"
-      },
-      {
-        "name": "Morgan Freeman",
-        "role": "Ellis Boyd 'Red' Redding"
-      },
-      {
-        "name": "Bob Gunton",
-        "role": "Warden Norton"
-      }
+      { "actorId": 1, "role": "Andy Dufresne" },
+      { "actorId": 2, "role": "Ellis Boyd 'Red' Redding" },
+      { "actorId": 3, "role": "Warden Norton" },
+      { "actorId": 4, "role": "Hadley" },
+      { "actorId": 5, "role": "Tommy" },
+      { "actorId": 6, "role": "Brooks Hatlen" },
+      { "actorId": 7, "role": "Bogs Diamond" },
+      { "actorId": 8, "role": "Rooster" },
+      { "actorId": 9, "role": "Elmo Blatch" },
+      { "actorId": 10, "role": "Tommy Williams" }
     ]
   },
   {
@@ -31,22 +29,20 @@
     "genre": "Crime",
     "director": "Francis Ford Coppola",
     "country": "USA",
-    "synopsis": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
+    "synopsis": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant youngest son.",
     "language": "English",
     "budget": 6000000.0,
     "actors": [
-      {
-        "name": "Marlon Brando",
-        "role": "Don Vito Corleone"
-      },
-      {
-        "name": "Al Pacino",
-        "role": "Michael Corleone"
-      },
-      {
-        "name": "James Caan",
-        "role": "Sonny Corleone"
-      }
+      { "actorId": 11, "role": "Don Vito Corleone" },
+      { "actorId": 12, "role": "Michael Corleone" },
+      { "actorId": 13, "role": "Sonny Corleone" },
+      { "actorId": 14, "role": "Tom Hagen" },
+      { "actorId": 15, "role": "Kay Adams" },
+      { "actorId": 16, "role": "Clemenza" },
+      { "actorId": 17, "role": "Barzini" },
+      { "actorId": 18, "role": "Sollozzo" },
+      { "actorId": 19, "role": "Salvatore Tessio" },
+      { "actorId": 20, "role": "Connie Corleone Rizzi" }
     ]
   },
   {
@@ -60,18 +56,16 @@
     "language": "English",
     "budget": 185000000.0,
     "actors": [
-      {
-        "name": "Christian Bale",
-        "role": "Bruce Wayne / Batman"
-      },
-      {
-        "name": "Heath Ledger",
-        "role": "Joker"
-      },
-      {
-        "name": "Aaron Eckhart",
-        "role": "Harvey Dent"
-      }
+      { "actorId": 21, "role": "Bruce Wayne / Batman" },
+      { "actorId": 22, "role": "Joker" },
+      { "actorId": 23, "role": "Harvey Dent / Two-Face" },
+      { "actorId": 24, "role": "Alfred Pennyworth" },
+      { "actorId": 25, "role": "James Gordon" },
+      { "actorId": 26, "role": "Rachel Dawes" },
+      { "actorId": 27, "role": "Lucius Fox" },
+      { "actorId": 28, "role": "Sal Maroni" },
+      { "actorId": 29, "role": "Mayor Anthony Garcia" },
+      { "actorId": 30, "role": "Gambol" }
     ]
   },
   {
@@ -85,18 +79,16 @@
     "language": "English",
     "budget": 13000000.0,
     "actors": [
-      {
-        "name": "Al Pacino",
-        "role": "Michael Corleone"
-      },
-      {
-        "name": "Robert De Niro",
-        "role": "Vito Corleone"
-      },
-      {
-        "name": "Robert Duvall",
-        "role": "Tom Hagen"
-      }
+      { "actorId": 12, "role": "Michael Corleone" },
+      { "actorId": 31, "role": "Young Vito Corleone" },
+      { "actorId": 32, "role": "Fredo Corleone" },
+      { "actorId": 15, "role": "Kay Corleone" },
+      { "actorId": 33, "role": "Hyman Roth" },
+      { "actorId": 34, "role": "Senator Pat Geary" },
+      { "actorId": 35, "role": "Frank Pentangeli" },
+      { "actorId": 36, "role": "Tom Hagen" },
+      { "actorId": 37, "role": "Connie Corleone" },
+      { "actorId": 38, "role": "Young Clemenza" }
     ]
   },
   {
@@ -106,22 +98,20 @@
     "genre": "Drama",
     "director": "Sidney Lumet",
     "country": "USA",
-    "synopsis": "The jury in a New York City murder trial is frustrated by a single member whose reasonable doubt forces them to reconsider the evidence before a verdict.",
+    "synopsis": "A jury holdout attempts to prevent a miscarriage of justice by forcing his colleagues to reconsider the evidence.",
     "language": "English",
-    "budget": 350000.0,
+    "budget": 340000.0,
     "actors": [
-      {
-        "name": "Henry Fonda",
-        "role": "Juror 8"
-      },
-      {
-        "name": "Lee J. Cobb",
-        "role": "Juror 3"
-      },
-      {
-        "name": "Martin Balsam",
-        "role": "Juror 1"
-      }
+      { "actorId": 39, "role": "Juror 8" },
+      { "actorId": 40, "role": "Juror 3" },
+      { "actorId": 41, "role": "Juror 1" },
+      { "actorId": 42, "role": "Juror 2" },
+      { "actorId": 43, "role": "Juror 4" },
+      { "actorId": 44, "role": "Juror 5" },
+      { "actorId": 45, "role": "Juror 6" },
+      { "actorId": 46, "role": "Juror 7" },
+      { "actorId": 47, "role": "Juror 9" },
+      { "actorId": 48, "role": "Juror 10" }
     ]
   },
   {
@@ -131,22 +121,20 @@
     "genre": "Biography",
     "director": "Steven Spielberg",
     "country": "USA",
-    "synopsis": "In German-occupied Poland during World War II, industrialist Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis.",
+    "synopsis": "In German-occupied Poland during World War II, industrialist Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution.",
     "language": "English",
     "budget": 22000000.0,
     "actors": [
-      {
-        "name": "Liam Neeson",
-        "role": "Oskar Schindler"
-      },
-      {
-        "name": "Ben Kingsley",
-        "role": "Itzhak Stern"
-      },
-      {
-        "name": "Ralph Fiennes",
-        "role": "Amon Göth"
-      }
+      { "actorId": 49, "role": "Oskar Schindler" },
+      { "actorId": 50, "role": "Amon Goeth" },
+      { "actorId": 51, "role": "Itzhak Stern" },
+      { "actorId": 52, "role": "Emilie Schindler" },
+      { "actorId": 53, "role": "Helen Hirsch" },
+      { "actorId": 54, "role": "Poldek Pfefferberg" },
+      { "actorId": 55, "role": "Mila Pfefferberg" },
+      { "actorId": 56, "role": "Julian Scherner" },
+      { "actorId": 57, "role": "Marcel Goldberg" },
+      { "actorId": 58, "role": "Doyle" }
     ]
   },
   {
@@ -160,18 +148,16 @@
     "language": "English",
     "budget": 94000000.0,
     "actors": [
-      {
-        "name": "Elijah Wood",
-        "role": "Frodo Baggins"
-      },
-      {
-        "name": "Viggo Mortensen",
-        "role": "Aragorn"
-      },
-      {
-        "name": "Ian McKellen",
-        "role": "Gandalf"
-      }
+      { "actorId": 59, "role": "Frodo Baggins" },
+      { "actorId": 60, "role": "Aragorn" },
+      { "actorId": 61, "role": "Gandalf" },
+      { "actorId": 62, "role": "Samwise Gamgee" },
+      { "actorId": 63, "role": "Legolas" },
+      { "actorId": 64, "role": "Gimli" },
+      { "actorId": 65, "role": "Gollum / Sméagol" },
+      { "actorId": 66, "role": "Arwen" },
+      { "actorId": 67, "role": "Éowyn" },
+      { "actorId": 68, "role": "King Théoden" }
     ]
   },
   {
@@ -185,18 +171,16 @@
     "language": "English",
     "budget": 8500000.0,
     "actors": [
-      {
-        "name": "John Travolta",
-        "role": "Vincent Vega"
-      },
-      {
-        "name": "Samuel L. Jackson",
-        "role": "Jules Winnfield"
-      },
-      {
-        "name": "Uma Thurman",
-        "role": "Mia Wallace"
-      }
+      { "actorId": 4, "role": "Vincent Vega" },
+      { "actorId": 69, "role": "Jules Winnfield" },
+      { "actorId": 70, "role": "Mia Wallace" },
+      { "actorId": 71, "role": "Butch Coolidge" },
+      { "actorId": 72, "role": "Marsellus Wallace" },
+      { "actorId": 73, "role": "The Wolf" },
+      { "actorId": 74, "role": "Pumpkin" },
+      { "actorId": 75, "role": "Honey Bunny" },
+      { "actorId": 76, "role": "Lance" },
+      { "actorId": 77, "role": "Fabienne" }
     ]
   },
   {
@@ -210,24 +194,22 @@
     "language": "English",
     "budget": 93000000.0,
     "actors": [
-      {
-        "name": "Elijah Wood",
-        "role": "Frodo Baggins"
-      },
-      {
-        "name": "Ian McKellen",
-        "role": "Gandalf"
-      },
-      {
-        "name": "Orlando Bloom",
-        "role": "Legolas"
-      }
+      { "actorId": 59, "role": "Frodo Baggins" },
+      { "actorId": 60, "role": "Aragorn" },
+      { "actorId": 61, "role": "Gandalf" },
+      { "actorId": 62, "role": "Samwise Gamgee" },
+      { "actorId": 63, "role": "Legolas" },
+      { "actorId": 64, "role": "Gimli" },
+      { "actorId": 78, "role": "Boromir" },
+      { "actorId": 79, "role": "Meriadoc 'Merry' Brandybuck" },
+      { "actorId": 80, "role": "Peregrin 'Pippin' Took" },
+      { "actorId": 81, "role": "Saruman" }
     ]
   },
   {
     "title": "The Good, the Bad and the Ugly",
     "releaseYear": 1966,
-    "duration": 161,
+    "duration": 178,
     "genre": "Western",
     "director": "Sergio Leone",
     "country": "Italy",
@@ -235,18 +217,16 @@
     "language": "Italian",
     "budget": 1200000.0,
     "actors": [
-      {
-        "name": "Clint Eastwood",
-        "role": "Blondie"
-      },
-      {
-        "name": "Eli Wallach",
-        "role": "Tuco"
-      },
-      {
-        "name": "Lee Van Cleef",
-        "role": "Angel Eyes"
-      }
+      { "actorId": 82, "role": "Blondie (The Man with No Name)" },
+      { "actorId": 83, "role": "Angeleyes (The Bad)" },
+      { "actorId": 84, "role": "Tuco (The Ugly)" },
+      { "actorId": 85, "role": "Sheriff" },
+      { "actorId": 86, "role": "Captain Clinton" },
+      { "actorId": 87, "role": "Maria" },
+      { "actorId": 88, "role": "Pablo Ramirez" },
+      { "actorId": 89, "role": "One-Armed Bounty Hunter" },
+      { "actorId": 90, "role": "Baker" },
+      { "actorId": 91, "role": "Stevens" }
     ]
   },
   {
@@ -256,22 +236,20 @@
     "genre": "Drama",
     "director": "Robert Zemeckis",
     "country": "USA",
-    "synopsis": "The history of the United States from the 1950s to the '70s unfolds from the perspective of an Alabama man with an IQ of 75, who yearns to be reunited with his childhood sweetheart.",
+    "synopsis": "The presidencies of Kennedy and Johnson, the Vietnam War, the Watergate scandal and other historical events unfold from the perspective of an Alabama man with an IQ of 75.",
     "language": "English",
     "budget": 55000000.0,
     "actors": [
-      {
-        "name": "Tom Hanks",
-        "role": "Forrest Gump"
-      },
-      {
-        "name": "Robin Wright",
-        "role": "Jenny Curran"
-      },
-      {
-        "name": "Gary Sinise",
-        "role": "Lieutenant Dan Taylor"
-      }
+      { "actorId": 92, "role": "Forrest Gump" },
+      { "actorId": 93, "role": "Jenny Curran" },
+      { "actorId": 94, "role": "Lieutenant Dan Taylor" },
+      { "actorId": 95, "role": "Bubba Blue" },
+      { "actorId": 96, "role": "Mrs. Gump" },
+      { "actorId": 97, "role": "Young Forrest" },
+      { "actorId": 98, "role": "Young Jenny" },
+      { "actorId": 99, "role": "Principal" },
+      { "actorId": 100, "role": "Wesley" },
+      { "actorId": 101, "role": "Carpet Concessionaire" }
     ]
   },
   {
@@ -285,18 +263,16 @@
     "language": "English",
     "budget": 63000000.0,
     "actors": [
-      {
-        "name": "Brad Pitt",
-        "role": "Tyler Durden"
-      },
-      {
-        "name": "Edward Norton",
-        "role": "The Narrator"
-      },
-      {
-        "name": "Helena Bonham Carter",
-        "role": "Marla Singer"
-      }
+      { "actorId": 5, "role": "Tyler Durden" },
+      { "actorId": 102, "role": "The Narrator" },
+      { "actorId": 103, "role": "Marla Singer" },
+      { "actorId": 104, "role": "Robert 'Bob' Paulsen" },
+      { "actorId": 105, "role": "Angel Face" },
+      { "actorId": 106, "role": "Richard Chesler" },
+      { "actorId": 107, "role": "Mechanic" },
+      { "actorId": 108, "role": "Chloe" },
+      { "actorId": 109, "role": "Lou" },
+      { "actorId": 110, "role": "Waiter" }
     ]
   },
   {
@@ -310,18 +286,16 @@
     "language": "English",
     "budget": 160000000.0,
     "actors": [
-      {
-        "name": "Leonardo DiCaprio",
-        "role": "Cobb"
-      },
-      {
-        "name": "Joseph Gordon-Levitt",
-        "role": "Arthur"
-      },
-      {
-        "name": "Elliot Page",
-        "role": "Ariadne"
-      }
+      { "actorId": 111, "role": "Dom Cobb" },
+      { "actorId": 112, "role": "Arthur" },
+      { "actorId": 113, "role": "Ariadne" },
+      { "actorId": 114, "role": "Mal Cobb" },
+      { "actorId": 115, "role": "Robert Fischer" },
+      { "actorId": 116, "role": "Eames" },
+      { "actorId": 117, "role": "Saito" },
+      { "actorId": 118, "role": "Yusuf" },
+      { "actorId": 119, "role": "Miles" },
+      { "actorId": 120, "role": "Browning" }
     ]
   },
   {
@@ -331,47 +305,43 @@
     "genre": "Adventure",
     "director": "Peter Jackson",
     "country": "New Zealand",
-    "synopsis": "While Frodo and Sam edge closer to Mordor with the help of the shifty Gollum, the divided fellowship makes a stand against Sauron's new ally, Saruman, and his hordes of Isengard.",
+    "synopsis": "While Frodo and Sam edge closer to Mordor with the help of the sly Gollum, the divided fellowship makes a stand against Sauron's new ally, Saruman, and his hordes of Isengard.",
     "language": "English",
     "budget": 94000000.0,
     "actors": [
-      {
-        "name": "Elijah Wood",
-        "role": "Frodo Baggins"
-      },
-      {
-        "name": "Ian McKellen",
-        "role": "Gandalf"
-      },
-      {
-        "name": "Viggo Mortensen",
-        "role": "Aragorn"
-      }
+      { "actorId": 59, "role": "Frodo Baggins" },
+      { "actorId": 60, "role": "Aragorn" },
+      { "actorId": 61, "role": "Gandalf" },
+      { "actorId": 62, "role": "Samwise Gamgee" },
+      { "actorId": 63, "role": "Legolas" },
+      { "actorId": 64, "role": "Gimli" },
+      { "actorId": 65, "role": "Gollum / Sméagol" },
+      { "actorId": 66, "role": "Arwen" },
+      { "actorId": 67, "role": "Éowyn" },
+      { "actorId": 68, "role": "King Théoden" }
     ]
   },
   {
     "title": "Star Wars: Episode V - The Empire Strikes Back",
     "releaseYear": 1980,
     "duration": 124,
-    "genre": "Action",
+    "genre": "Sci-Fi",
     "director": "Irvin Kershner",
     "country": "USA",
-    "synopsis": "After the Rebels are overpowered by the Empire on the ice planet Hoth, Luke Skywalker begins Jedi training with Yoda, while his friends are pursued across the galaxy by Darth Vader.",
+    "synopsis": "After the Rebels are brutally overpowered by the Empire on the ice planet Hoth, Luke Skywalker begins Jedi training with Yoda, while his friends are pursued by Darth Vader.",
     "language": "English",
     "budget": 18000000.0,
     "actors": [
-      {
-        "name": "Mark Hamill",
-        "role": "Luke Skywalker"
-      },
-      {
-        "name": "Harrison Ford",
-        "role": "Han Solo"
-      },
-      {
-        "name": "Carrie Fisher",
-        "role": "Princess Leia"
-      }
+      { "actorId": 121, "role": "Luke Skywalker" },
+      { "actorId": 122, "role": "Han Solo" },
+      { "actorId": 123, "role": "Princess Leia" },
+      { "actorId": 124, "role": "Darth Vader" },
+      { "actorId": 125, "role": "Yoda" },
+      { "actorId": 126, "role": "Lando Calrissian" },
+      { "actorId": 127, "role": "C-3PO" },
+      { "actorId": 128, "role": "Chewbacca" },
+      { "actorId": 129, "role": "R2-D2" },
+      { "actorId": 130, "role": "Boba Fett" }
     ]
   },
   {
@@ -379,24 +349,22 @@
     "releaseYear": 1999,
     "duration": 136,
     "genre": "Sci-Fi",
-    "director": "Lana Wachowski",
+    "director": "Lana Wachowski, Lilly Wachowski",
     "country": "USA",
     "synopsis": "When a beautiful stranger leads computer hacker Neo to a forbidding underworld, he discovers the shocking truth--the life he knows is the elaborate deception of an evil cyber-intelligence.",
     "language": "English",
     "budget": 63000000.0,
     "actors": [
-      {
-        "name": "Keanu Reeves",
-        "role": "Neo"
-      },
-      {
-        "name": "Laurence Fishburne",
-        "role": "Morpheus"
-      },
-      {
-        "name": "Carrie-Anne Moss",
-        "role": "Trinity"
-      }
+      { "actorId": 131, "role": "Neo" },
+      { "actorId": 132, "role": "Morpheus" },
+      { "actorId": 133, "role": "Trinity" },
+      { "actorId": 134, "role": "Agent Smith" },
+      { "actorId": 135, "role": "Oracle" },
+      { "actorId": 136, "role": "Cypher" },
+      { "actorId": 137, "role": "Tank" },
+      { "actorId": 138, "role": "Dozer" },
+      { "actorId": 139, "role": "Switch" },
+      { "actorId": 140, "role": "Mouse" }
     ]
   },
   {
@@ -410,18 +378,16 @@
     "language": "English",
     "budget": 25000000.0,
     "actors": [
-      {
-        "name": "Robert De Niro",
-        "role": "James Conway"
-      },
-      {
-        "name": "Ray Liotta",
-        "role": "Henry Hill"
-      },
-      {
-        "name": "Joe Pesci",
-        "role": "Tommy DeVito"
-      }
+      { "actorId": 141, "role": "Henry Hill" },
+      { "actorId": 142, "role": "Jimmy Conway" },
+      { "actorId": 143, "role": "Tommy DeVito" },
+      { "actorId": 144, "role": "Karen Hill" },
+      { "actorId": 145, "role": "Paul Cicero" },
+      { "actorId": 146, "role": "Sonny Crockett" },
+      { "actorId": 147, "role": "Frenchy" },
+      { "actorId": 148, "role": "Tuddy Cicero" },
+      { "actorId": 149, "role": "Frankie Carbone" },
+      { "actorId": 150, "role": "Morris Kessler" }
     ]
   },
   {
@@ -431,222 +397,20 @@
     "genre": "Drama",
     "director": "Milos Forman",
     "country": "USA",
-    "synopsis": "In the Fall of 1963, a Korean War veteran and criminal pleads insanity and is admitted to a mental institution, where he rallies the patients against the tyrannical head nurse.",
+    "synopsis": "A criminal pleads insanity and is admitted to a mental institution, where he rallies up the oppressive nurses and patients against the tyrannical nurse.",
     "language": "English",
     "budget": 3000000.0,
     "actors": [
-      {
-        "name": "Jack Nicholson",
-        "role": "Randle Patrick McMurphy"
-      },
-      {
-        "name": "Louise Fletcher",
-        "role": "Nurse Ratched"
-      },
-      {
-        "name": "Danny DeVito",
-        "role": "Martini"
-      }
-    ]
-  },
-  {
-    "title": "Seven Samurai",
-    "releaseYear": 1954,
-    "duration": 207,
-    "genre": "Action",
-    "director": "Akira Kurosawa",
-    "country": "Japan",
-    "synopsis": "Farmers from a village exploited by bandits hire a veteran samurai for protection, who gathers six other samurai to join him.",
-    "language": "Japanese",
-    "budget": 500000.0,
-    "actors": [
-      {
-        "name": "Toshiro Mifune",
-        "role": "Kikuchiyo"
-      },
-      {
-        "name": "Takashi Shimura",
-        "role": "Kambei Shimada"
-      },
-      {
-        "name": "Keiko Tsushima",
-        "role": "Shino"
-      }
-    ]
-  },
-  {
-    "title": "Se7en",
-    "releaseYear": 1995,
-    "duration": 127,
-    "genre": "Crime",
-    "director": "David Fincher",
-    "country": "USA",
-    "synopsis": "Two detectives, a rookie and a veteran, hunt a serial killer who uses the seven deadly sins as his motives.",
-    "language": "English",
-    "budget": 33000000.0,
-    "actors": [
-      {
-        "name": "Morgan Freeman",
-        "role": "Detective Lt. William Somerset"
-      },
-      {
-        "name": "Brad Pitt",
-        "role": "Detective David Mills"
-      },
-      {
-        "name": "Kevin Spacey",
-        "role": "John Doe"
-      }
-    ]
-  },
-  {
-    "title": "It's a Wonderful Life",
-    "releaseYear": 1946,
-    "duration": 130,
-    "genre": "Drama",
-    "director": "Frank Capra",
-    "country": "USA",
-    "synopsis": "An angel is sent from Heaven to help a desperately frustrated businessman by showing him what life would have been like if he had never existed.",
-    "language": "English",
-    "budget": 3180000.0,
-    "actors": [
-      {
-        "name": "James Stewart",
-        "role": "George Bailey"
-      },
-      {
-        "name": "Donna Reed",
-        "role": "Mary Hatch"
-      },
-      {
-        "name": "Lionel Barrymore",
-        "role": "Mr. Potter"
-      }
-    ]
-  },
-  {
-    "title": "The Silence of the Lambs",
-    "releaseYear": 1991,
-    "duration": 118,
-    "genre": "Crime",
-    "director": "Jonathan Demme",
-    "country": "USA",
-    "synopsis": "A young F.B.I. cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer, a madman who skins his victims.",
-    "language": "English",
-    "budget": 19000000.0,
-    "actors": [
-      {
-        "name": "Jodie Foster",
-        "role": "Clarice Starling"
-      },
-      {
-        "name": "Anthony Hopkins",
-        "role": "Dr. Hannibal Lecter"
-      },
-      {
-        "name": "Scott Glenn",
-        "role": "Jack Crawford"
-      }
-    ]
-  },
-  {
-    "title": "City of God",
-    "releaseYear": 2002,
-    "duration": 130,
-    "genre": "Crime",
-    "director": "Fernando Meirelles",
-    "country": "Brazil",
-    "synopsis": "In the slums of Rio, two kids' paths diverge; one struggles to become a photographer, the other a kingpin.",
-    "language": "Portuguese",
-    "budget": 3300000.0,
-    "actors": [
-      {
-        "name": "Alexandre Rodrigues",
-        "role": "Buscapé - Rocket"
-      },
-      {
-        "name": "Leandro Firmino",
-        "role": "Zé Pequeno - Li'l Zé"
-      },
-      {
-        "name": "Phellipe Haagensen",
-        "role": "Bené"
-      }
-    ]
-  },
-  {
-    "title": "Saving Private Ryan",
-    "releaseYear": 1998,
-    "duration": 169,
-    "genre": "Drama",
-    "director": "Steven Spielberg",
-    "country": "USA",
-    "synopsis": "Following the Normandy Landings, a group of U.S. soldiers go behind enemy lines to retrieve a paratrooper whose brothers have been killed in action.",
-    "language": "English",
-    "budget": 70000000.0,
-    "actors": [
-      {
-        "name": "Tom Hanks",
-        "role": "Captain Miller"
-      },
-      {
-        "name": "Matt Damon",
-        "role": "Private Ryan"
-      },
-      {
-        "name": "Tom Sizemore",
-        "role": "Technical Sergeant Mike Horvath"
-      }
-    ]
-  },
-  {
-    "title": "Life Is Beautiful",
-    "releaseYear": 1997,
-    "duration": 116,
-    "genre": "Comedy",
-    "director": "Roberto Benigni",
-    "country": "Italy",
-    "synopsis": "When an open-minded Jewish waiter and his son become victims of the Holocaust, he uses a perfect mixture of will, humor, and imagination to protect his son from the dangers around their camp.",
-    "language": "Italian",
-    "budget": 20000000.0,
-    "actors": [
-      {
-        "name": "Roberto Benigni",
-        "role": "Guido"
-      },
-      {
-        "name": "Nicoletta Braschi",
-        "role": "Dora"
-      },
-      {
-        "name": "Giorgio Cantarini",
-        "role": "Giosué"
-      }
-    ]
-  },
-  {
-    "title": "The Green Mile",
-    "releaseYear": 1999,
-    "duration": 189,
-    "genre": "Crime",
-    "director": "Frank Darabont",
-    "country": "USA",
-    "synopsis": "A tale set on death row in a Southern prison, where gentle giant John Coffey possesses a mysterious healing gift.",
-    "language": "English",
-    "budget": 60000000.0,
-    "actors": [
-      {
-        "name": "Tom Hanks",
-        "role": "Paul Edgecomb"
-      },
-      {
-        "name": "Michael Clarke Duncan",
-        "role": "John Coffey"
-      },
-      {
-        "name": "David Morse",
-        "role": "Brutus 'Brutal' Howell"
-      }
+      { "actorId": 151, "role": "Randle Patrick McMurphy" },
+      { "actorId": 152, "role": "Nurse Ratched" },
+      { "actorId": 153, "role": "Chief Bromden" },
+      { "actorId": 154, "role": "Billy Bibbit" },
+      { "actorId": 155, "role": "Dale Harding" },
+      { "actorId": 156, "role": "Charlie Cheswick" },
+      { "actorId": 157, "role": "Martini" },
+      { "actorId": 158, "role": "Taber" },
+      { "actorId": 159, "role": "Scanlon" },
+      { "actorId": 160, "role": "Dr. Spivey" }
     ]
   },
   {
@@ -660,93 +424,200 @@
     "language": "English",
     "budget": 165000000.0,
     "actors": [
-      {
-        "name": "Matthew McConaughey",
-        "role": "Cooper"
-      },
-      {
-        "name": "Anne Hathaway",
-        "role": "Brand"
-      },
-      {
-        "name": "Jessica Chastain",
-        "role": "Murph"
-      }
+      { "actorId": 161, "role": "Joseph Cooper" },
+      { "actorId": 162, "role": "Dr. Amelia Brand" },
+      { "actorId": 163, "role": "Murph Cooper" },
+      { "actorId": 164, "role": "Professor John Brand" },
+      { "actorId": 165, "role": "Tom Cooper" },
+      { "actorId": 166, "role": "Dr. Mann" },
+      { "actorId": 167, "role": "Romilly" },
+      { "actorId": 168, "role": "Doyle" },
+      { "actorId": 169, "role": "TARS (voice)" },
+      { "actorId": 170, "role": "CASE (voice)" }
+    ]
+  },
+  {
+    "title": "Se7en",
+    "releaseYear": 1995,
+    "duration": 127,
+    "genre": "Crime",
+    "director": "David Fincher",
+    "country": "USA",
+    "synopsis": "Two detectives, a rookie and a veteran, hunt a serial killer who uses the seven deadly sins as his motives.",
+    "language": "English",
+    "budget": 33000000.0,
+    "actors": [
+      { "actorId": 4, "role": "Detective David Mills" },
+      { "actorId": 171, "role": "Detective William Somerset" },
+      { "actorId": 172, "role": "Tracy Mills" },
+      { "actorId": 173, "role": "John Doe" },
+      { "actorId": 174, "role": "Captain" },
+      { "actorId": 175, "role": "District Attorney" },
+      { "actorId": 176, "role": "Taylor" },
+      { "actorId": 177, "role": "Vagrant" },
+      { "actorId": 178, "role": "SWAT Commander" },
+      { "actorId": 179, "role": "Californian" }
+    ]
+  },
+  {
+    "title": "It's a Wonderful Life",
+    "releaseYear": 1946,
+    "duration": 130,
+    "genre": "Drama",
+    "director": "Frank Capra",
+    "country": "USA",
+    "synopsis": "An angel helps a compassionate but despairing businessman by showing what life would have been like if he never existed.",
+    "language": "English",
+    "budget": 3180000.0,
+    "actors": [
+      { "actorId": 180, "role": "George Bailey" },
+      { "actorId": 181, "role": "Mary Hatch Bailey" },
+      { "actorId": 182, "role": "Mr. Potter" },
+      { "actorId": 183, "role": "Clarence Odbody" },
+      { "actorId": 184, "role": "Uncle Billy" },
+      { "actorId": 185, "role": "Harry Bailey" },
+      { "actorId": 186, "role": "Mother Bailey" },
+      { "actorId": 187, "role": "Potter's Bodyguard" },
+      { "actorId": 188, "role": "Mr. Gower" },
+      { "actorId": 189, "role": "Violet Bick" }
+    ]
+  },
+  {
+    "title": "The Silence of the Lambs",
+    "releaseYear": 1991,
+    "duration": 118,
+    "genre": "Crime",
+    "director": "Jonathan Demme",
+    "country": "USA",
+    "synopsis": "A young F.B.I. cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer, a madman who skins his victims.",
+    "language": "English",
+    "budget": 19000000.0,
+    "actors": [
+      { "actorId": 190, "role": "Clarice Starling" },
+      { "actorId": 191, "role": "Dr. Hannibal Lecter" },
+      { "actorId": 192, "role": "Jack Crawford" },
+      { "actorId": 193, "role": "Jame 'Buffalo Bill' Gumb" },
+      { "actorId": 194, "role": "Senator Ruth Martin" },
+      { "actorId": 195, "role": "Dr. Frederick Chilton" },
+      { "actorId": 196, "role": "Barney Matthews" },
+      { "actorId": 197, "role": "Ardelia Mapp" },
+      { "actorId": 198, "role": "Agnes" },
+      { "actorId": 199, "role": "Multiple Miggs" }
+    ]
+  },
+  {
+    "title": "City of God",
+    "releaseYear": 2002,
+    "duration": 130,
+    "genre": "Crime",
+    "director": "Fernando Meirelles, Kátia Lund",
+    "country": "Brazil",
+    "synopsis": "In the slums of Rio, two kids paths diverge as one grows up to be a photographer, and the other a drug dealer.",
+    "language": "Portuguese",
+    "budget": 3300000.0,
+    "actors": [
+      { "actorId": 200, "role": "Buscapé / Rocket" },
+      { "actorId": 201, "role": "Li'l Zé / Dadinho" },
+      { "actorId": 202, "role": "Bené" },
+      { "actorId": 203, "role": "Knockout Ned" },
+      { "actorId": 204, "role": "Shaggy" },
+      { "actorId": 205, "role": "Angélica" },
+      { "actorId": 206, "role": "Blackie" },
+      { "actorId": 207, "role": "Good-Boy" },
+      { "actorId": 208, "role": "Carrot" },
+      { "actorId": 209, "role": "Buscapé (young)" }
+    ]
+  },
+  {
+    "title": "The Usual Suspects",
+    "releaseYear": 1995,
+    "duration": 106,
+    "genre": "Crime",
+    "director": "Bryan Singer",
+    "country": "USA",
+    "synopsis": "A sole survivor tells of the twisty events leading up to a horrific gun battle on a ship, which begin when five criminals meet at a police lineup.",
+    "language": "English",
+    "budget": 6000000.0,
+    "actors": [
+      { "actorId": 210, "role": "Verbal Kint" },
+      { "actorId": 211, "role": "Dean Keaton" },
+      { "actorId": 212, "role": "Michael McManus" },
+      { "actorId": 213, "role": "Fred Fenster" },
+      { "actorId": 214, "role": "Todd Hockney" },
+      { "actorId": 215, "role": "Dave Kujan" },
+      { "actorId": 216, "role": "Jack Baer" },
+      { "actorId": 217, "role": "Edie Finneran" },
+      { "actorId": 218, "role": "Kobayashi" },
+      { "actorId": 219, "role": "Redfoot the Fence" }
+    ]
+  },
+  {
+    "title": "The Green Mile",
+    "releaseYear": 1999,
+    "duration": 189,
+    "genre": "Drama",
+    "director": "Frank Darabont",
+    "country": "USA",
+    "synopsis": "The lives of guards on Death Row are affected by one of their charges: a black man accused of child murder and rape, yet who has a mysterious miraculous gift.",
+    "language": "English",
+    "budget": 60000000.0,
+    "actors": [
+      { "actorId": 2, "role": "Paul Edgecomb" },
+      { "actorId": 220, "role": "John Coffey" },
+      { "actorId": 221, "role": "Brutus 'Brutal' Howell" },
+      { "actorId": 222, "role": "Percy Wetmore" },
+      { "actorId": 223, "role": "Wild Bill Wharton" },
+      { "actorId": 224, "role": "Dean Stanton" },
+      { "actorId": 225, "role": "Harry Terwilliger" },
+      { "actorId": 226, "role": "Eduard Delacroix" },
+      { "actorId": 227, "role": "Jan Edgecomb" },
+      { "actorId": 228, "role": "Hal Moores" }
     ]
   },
   {
     "title": "Star Wars: Episode IV - A New Hope",
     "releaseYear": 1977,
     "duration": 121,
-    "genre": "Action",
+    "genre": "Sci-Fi",
     "director": "George Lucas",
     "country": "USA",
-    "synopsis": "Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee and two droids to save the galaxy from the Empire's world-destroying battle station, while also attempting to rescue Princess Leia from the mysterious Darth Vader.",
+    "synopsis": "Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee and two droids to save the galaxy from the Empire's world-destroying battle station, while also attempting to rescue Princess Leia from the mysterious villain Darth Vader.",
     "language": "English",
     "budget": 11000000.0,
     "actors": [
-      {
-        "name": "Mark Hamill",
-        "role": "Luke Skywalker"
-      },
-      {
-        "name": "Harrison Ford",
-        "role": "Han Solo"
-      },
-      {
-        "name": "Carrie Fisher",
-        "role": "Princess Leia"
-      }
+      { "actorId": 121, "role": "Luke Skywalker" },
+      { "actorId": 122, "role": "Han Solo" },
+      { "actorId": 123, "role": "Princess Leia Organa" },
+      { "actorId": 229, "role": "Obi-Wan Kenobi" },
+      { "actorId": 124, "role": "Darth Vader" },
+      { "actorId": 230, "role": "Grand Moff Tarkin" },
+      { "actorId": 127, "role": "C-3PO" },
+      { "actorId": 128, "role": "Chewbacca" },
+      { "actorId": 129, "role": "R2-D2" },
+      { "actorId": 231, "role": "Uncle Owen" }
     ]
   },
   {
-    "title": "Terminator 2: Judgment Day",
-    "releaseYear": 1991,
-    "duration": 137,
-    "genre": "Action",
-    "director": "James Cameron",
+    "title": "Interstellar",
+    "releaseYear": 2014,
+    "duration": 169,
+    "genre": "Sci-Fi",
+    "director": "Christopher Nolan",
     "country": "USA",
-    "synopsis": "A cyborg, identical to the one who failed to kill Sarah Connor, must now protect her ten-year-old son John from a more advanced and terrifying cyborg.",
+    "synopsis": "When Earth becomes uninhabitable in the future, a farmer and ex-NASA pilot, Joseph Cooper, is tasked to pilot a spacecraft, along with a team of researchers, to find a new planet for humans.",
     "language": "English",
-    "budget": 102000000.0,
+    "budget": 165000000.0,
     "actors": [
-      {
-        "name": "Arnold Schwarzenegger",
-        "role": "The Terminator"
-      },
-      {
-        "name": "Linda Hamilton",
-        "role": "Sarah Connor"
-      },
-      {
-        "name": "Edward Furlong",
-        "role": "John Connor"
-      }
-    ]
-  },
-  {
-    "title": "Back to the Future",
-    "releaseYear": 1985,
-    "duration": 116,
-    "genre": "Adventure",
-    "director": "Robert Zemeckis",
-    "country": "USA",
-    "synopsis": "Marty McFly, a 17-year-old high school student, is accidentally sent thirty years into the past in a time-traveling DeLorean invented by his close friend, the maverick scientist Doc Brown.",
-    "language": "English",
-    "budget": 19000000.0,
-    "actors": [
-      {
-        "name": "Michael J. Fox",
-        "role": "Marty McFly"
-      },
-      {
-        "name": "Christopher Lloyd",
-        "role": "Dr. Emmett Brown"
-      },
-      {
-        "name": "Lea Thompson",
-        "role": "Lorraine Baines"
-      }
+      { "actorId": 161, "role": "Joseph Cooper" },
+      { "actorId": 162, "role": "Dr. Amelia Brand" },
+      { "actorId": 163, "role": "Murph Cooper" },
+      { "actorId": 164, "role": "Professor John Brand" },
+      { "actorId": 165, "role": "Tom Cooper" },
+      { "actorId": 166, "role": "Dr. Mann" },
+      { "actorId": 167, "role": "Romilly" },
+      { "actorId": 168, "role": "Doyle" },
+      { "actorId": 169, "role": "TARS (voice)" },
+      { "actorId": 170, "role": "CASE (voice)" }
     ]
   },
   {
@@ -756,47 +627,43 @@
     "genre": "Animation",
     "director": "Hayao Miyazaki",
     "country": "Japan",
-    "synopsis": "During her family's move to the suburbs, a sullen 10-year-old girl wanders into a world ruled by gods, witches and spirits, a world where humans are changed into beasts.",
+    "synopsis": "During her family's move to the suburbs, a sullen 10-year-old girl wanders into a world ruled by gods, witches, and spirits, and where humans are changed into beasts.",
     "language": "Japanese",
     "budget": 19000000.0,
     "actors": [
-      {
-        "name": "Rumi Hiiragi",
-        "role": "Chihiro Ogino"
-      },
-      {
-        "name": "Miyu Irino",
-        "role": "Haku"
-      },
-      {
-        "name": "Mari Natsuki",
-        "role": "Yubaba"
-      }
+      { "actorId": 232, "role": "Chihiro Ogino / Sen (voice)" },
+      { "actorId": 233, "role": "Haku (voice)" },
+      { "actorId": 234, "role": "Yubaba / Zeniba (voice)" },
+      { "actorId": 235, "role": "Kamaji (voice)" },
+      { "actorId": 236, "role": "Lin (voice)" },
+      { "actorId": 237, "role": "Akio Ogino (voice)" },
+      { "actorId": 238, "role": "Yuko Ogino (voice)" },
+      { "actorId": 239, "role": "Aogaeru (voice)" },
+      { "actorId": 240, "role": "Boh (voice)" },
+      { "actorId": 241, "role": "No-Face (voice)" }
     ]
   },
   {
-    "title": "Psycho",
-    "releaseYear": 1960,
-    "duration": 109,
-    "genre": "Horror",
-    "director": "Alfred Hitchcock",
+    "title": "Saving Private Ryan",
+    "releaseYear": 1998,
+    "duration": 169,
+    "genre": "Drama",
+    "director": "Steven Spielberg",
     "country": "USA",
-    "synopsis": "A Phoenix secretary embezzles $40,000 from her employer's client, goes on the run and checks into a remote motel run by a young man under the domination of his mother.",
+    "synopsis": "Following the Normandy landings, a group of U.S. soldiers go behind enemy lines to search for a paratrooper whose brothers have been killed in action.",
     "language": "English",
-    "budget": 806947.0,
+    "budget": 70000000.0,
     "actors": [
-      {
-        "name": "Anthony Perkins",
-        "role": "Norman Bates"
-      },
-      {
-        "name": "Janet Leigh",
-        "role": "Marion Crane"
-      },
-      {
-        "name": "Vera Miles",
-        "role": "Lila Crane"
-      }
+      { "actorId": 242, "role": "Captain John H. Miller" },
+      { "actorId": 243, "role": "Private First Class James Francis Ryan" },
+      { "actorId": 244, "role": "Sergeant Mike Horvath" },
+      { "actorId": 245, "role": "Private Richard Reiben" },
+      { "actorId": 246, "role": "Private Daniel Jackson" },
+      { "actorId": 247, "role": "Private Stanley Mellish" },
+      { "actorId": 248, "role": "T-4 Technician Irwin Wade" },
+      { "actorId": 249, "role": "Corporal Timothy Upham" },
+      { "actorId": 250, "role": "Colonel Anderson" },
+      { "actorId": 251, "role": "General George C. Marshall" }
     ]
   },
   {
@@ -810,18 +677,16 @@
     "language": "English",
     "budget": 35000000.0,
     "actors": [
-      {
-        "name": "Adrien Brody",
-        "role": "Wladyslaw Szpilman"
-      },
-      {
-        "name": "Thomas Kretschmann",
-        "role": "Captain Wilm Hosenfeld"
-      },
-      {
-        "name": "Frank Finlay",
-        "role": "Father"
-      }
+      { "actorId": 252, "role": "Wladyslaw Szpilman" },
+      { "actorId": 253, "role": "Wilm Hosenfeld" },
+      { "actorId": 254, "role": "Father" },
+      { "actorId": 255, "role": "Mother" },
+      { "actorId": 256, "role": "Henryk" },
+      { "actorId": 257, "role": "Regina" },
+      { "actorId": 258, "role": "Halina" },
+      { "actorId": 259, "role": "Dorota" },
+      { "actorId": 260, "role": "Jurek" },
+      { "actorId": 261, "role": "Majtek" }
     ]
   },
   {
@@ -833,45 +698,41 @@
     "country": "South Korea",
     "synopsis": "Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan.",
     "language": "Korean",
-    "budget": 11400000.0,
+    "budget": 15500000.0,
     "actors": [
-      {
-        "name": "Song Kang-ho",
-        "role": "Kim Ki-taek"
-      },
-      {
-        "name": "Lee Sun-kyun",
-        "role": "Park Dong-ik"
-      },
-      {
-        "name": "Cho Yeo-jeong",
-        "role": "Park Yeon-gyo"
-      }
+      { "actorId": 262, "role": "Kim Ki-taek" },
+      { "actorId": 263, "role": "Park Dong-ik" },
+      { "actorId": 264, "role": "Choi Yeon-gyo" },
+      { "actorId": 265, "role": "Kim Ki-jung" },
+      { "actorId": 266, "role": "Kim Ki-woo" },
+      { "actorId": 267, "role": "Chung-sook" },
+      { "actorId": 268, "role": "Gook Moon-gwang" },
+      { "actorId": 269, "role": "Park Da-hye" },
+      { "actorId": 270, "role": "Park Da-song" },
+      { "actorId": 271, "role": "Min-hyuk" }
     ]
   },
   {
-    "title": "Léon: The Professional",
-    "releaseYear": 1994,
-    "duration": 110,
+    "title": "Terminator 2: Judgment Day",
+    "releaseYear": 1991,
+    "duration": 137,
     "genre": "Action",
-    "director": "Luc Besson",
-    "country": "France",
-    "synopsis": "12-year-old Mathilda is reluctantly taken in by Léon, a professional assassin, after her family is murdered. An unusual relationship forms as she becomes his protégée and learns the assassin's trade.",
+    "director": "James Cameron",
+    "country": "USA",
+    "synopsis": "A cyborg, identical to the one who failed to kill Sarah Connor, must now protect her ten-year-old son John Connor from a more advanced and powerful cyborg.",
     "language": "English",
-    "budget": 16000000.0,
+    "budget": 102000000.0,
     "actors": [
-      {
-        "name": "Jean Reno",
-        "role": "Léon"
-      },
-      {
-        "name": "Gary Oldman",
-        "role": "Norman Stansfield"
-      },
-      {
-        "name": "Natalie Portman",
-        "role": "Mathilda"
-      }
+      { "actorId": 272, "role": "The Terminator" },
+      { "actorId": 273, "role": "Sarah Connor" },
+      { "actorId": 274, "role": "John Connor" },
+      { "actorId": 275, "role": "T-1000" },
+      { "actorId": 276, "role": "Miles Dyson" },
+      { "actorId": 277, "role": "Dr. Peter Silberman" },
+      { "actorId": 278, "role": "Enrique Salceda" },
+      { "actorId": 279, "role": "Janelle Voight" },
+      { "actorId": 280, "role": "Todd Voight" },
+      { "actorId": 281, "role": "Tim" }
     ]
   },
   {
@@ -879,24 +740,45 @@
     "releaseYear": 1994,
     "duration": 88,
     "genre": "Animation",
-    "director": "Roger Allers",
+    "director": "Roger Allers, Rob Minkoff",
     "country": "USA",
-    "synopsis": "Lion prince Simba and his father are targeted by his bitter uncle, who wants to ascend the throne himself.",
+    "synopsis": "A young lion prince is cast out of his pride by his cruel uncle, who claims he killed his father. While the uncle rules with an iron fist, the prince grows up alongside two carefree outcasts and must decide his destiny.",
     "language": "English",
     "budget": 45000000.0,
     "actors": [
-      {
-        "name": "Matthew Broderick",
-        "role": "Simba"
-      },
-      {
-        "name": "Jeremy Irons",
-        "role": "Scar"
-      },
-      {
-        "name": "James Earl Jones",
-        "role": "Mufasa"
-      }
+      { "actorId": 282, "role": "Simba (voice)" },
+      { "actorId": 283, "role": "Mufasa (voice)" },
+      { "actorId": 284, "role": "Scar (voice)" },
+      { "actorId": 285, "role": "Timon (voice)" },
+      { "actorId": 286, "role": "Pumbaa (voice)" },
+      { "actorId": 287, "role": "Rafiki (voice)" },
+      { "actorId": 288, "role": "Zazu (voice)" },
+      { "actorId": 289, "role": "Nala (voice)" },
+      { "actorId": 290, "role": "Sarabi (voice)" },
+      { "actorId": 291, "role": "Shenzi (voice)" }
+    ]
+  },
+  {
+    "title": "Back to the Future",
+    "releaseYear": 1985,
+    "duration": 116,
+    "genre": "Sci-Fi",
+    "director": "Robert Zemeckis",
+    "country": "USA",
+    "synopsis": "Marty McFly, a 17-year-old high school student, is accidentally sent thirty years into the past in a time-traveling DeLorean invented by his close friend, the eccentric scientist Doc Brown.",
+    "language": "English",
+    "budget": 19000000.0,
+    "actors": [
+      { "actorId": 292, "role": "Marty McFly" },
+      { "actorId": 293, "role": "Dr. Emmett Brown" },
+      { "actorId": 294, "role": "Biff Tannen" },
+      { "actorId": 295, "role": "Lorraine Baines-McFly" },
+      { "actorId": 296, "role": "George McFly" },
+      { "actorId": 297, "role": "Jennifer Parker" },
+      { "actorId": 298, "role": "Mr. Strickland" },
+      { "actorId": 299, "role": "Skinhead" },
+      { "actorId": 300, "role": "3-D" },
+      { "actorId": 301, "role": "Match" }
     ]
   },
   {
@@ -906,97 +788,20 @@
     "genre": "Action",
     "director": "Ridley Scott",
     "country": "USA",
-    "synopsis": "A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family and sent him into slavery.",
+    "synopsis": "A former Roman general sets out to exact vengeance against the corrupt emperor who murdered his family and sent him into slavery.",
     "language": "English",
     "budget": 103000000.0,
     "actors": [
-      {
-        "name": "Russell Crowe",
-        "role": "Maximus"
-      },
-      {
-        "name": "Joaquin Phoenix",
-        "role": "Commodus"
-      },
-      {
-        "name": "Connie Nielsen",
-        "role": "Lucilla"
-      }
-    ]
-  },
-  {
-    "title": "American History X",
-    "releaseYear": 1998,
-    "duration": 119,
-    "genre": "Drama",
-    "director": "Tony Kaye",
-    "country": "USA",
-    "synopsis": "Living a life marked by violence and racism, a former neo-Nazi skinhead tries to prevent his younger brother from going down the same wrong path that he did.",
-    "language": "English",
-    "budget": 20000000.0,
-    "actors": [
-      {
-        "name": "Edward Norton",
-        "role": "Derek Vinyard"
-      },
-      {
-        "name": "Edward Furlong",
-        "role": "Danny Vinyard"
-      },
-      {
-        "name": "Beverly D'Angelo",
-        "role": "Doris Vinyard"
-      }
-    ]
-  },
-  {
-    "title": "The Departure",
-    "releaseYear": 2006,
-    "duration": 151,
-    "genre": "Crime",
-    "director": "Martin Scorsese",
-    "country": "USA",
-    "synopsis": "An undercover cop and a mole in the police attempt to identify each other while infiltrating an Irish gang in South Boston.",
-    "language": "English",
-    "budget": 90000000.0,
-    "actors": [
-      {
-        "name": "Leonardo DiCaprio",
-        "role": "Billy Costigan"
-      },
-      {
-        "name": "Matt Damon",
-        "role": "Colin Sullivan"
-      },
-      {
-        "name": "Jack Nicholson",
-        "role": "Frank Costello"
-      }
-    ]
-  },
-  {
-    "title": "Whiplash",
-    "releaseYear": 2014,
-    "duration": 106,
-    "genre": "Drama",
-    "director": "Damien Chazelle",
-    "country": "USA",
-    "synopsis": "A promising young drummer enlists at a cut-throat music conservatory where his dreams of greatness are mentored by an instructor who will stop at nothing to realize a student's potential.",
-    "language": "English",
-    "budget": 3300000.0,
-    "actors": [
-      {
-        "name": "Miles Teller",
-        "role": "Andrew Neiman"
-      },
-      {
-        "name": "J.K. Simmons",
-        "role": "Terrence Fletcher"
-      },
-      {
-        "name": "Melissa Benoist",
-        "role": "Nicole"
-      }
+      { "actorId": 302, "role": "Maximus Decimus Meridius" },
+      { "actorId": 303, "role": "Commodus" },
+      { "actorId": 304, "role": "Lucilla" },
+      { "actorId": 305, "role": "Marcus Aurelius" },
+      { "actorId": 306, "role": "Proximo" },
+      { "actorId": 307, "role": "Juba" },
+      { "actorId": 308, "role": "Hagen" },
+      { "actorId": 309, "role": "Quintus" },
+      { "actorId": 310, "role": "Gracchus" },
+      { "actorId": 311, "role": "Falco" }
     ]
   },
   {
@@ -1006,1285 +811,411 @@
     "genre": "Drama",
     "director": "Christopher Nolan",
     "country": "USA",
-    "synopsis": "After a tragic accident, two stage magicians in 1890s London engage in a battle to create the ultimate illusion while sacrificing everything they have to outsmart each other.",
+    "synopsis": "After a tragic accident, two stage magicians in 1890s London engage in a battle to create the ultimate illusion while sacrificing everything they have to outwit each other.",
     "language": "English",
     "budget": 40000000.0,
     "actors": [
-      {
-        "name": "Christian Bale",
-        "role": "Alfred Borden"
-      },
-      {
-        "name": "Hugh Jackman",
-        "role": "Robert Angier"
-      },
-      {
-        "name": "Scarlett Johansson",
-        "role": "Olivia Wenscombe"
-      }
+      { "actorId": 312, "role": "Robert Angier" },
+      { "actorId": 21, "role": "Alfred Borden" },
+      { "actorId": 313, "role": "Olivia Wenscombe" },
+      { "actorId": 314, "role": "Sarah Borden" },
+      { "actorId": 315, "role": "Nikola Tesla" },
+      { "actorId": 316, "role": "John Cutter" },
+      { "actorId": 317, "role": "Mr. Alley" },
+      { "actorId": 318, "role": "Earl Owen" },
+      { "actorId": 319, "role": "Master Henderson" },
+      { "actorId": 320, "role": "Merritt" }
     ]
   },
   {
-    "title": "The Usual Suspects",
-    "releaseYear": 1995,
-    "duration": 106,
-    "genre": "Crime",
-    "director": "Bryan Singer",
-    "country": "USA",
-    "synopsis": "A sole survivor tells the twisting tale of how five criminals met in a seemingly random police lineup and were coerced into doing a heist for a legendary crime lord.",
-    "language": "English",
-    "budget": 6000000.0,
-    "actors": [
-      {
-        "name": "Kevin Spacey",
-        "role": "Roger 'Verbal' Kint"
-      },
-      {
-        "name": "Gabriel Byrne",
-        "role": "Dean Keaton"
-      },
-      {
-        "name": "Benicio Del Toro",
-        "role": "Fred Fenster"
-      }
-    ]
-  },
-  {
-    "title": "Casablanca",
-    "releaseYear": 1942,
-    "duration": 102,
-    "genre": "Drama",
-    "director": "Michael Curtiz",
-    "country": "USA",
-    "synopsis": "A cynical expatriate American cafe owner struggles to decide whether or not to help his former lover and her fugitive husband escape the Nazis in French Morocco.",
-    "language": "English",
-    "budget": 950000.0,
-    "actors": [
-      {
-        "name": "Humphrey Bogart",
-        "role": "Rick Blaine"
-      },
-      {
-        "name": "Ingrid Bergman",
-        "role": "Ilsa Lund"
-      },
-      {
-        "name": "Paul Henreid",
-        "role": "Victor Laszlo"
-      }
-    ]
-  },
-  {
-    "title": "Grave of the Fireflies",
-    "releaseYear": 1988,
-    "duration": 89,
-    "genre": "Animation",
-    "director": "Isao Takahata",
-    "country": "Japan",
-    "synopsis": "A young boy and his little sister struggle to survive in Japan during World War II.",
-    "language": "Japanese",
-    "budget": 3700000.0,
-    "actors": [
-      {
-        "name": "Tsutomu Tatsumi",
-        "role": "Seita"
-      },
-      {
-        "name": "Ayano Shiraishi",
-        "role": "Setsuko"
-      }
-    ]
-  },
-  {
-    "title": "Rear Window",
-    "releaseYear": 1954,
-    "duration": 112,
-    "genre": "Mystery",
-    "director": "Alfred Hitchcock",
-    "country": "USA",
-    "synopsis": "A photographer in a wheelchair spies on his neighbors from his apartment window and becomes convinced one of them has committed murder.",
-    "language": "English",
-    "budget": 1000000.0,
-    "actors": [
-      {
-        "name": "James Stewart",
-        "role": "L.B. 'Jeff' Jefferies"
-      },
-      {
-        "name": "Grace Kelly",
-        "role": "Lisa Carol Fremont"
-      },
-      {
-        "name": "Wendell Corey",
-        "role": "Det. Lt. Thomas J. Doyle"
-      }
-    ]
-  },
-  {
-    "title": "Alien",
-    "releaseYear": 1979,
-    "duration": 117,
-    "genre": "Sci-Fi",
-    "director": "Ridley Scott",
-    "country": "UK",
-    "synopsis": "The crew of a commercial spacecraft encounter a deadly lifeform after investigating an unknown transmission.",
-    "language": "English",
-    "budget": 11000000.0,
-    "actors": [
-      {
-        "name": "Sigourney Weaver",
-        "role": "Ripley"
-      },
-      {
-        "name": "Tom Skerritt",
-        "role": "Dallas"
-      },
-      {
-        "name": "John Hurt",
-        "role": "Kane"
-      }
-    ]
-  },
-  {
-    "title": "Modern Times",
-    "releaseYear": 1936,
-    "duration": 87,
-    "genre": "Comedy",
-    "director": "Charles Chaplin",
-    "country": "USA",
-    "synopsis": "The Tramp struggles to live in modern industrial society with the help of a young homeless woman.",
-    "language": "English",
-    "budget": 1500000.0,
-    "actors": [
-      {
-        "name": "Charles Chaplin",
-        "role": "A Factory Worker"
-      },
-      {
-        "name": "Paulette Goddard",
-        "role": "A Gamin"
-      }
-    ]
-  },
-  {
-    "title": "City Lights",
-    "releaseYear": 1931,
-    "duration": 87,
-    "genre": "Comedy",
-    "director": "Charles Chaplin",
-    "country": "USA",
-    "synopsis": "With the aid of a wealthy erratic tippler, a debonair innocent falls in love with a blind flower girl.",
-    "language": "English",
-    "budget": 1500000.0,
-    "actors": [
-      {
-        "name": "Charles Chaplin",
-        "role": "A Tramp"
-      },
-      {
-        "name": "Virginia Cherrill",
-        "role": "A Blind Girl"
-      }
-    ]
-  },
-  {
-    "title": "Memento",
-    "releaseYear": 2000,
-    "duration": 113,
-    "genre": "Mystery",
-    "director": "Christopher Nolan",
-    "country": "USA",
-    "synopsis": "A man with short-term memory loss attempts to track down his wife's murderer.",
-    "language": "English",
-    "budget": 9000000.0,
-    "actors": [
-      {
-        "name": "Guy Pearce",
-        "role": "Leonard Shelby"
-      },
-      {
-        "name": "Carrie-Anne Moss",
-        "role": "Natalie"
-      },
-      {
-        "name": "Joe Pantoliano",
-        "role": "Teddy"
-      }
-    ]
-  },
-  {
-    "title": "Apocalypse Now",
-    "releaseYear": 1979,
-    "duration": 147,
-    "genre": "Drama",
-    "director": "Francis Ford Coppola",
-    "country": "USA",
-    "synopsis": "A U.S. Army officer serving in Vietnam is tasked with assassinating a renegade Special Forces Colonel who sees himself as a god.",
-    "language": "English",
-    "budget": 31000000.0,
-    "actors": [
-      {
-        "name": "Martin Sheen",
-        "role": "Captain Benjamin L. Willard"
-      },
-      {
-        "name": "Marlon Brando",
-        "role": "Colonel Walter E. Kurtz"
-      },
-      {
-        "name": "Robert Duvall",
-        "role": "Lieutenant Colonel Bill Kilgore"
-      }
-    ]
-  },
-  {
-    "title": "Feature Film Special Edition 51",
-    "releaseYear": 1988,
-    "duration": 141,
-    "genre": "Drama",
-    "director": "Martin Scorsese",
-    "country": "France",
-    "synopsis": "An engaging narrative exploring dramatic challenges and character growth in movie number 51.",
-    "language": "English",
-    "budget": 38050000.0,
-    "actors": [
-      {
-        "name": "Scarlett Johansson",
-        "role": "Lead Character 51"
-      },
-      {
-        "name": "Morgan Freeman",
-        "role": "Supporting Character 51"
-      }
-    ]
-  },
-  {
-    "title": "Feature Film Special Edition 52",
-    "releaseYear": 1989,
-    "duration": 142,
-    "genre": "Crime",
-    "director": "Quentin Tarantino",
-    "country": "Germany",
-    "synopsis": "An engaging narrative exploring dramatic challenges and character growth in movie number 52.",
-    "language": "English",
-    "budget": 38600000.0,
-    "actors": [
-      {
-        "name": "Tom Hanks",
-        "role": "Lead Character 52"
-      },
-      {
-        "name": "Brad Pitt",
-        "role": "Supporting Character 52"
-      }
-    ]
-  },
-  {
-    "title": "Feature Film Special Edition 53",
-    "releaseYear": 1990,
-    "duration": 143,
-    "genre": "Adventure",
-    "director": "Ridley Scott",
-    "country": "Japan",
-    "synopsis": "An engaging narrative exploring dramatic challenges and character growth in movie number 53.",
-    "language": "English",
-    "budget": 39150000.0,
-    "actors": [
-      {
-        "name": "Matt Damon",
-        "role": "Lead Character 53"
-      },
-      {
-        "name": "Leonardo DiCaprio",
-        "role": "Supporting Character 53"
-      }
-    ]
-  },
-  {
-    "title": "Feature Film Special Edition 54",
-    "releaseYear": 1991,
-    "duration": 144,
-    "genre": "Sci-Fi",
-    "director": "Denis Villeneuve",
-    "country": "Canada",
-    "synopsis": "An engaging narrative exploring dramatic challenges and character growth in movie number 54.",
-    "language": "English",
-    "budget": 39700000.0,
-    "actors": [
-      {
-        "name": "Morgan Freeman",
-        "role": "Lead Character 54"
-      },
-      {
-        "name": "Christian Bale",
-        "role": "Supporting Character 54"
-      }
-    ]
-  },
-  {
-    "title": "Feature Film Special Edition 55",
-    "releaseYear": 1992,
-    "duration": 145,
-    "genre": "Comedy",
-    "director": "David Fincher",
-    "country": "Australia",
-    "synopsis": "An engaging narrative exploring dramatic challenges and character growth in movie number 55.",
-    "language": "English",
-    "budget": 40250000.0,
-    "actors": [
-      {
-        "name": "Brad Pitt",
-        "role": "Lead Character 55"
-      },
-      {
-        "name": "Scarlett Johansson",
-        "role": "Supporting Character 55"
-      }
-    ]
-  },
-  {
-    "title": "Feature Film Special Edition 56",
-    "releaseYear": 1993,
-    "duration": 146,
-    "genre": "Thriller",
-    "director": "Steven Spielberg",
-    "country": "USA",
-    "synopsis": "An engaging narrative exploring dramatic challenges and character growth in movie number 56.",
-    "language": "English",
-    "budget": 40800000.0,
-    "actors": [
-      {
-        "name": "Leonardo DiCaprio",
-        "role": "Lead Character 56"
-      },
-      {
-        "name": "Tom Hanks",
-        "role": "Supporting Character 56"
-      }
-    ]
-  },
-  {
-    "title": "Feature Film Special Edition 57",
-    "releaseYear": 1994,
-    "duration": 147,
-    "genre": "Biography",
-    "director": "Christopher Nolan",
-    "country": "UK",
-    "synopsis": "An engaging narrative exploring dramatic challenges and character growth in movie number 57.",
-    "language": "English",
-    "budget": 41350000.0,
-    "actors": [
-      {
-        "name": "Christian Bale",
-        "role": "Lead Character 57"
-      },
-      {
-        "name": "Matt Damon",
-        "role": "Supporting Character 57"
-      }
-    ]
-  },
-  {
-    "title": "Feature Film Special Edition 58",
-    "releaseYear": 1995,
-    "duration": 148,
-    "genre": "Animation",
-    "director": "Martin Scorsese",
-    "country": "France",
-    "synopsis": "An engaging narrative exploring dramatic challenges and character growth in movie number 58.",
-    "language": "English",
-    "budget": 41900000.0,
-    "actors": [
-      {
-        "name": "Scarlett Johansson",
-        "role": "Lead Character 58"
-      },
-      {
-        "name": "Morgan Freeman",
-        "role": "Supporting Character 58"
-      }
-    ]
-  },
-  {
-    "title": "Feature Film Special Edition 59",
-    "releaseYear": 1996,
-    "duration": 149,
-    "genre": "Mystery",
-    "director": "Quentin Tarantino",
-    "country": "Germany",
-    "synopsis": "An engaging narrative exploring dramatic challenges and character growth in movie number 59.",
-    "language": "English",
-    "budget": 42450000.0,
-    "actors": [
-      {
-        "name": "Tom Hanks",
-        "role": "Lead Character 59"
-      },
-      {
-        "name": "Brad Pitt",
-        "role": "Supporting Character 59"
-      }
-    ]
-  },
-  {
-    "title": "Feature Film Special Edition 60",
-    "releaseYear": 1997,
-    "duration": 150,
-    "genre": "Action",
-    "director": "Ridley Scott",
-    "country": "Japan",
-    "synopsis": "An engaging narrative exploring dramatic challenges and character growth in movie number 60.",
-    "language": "English",
-    "budget": 43000000.0,
-    "actors": [
-      {
-        "name": "Matt Damon",
-        "role": "Lead Character 60"
-      },
-      {
-        "name": "Leonardo DiCaprio",
-        "role": "Supporting Character 60"
-      }
-    ]
-  },
-  {
-    "title": "Feature Film Special Edition 61",
-    "releaseYear": 1998,
-    "duration": 151,
-    "genre": "Drama",
-    "director": "Denis Villeneuve",
-    "country": "Canada",
-    "synopsis": "An engaging narrative exploring dramatic challenges and character growth in movie number 61.",
-    "language": "English",
-    "budget": 43550000.0,
-    "actors": [
-      {
-        "name": "Morgan Freeman",
-        "role": "Lead Character 61"
-      },
-      {
-        "name": "Christian Bale",
-        "role": "Supporting Character 61"
-      }
-    ]
-  },
-  {
-    "title": "Feature Film Special Edition 62",
-    "releaseYear": 1999,
-    "duration": 152,
-    "genre": "Crime",
-    "director": "David Fincher",
-    "country": "Australia",
-    "synopsis": "An engaging narrative exploring dramatic challenges and character growth in movie number 62.",
-    "language": "English",
-    "budget": 44100000.0,
-    "actors": [
-      {
-        "name": "Brad Pitt",
-        "role": "Lead Character 62"
-      },
-      {
-        "name": "Scarlett Johansson",
-        "role": "Supporting Character 62"
-      }
-    ]
-  },
-  {
-    "title": "Feature Film Special Edition 63",
-    "releaseYear": 2000,
-    "duration": 153,
-    "genre": "Adventure",
-    "director": "Steven Spielberg",
-    "country": "USA",
-    "synopsis": "An engaging narrative exploring dramatic challenges and character growth in movie number 63.",
-    "language": "English",
-    "budget": 44650000.0,
-    "actors": [
-      {
-        "name": "Leonardo DiCaprio",
-        "role": "Lead Character 63"
-      },
-      {
-        "name": "Tom Hanks",
-        "role": "Supporting Character 63"
-      }
-    ]
-  },
-  {
-    "title": "Feature Film Special Edition 64",
-    "releaseYear": 2001,
-    "duration": 154,
-    "genre": "Sci-Fi",
-    "director": "Christopher Nolan",
-    "country": "UK",
-    "synopsis": "An engaging narrative exploring dramatic challenges and character growth in movie number 64.",
-    "language": "English",
-    "budget": 45200000.0,
-    "actors": [
-      {
-        "name": "Christian Bale",
-        "role": "Lead Character 64"
-      },
-      {
-        "name": "Matt Damon",
-        "role": "Supporting Character 64"
-      }
-    ]
-  },
-  {
-    "title": "Feature Film Special Edition 65",
-    "releaseYear": 2002,
-    "duration": 155,
-    "genre": "Comedy",
-    "director": "Martin Scorsese",
-    "country": "France",
-    "synopsis": "An engaging narrative exploring dramatic challenges and character growth in movie number 65.",
-    "language": "English",
-    "budget": 45750000.0,
-    "actors": [
-      {
-        "name": "Scarlett Johansson",
-        "role": "Lead Character 65"
-      },
-      {
-        "name": "Morgan Freeman",
-        "role": "Supporting Character 65"
-      }
-    ]
-  },
-  {
-    "title": "Feature Film Special Edition 66",
-    "releaseYear": 2003,
-    "duration": 156,
-    "genre": "Thriller",
-    "director": "Quentin Tarantino",
-    "country": "Germany",
-    "synopsis": "An engaging narrative exploring dramatic challenges and character growth in movie number 66.",
-    "language": "English",
-    "budget": 46300000.0,
-    "actors": [
-      {
-        "name": "Tom Hanks",
-        "role": "Lead Character 66"
-      },
-      {
-        "name": "Brad Pitt",
-        "role": "Supporting Character 66"
-      }
-    ]
-  },
-  {
-    "title": "Feature Film Special Edition 67",
-    "releaseYear": 2004,
-    "duration": 157,
-    "genre": "Biography",
-    "director": "Ridley Scott",
-    "country": "Japan",
-    "synopsis": "An engaging narrative exploring dramatic challenges and character growth in movie number 67.",
-    "language": "English",
-    "budget": 46850000.0,
-    "actors": [
-      {
-        "name": "Matt Damon",
-        "role": "Lead Character 67"
-      },
-      {
-        "name": "Leonardo DiCaprio",
-        "role": "Supporting Character 67"
-      }
-    ]
-  },
-  {
-    "title": "Feature Film Special Edition 68",
-    "releaseYear": 2005,
-    "duration": 158,
-    "genre": "Animation",
-    "director": "Denis Villeneuve",
-    "country": "Canada",
-    "synopsis": "An engaging narrative exploring dramatic challenges and character growth in movie number 68.",
-    "language": "English",
-    "budget": 47400000.0,
-    "actors": [
-      {
-        "name": "Morgan Freeman",
-        "role": "Lead Character 68"
-      },
-      {
-        "name": "Christian Bale",
-        "role": "Supporting Character 68"
-      }
-    ]
-  },
-  {
-    "title": "Feature Film Special Edition 69",
+    "title": "The Departed",
     "releaseYear": 2006,
-    "duration": 159,
-    "genre": "Mystery",
-    "director": "David Fincher",
-    "country": "Australia",
-    "synopsis": "An engaging narrative exploring dramatic challenges and character growth in movie number 69.",
-    "language": "English",
-    "budget": 47950000.0,
-    "actors": [
-      {
-        "name": "Brad Pitt",
-        "role": "Lead Character 69"
-      },
-      {
-        "name": "Scarlett Johansson",
-        "role": "Supporting Character 69"
-      }
-    ]
-  },
-  {
-    "title": "Feature Film Special Edition 70",
-    "releaseYear": 2007,
-    "duration": 160,
-    "genre": "Action",
-    "director": "Steven Spielberg",
-    "country": "USA",
-    "synopsis": "An engaging narrative exploring dramatic challenges and character growth in movie number 70.",
-    "language": "English",
-    "budget": 48500000.0,
-    "actors": [
-      {
-        "name": "Leonardo DiCaprio",
-        "role": "Lead Character 70"
-      },
-      {
-        "name": "Tom Hanks",
-        "role": "Supporting Character 70"
-      }
-    ]
-  },
-  {
-    "title": "Feature Film Special Edition 71",
-    "releaseYear": 2008,
-    "duration": 161,
-    "genre": "Drama",
-    "director": "Christopher Nolan",
-    "country": "UK",
-    "synopsis": "An engaging narrative exploring dramatic challenges and character growth in movie number 71.",
-    "language": "English",
-    "budget": 49050000.0,
-    "actors": [
-      {
-        "name": "Christian Bale",
-        "role": "Lead Character 71"
-      },
-      {
-        "name": "Matt Damon",
-        "role": "Supporting Character 71"
-      }
-    ]
-  },
-  {
-    "title": "Feature Film Special Edition 72",
-    "releaseYear": 2009,
-    "duration": 162,
+    "duration": 151,
     "genre": "Crime",
     "director": "Martin Scorsese",
-    "country": "France",
-    "synopsis": "An engaging narrative exploring dramatic challenges and character growth in movie number 72.",
+    "country": "USA",
+    "synopsis": "An undercover cop and a mole in the police attempt to identify each other while infiltrating an Irish gang in South Boston.",
     "language": "English",
-    "budget": 49600000.0,
+    "budget": 90000000.0,
     "actors": [
-      {
-        "name": "Scarlett Johansson",
-        "role": "Lead Character 72"
-      },
-      {
-        "name": "Morgan Freeman",
-        "role": "Supporting Character 72"
-      }
+      { "actorId": 321, "role": "Billy Costigan" },
+      { "actorId": 322, "role": "Colin Sullivan" },
+      { "actorId": 323, "role": "Frank Costello" },
+      { "actorId": 324, "role": "Staff Sergeant Sean Dignam" },
+      { "actorId": 325, "role": "Captain Queenan" },
+      { "actorId": 326, "role": "Madolyn Madden" },
+      { "actorId": 327, "role": "Frenchan" },
+      { "actorId": 328, "role": "Ellsworth" },
+      { "actorId": 329, "role": "Barrigan" },
+      { "actorId": 330, "role": "Delahunt" }
     ]
   },
   {
-    "title": "Feature Film Special Edition 73",
-    "releaseYear": 2010,
-    "duration": 163,
-    "genre": "Adventure",
-    "director": "Quentin Tarantino",
-    "country": "Germany",
-    "synopsis": "An engaging narrative exploring dramatic challenges and character growth in movie number 73.",
-    "language": "English",
-    "budget": 50150000.0,
-    "actors": [
-      {
-        "name": "Tom Hanks",
-        "role": "Lead Character 73"
-      },
-      {
-        "name": "Brad Pitt",
-        "role": "Supporting Character 73"
-      }
-    ]
-  },
-  {
-    "title": "Feature Film Special Edition 74",
-    "releaseYear": 2011,
-    "duration": 164,
-    "genre": "Sci-Fi",
-    "director": "Ridley Scott",
-    "country": "Japan",
-    "synopsis": "An engaging narrative exploring dramatic challenges and character growth in movie number 74.",
-    "language": "English",
-    "budget": 50700000.0,
-    "actors": [
-      {
-        "name": "Matt Damon",
-        "role": "Lead Character 74"
-      },
-      {
-        "name": "Leonardo DiCaprio",
-        "role": "Supporting Character 74"
-      }
-    ]
-  },
-  {
-    "title": "Feature Film Special Edition 75",
-    "releaseYear": 2012,
-    "duration": 165,
-    "genre": "Comedy",
-    "director": "Denis Villeneuve",
-    "country": "Canada",
-    "synopsis": "An engaging narrative exploring dramatic challenges and character growth in movie number 75.",
-    "language": "English",
-    "budget": 51250000.0,
-    "actors": [
-      {
-        "name": "Morgan Freeman",
-        "role": "Lead Character 75"
-      },
-      {
-        "name": "Christian Bale",
-        "role": "Supporting Character 75"
-      }
-    ]
-  },
-  {
-    "title": "Feature Film Special Edition 76",
-    "releaseYear": 2013,
-    "duration": 166,
-    "genre": "Thriller",
-    "director": "David Fincher",
-    "country": "Australia",
-    "synopsis": "An engaging narrative exploring dramatic challenges and character growth in movie number 76.",
-    "language": "English",
-    "budget": 51800000.0,
-    "actors": [
-      {
-        "name": "Brad Pitt",
-        "role": "Lead Character 76"
-      },
-      {
-        "name": "Scarlett Johansson",
-        "role": "Supporting Character 76"
-      }
-    ]
-  },
-  {
-    "title": "Feature Film Special Edition 77",
+    "title": "Whiplash",
     "releaseYear": 2014,
-    "duration": 167,
-    "genre": "Biography",
-    "director": "Steven Spielberg",
-    "country": "USA",
-    "synopsis": "An engaging narrative exploring dramatic challenges and character growth in movie number 77.",
-    "language": "English",
-    "budget": 52350000.0,
-    "actors": [
-      {
-        "name": "Leonardo DiCaprio",
-        "role": "Lead Character 77"
-      },
-      {
-        "name": "Tom Hanks",
-        "role": "Supporting Character 77"
-      }
-    ]
-  },
-  {
-    "title": "Feature Film Special Edition 78",
-    "releaseYear": 2015,
-    "duration": 168,
-    "genre": "Animation",
-    "director": "Christopher Nolan",
-    "country": "UK",
-    "synopsis": "An engaging narrative exploring dramatic challenges and character growth in movie number 78.",
-    "language": "English",
-    "budget": 52900000.0,
-    "actors": [
-      {
-        "name": "Christian Bale",
-        "role": "Lead Character 78"
-      },
-      {
-        "name": "Matt Damon",
-        "role": "Supporting Character 78"
-      }
-    ]
-  },
-  {
-    "title": "Feature Film Special Edition 79",
-    "releaseYear": 2016,
-    "duration": 169,
-    "genre": "Mystery",
-    "director": "Martin Scorsese",
-    "country": "France",
-    "synopsis": "An engaging narrative exploring dramatic challenges and character growth in movie number 79.",
-    "language": "English",
-    "budget": 53450000.0,
-    "actors": [
-      {
-        "name": "Scarlett Johansson",
-        "role": "Lead Character 79"
-      },
-      {
-        "name": "Morgan Freeman",
-        "role": "Supporting Character 79"
-      }
-    ]
-  },
-  {
-    "title": "Feature Film Special Edition 80",
-    "releaseYear": 2017,
-    "duration": 170,
-    "genre": "Action",
-    "director": "Quentin Tarantino",
-    "country": "Germany",
-    "synopsis": "An engaging narrative exploring dramatic challenges and character growth in movie number 80.",
-    "language": "English",
-    "budget": 54000000.0,
-    "actors": [
-      {
-        "name": "Tom Hanks",
-        "role": "Lead Character 80"
-      },
-      {
-        "name": "Brad Pitt",
-        "role": "Supporting Character 80"
-      }
-    ]
-  },
-  {
-    "title": "Feature Film Special Edition 81",
-    "releaseYear": 2018,
-    "duration": 171,
+    "duration": 106,
     "genre": "Drama",
-    "director": "Ridley Scott",
-    "country": "Japan",
-    "synopsis": "An engaging narrative exploring dramatic challenges and character growth in movie number 81.",
-    "language": "English",
-    "budget": 54550000.0,
-    "actors": [
-      {
-        "name": "Matt Damon",
-        "role": "Lead Character 81"
-      },
-      {
-        "name": "Leonardo DiCaprio",
-        "role": "Supporting Character 81"
-      }
-    ]
-  },
-  {
-    "title": "Feature Film Special Edition 82",
-    "releaseYear": 2019,
-    "duration": 172,
-    "genre": "Crime",
-    "director": "Denis Villeneuve",
-    "country": "Canada",
-    "synopsis": "An engaging narrative exploring dramatic challenges and character growth in movie number 82.",
-    "language": "English",
-    "budget": 55100000.0,
-    "actors": [
-      {
-        "name": "Morgan Freeman",
-        "role": "Lead Character 82"
-      },
-      {
-        "name": "Christian Bale",
-        "role": "Supporting Character 82"
-      }
-    ]
-  },
-  {
-    "title": "Feature Film Special Edition 83",
-    "releaseYear": 2020,
-    "duration": 173,
-    "genre": "Adventure",
-    "director": "David Fincher",
-    "country": "Australia",
-    "synopsis": "An engaging narrative exploring dramatic challenges and character growth in movie number 83.",
-    "language": "English",
-    "budget": 55650000.0,
-    "actors": [
-      {
-        "name": "Brad Pitt",
-        "role": "Lead Character 83"
-      },
-      {
-        "name": "Scarlett Johansson",
-        "role": "Supporting Character 83"
-      }
-    ]
-  },
-  {
-    "title": "Feature Film Special Edition 84",
-    "releaseYear": 2021,
-    "duration": 174,
-    "genre": "Sci-Fi",
-    "director": "Steven Spielberg",
+    "director": "Damien Chazelle",
     "country": "USA",
-    "synopsis": "An engaging narrative exploring dramatic challenges and character growth in movie number 84.",
+    "synopsis": "A promising young drummer enrolls at a cut-throat music conservatory where his dreams of greatness are mentored by an instructor who will stop at nothing to realize a student's potential.",
     "language": "English",
-    "budget": 56200000.0,
+    "budget": 3300000.0,
     "actors": [
-      {
-        "name": "Leonardo DiCaprio",
-        "role": "Lead Character 84"
-      },
-      {
-        "name": "Tom Hanks",
-        "role": "Supporting Character 84"
-      }
+      { "actorId": 331, "role": "Andrew Neiman" },
+      { "actorId": 332, "role": "Terence Fletcher" },
+      { "actorId": 333, "role": "Jim Neiman" },
+      { "actorId": 334, "role": "Nicole" },
+      { "actorId": 335, "role": "Ryan" },
+      { "actorId": 336, "role": "Travis" },
+      { "actorId": 337, "role": "Dustin" },
+      { "actorId": 338, "role": "Carl" },
+      { "actorId": 339, "role": "Bassist" },
+      { "actorId": 340, "role": "Macy" }
     ]
   },
   {
-    "title": "Feature Film Special Edition 85",
-    "releaseYear": 2022,
-    "duration": 175,
-    "genre": "Comedy",
-    "director": "Christopher Nolan",
-    "country": "UK",
-    "synopsis": "An engaging narrative exploring dramatic challenges and character growth in movie number 85.",
-    "language": "English",
-    "budget": 56750000.0,
-    "actors": [
-      {
-        "name": "Christian Bale",
-        "role": "Lead Character 85"
-      },
-      {
-        "name": "Matt Damon",
-        "role": "Supporting Character 85"
-      }
-    ]
-  },
-  {
-    "title": "Feature Film Special Edition 86",
-    "releaseYear": 1980,
-    "duration": 176,
-    "genre": "Thriller",
-    "director": "Martin Scorsese",
-    "country": "France",
-    "synopsis": "An engaging narrative exploring dramatic challenges and character growth in movie number 86.",
-    "language": "English",
-    "budget": 57300000.0,
-    "actors": [
-      {
-        "name": "Scarlett Johansson",
-        "role": "Lead Character 86"
-      },
-      {
-        "name": "Morgan Freeman",
-        "role": "Supporting Character 86"
-      }
-    ]
-  },
-  {
-    "title": "Feature Film Special Edition 87",
-    "releaseYear": 1981,
-    "duration": 177,
-    "genre": "Biography",
-    "director": "Quentin Tarantino",
-    "country": "Germany",
-    "synopsis": "An engaging narrative exploring dramatic challenges and character growth in movie number 87.",
-    "language": "English",
-    "budget": 57850000.0,
-    "actors": [
-      {
-        "name": "Tom Hanks",
-        "role": "Lead Character 87"
-      },
-      {
-        "name": "Brad Pitt",
-        "role": "Supporting Character 87"
-      }
-    ]
-  },
-  {
-    "title": "Feature Film Special Edition 88",
-    "releaseYear": 1982,
-    "duration": 178,
-    "genre": "Animation",
-    "director": "Ridley Scott",
-    "country": "Japan",
-    "synopsis": "An engaging narrative exploring dramatic challenges and character growth in movie number 88.",
-    "language": "English",
-    "budget": 58400000.0,
-    "actors": [
-      {
-        "name": "Matt Damon",
-        "role": "Lead Character 88"
-      },
-      {
-        "name": "Leonardo DiCaprio",
-        "role": "Supporting Character 88"
-      }
-    ]
-  },
-  {
-    "title": "Feature Film Special Edition 89",
-    "releaseYear": 1983,
-    "duration": 179,
-    "genre": "Mystery",
-    "director": "Denis Villeneuve",
-    "country": "Canada",
-    "synopsis": "An engaging narrative exploring dramatic challenges and character growth in movie number 89.",
-    "language": "English",
-    "budget": 58950000.0,
-    "actors": [
-      {
-        "name": "Morgan Freeman",
-        "role": "Lead Character 89"
-      },
-      {
-        "name": "Christian Bale",
-        "role": "Supporting Character 89"
-      }
-    ]
-  },
-  {
-    "title": "Feature Film Special Edition 90",
-    "releaseYear": 1984,
-    "duration": 90,
-    "genre": "Action",
-    "director": "David Fincher",
-    "country": "Australia",
-    "synopsis": "An engaging narrative exploring dramatic challenges and character growth in movie number 90.",
-    "language": "English",
-    "budget": 59500000.0,
-    "actors": [
-      {
-        "name": "Brad Pitt",
-        "role": "Lead Character 90"
-      },
-      {
-        "name": "Scarlett Johansson",
-        "role": "Supporting Character 90"
-      }
-    ]
-  },
-  {
-    "title": "Feature Film Special Edition 91",
-    "releaseYear": 1985,
-    "duration": 91,
-    "genre": "Drama",
-    "director": "Steven Spielberg",
-    "country": "USA",
-    "synopsis": "An engaging narrative exploring dramatic challenges and character growth in movie number 91.",
-    "language": "English",
-    "budget": 60050000.0,
-    "actors": [
-      {
-        "name": "Leonardo DiCaprio",
-        "role": "Lead Character 91"
-      },
-      {
-        "name": "Tom Hanks",
-        "role": "Supporting Character 91"
-      }
-    ]
-  },
-  {
-    "title": "Feature Film Special Edition 92",
-    "releaseYear": 1986,
-    "duration": 92,
-    "genre": "Crime",
-    "director": "Christopher Nolan",
-    "country": "UK",
-    "synopsis": "An engaging narrative exploring dramatic challenges and character growth in movie number 92.",
-    "language": "English",
-    "budget": 60600000.0,
-    "actors": [
-      {
-        "name": "Christian Bale",
-        "role": "Lead Character 92"
-      },
-      {
-        "name": "Matt Damon",
-        "role": "Supporting Character 92"
-      }
-    ]
-  },
-  {
-    "title": "Feature Film Special Edition 93",
-    "releaseYear": 1987,
-    "duration": 93,
-    "genre": "Adventure",
-    "director": "Martin Scorsese",
-    "country": "France",
-    "synopsis": "An engaging narrative exploring dramatic challenges and character growth in movie number 93.",
-    "language": "English",
-    "budget": 61150000.0,
-    "actors": [
-      {
-        "name": "Scarlett Johansson",
-        "role": "Lead Character 93"
-      },
-      {
-        "name": "Morgan Freeman",
-        "role": "Supporting Character 93"
-      }
-    ]
-  },
-  {
-    "title": "Feature Film Special Edition 94",
-    "releaseYear": 1988,
-    "duration": 94,
-    "genre": "Sci-Fi",
-    "director": "Quentin Tarantino",
-    "country": "Germany",
-    "synopsis": "An engaging narrative exploring dramatic challenges and character growth in movie number 94.",
-    "language": "English",
-    "budget": 61700000.0,
-    "actors": [
-      {
-        "name": "Tom Hanks",
-        "role": "Lead Character 94"
-      },
-      {
-        "name": "Brad Pitt",
-        "role": "Supporting Character 94"
-      }
-    ]
-  },
-  {
-    "title": "Feature Film Special Edition 95",
-    "releaseYear": 1989,
-    "duration": 95,
-    "genre": "Comedy",
-    "director": "Ridley Scott",
-    "country": "Japan",
-    "synopsis": "An engaging narrative exploring dramatic challenges and character growth in movie number 95.",
-    "language": "English",
-    "budget": 62250000.0,
-    "actors": [
-      {
-        "name": "Matt Damon",
-        "role": "Lead Character 95"
-      },
-      {
-        "name": "Leonardo DiCaprio",
-        "role": "Supporting Character 95"
-      }
-    ]
-  },
-  {
-    "title": "Feature Film Special Edition 96",
-    "releaseYear": 1990,
-    "duration": 96,
-    "genre": "Thriller",
-    "director": "Denis Villeneuve",
-    "country": "Canada",
-    "synopsis": "An engaging narrative exploring dramatic challenges and character growth in movie number 96.",
-    "language": "English",
-    "budget": 62800000.0,
-    "actors": [
-      {
-        "name": "Morgan Freeman",
-        "role": "Lead Character 96"
-      },
-      {
-        "name": "Christian Bale",
-        "role": "Supporting Character 96"
-      }
-    ]
-  },
-  {
-    "title": "Feature Film Special Edition 97",
-    "releaseYear": 1991,
-    "duration": 97,
-    "genre": "Biography",
-    "director": "David Fincher",
-    "country": "Australia",
-    "synopsis": "An engaging narrative exploring dramatic challenges and character growth in movie number 97.",
-    "language": "English",
-    "budget": 63350000.0,
-    "actors": [
-      {
-        "name": "Brad Pitt",
-        "role": "Lead Character 97"
-      },
-      {
-        "name": "Scarlett Johansson",
-        "role": "Supporting Character 97"
-      }
-    ]
-  },
-  {
-    "title": "Feature Film Special Edition 98",
-    "releaseYear": 1992,
-    "duration": 98,
-    "genre": "Animation",
-    "director": "Steven Spielberg",
-    "country": "USA",
-    "synopsis": "An engaging narrative exploring dramatic challenges and character growth in movie number 98.",
-    "language": "English",
-    "budget": 63900000.0,
-    "actors": [
-      {
-        "name": "Leonardo DiCaprio",
-        "role": "Lead Character 98"
-      },
-      {
-        "name": "Tom Hanks",
-        "role": "Supporting Character 98"
-      }
-    ]
-  },
-  {
-    "title": "Feature Film Special Edition 99",
-    "releaseYear": 1993,
-    "duration": 99,
-    "genre": "Mystery",
-    "director": "Christopher Nolan",
-    "country": "UK",
-    "synopsis": "An engaging narrative exploring dramatic challenges and character growth in movie number 99.",
-    "language": "English",
-    "budget": 64450000.0,
-    "actors": [
-      {
-        "name": "Christian Bale",
-        "role": "Lead Character 99"
-      },
-      {
-        "name": "Matt Damon",
-        "role": "Supporting Character 99"
-      }
-    ]
-  },
-  {
-    "title": "Feature Film Special Edition 100",
+    "title": "The Lion King",
     "releaseYear": 1994,
-    "duration": 100,
-    "genre": "Action",
-    "director": "Martin Scorsese",
-    "country": "France",
-    "synopsis": "An engaging narrative exploring dramatic challenges and character growth in movie number 100.",
+    "duration": 88,
+    "genre": "Animation",
+    "director": "Roger Allers, Rob Minkoff",
+    "country": "USA",
+    "synopsis": "A young lion prince is cast out of his pride by his cruel uncle, who claims he killed his father.",
     "language": "English",
-    "budget": 65000000.0,
+    "budget": 45000000.0,
     "actors": [
-      {
-        "name": "Scarlett Johansson",
-        "role": "Lead Character 100"
-      },
-      {
-        "name": "Morgan Freeman",
-        "role": "Supporting Character 100"
-      }
+      { "actorId": 282, "role": "Simba" },
+      { "actorId": 283, "role": "Mufasa" },
+      { "actorId": 284, "role": "Scar" },
+      { "actorId": 285, "role": "Timon" },
+      { "actorId": 286, "role": "Pumbaa" },
+      { "actorId": 287, "role": "Rafiki" },
+      { "actorId": 288, "role": "Zazu" },
+      { "actorId": 289, "role": "Nala" },
+      { "actorId": 290, "role": "Sarabi" },
+      { "actorId": 291, "role": "Shenzi" }
+    ]
+  },
+  {
+    "title": "Gladiator",
+    "releaseYear": 2000,
+    "duration": 155,
+    "genre": "Action",
+    "director": "Ridley Scott",
+    "country": "USA",
+    "synopsis": "A former Roman general sets out to exact vengeance against the corrupt emperor who murdered his family.",
+    "language": "English",
+    "budget": 103000000.0,
+    "actors": [
+      { "actorId": 302, "role": "Maximus" },
+      { "actorId": 303, "role": "Commodus" },
+      { "actorId": 304, "role": "Lucilla" },
+      { "actorId": 305, "role": "Marcus Aurelius" },
+      { "actorId": 306, "role": "Proximo" },
+      { "actorId": 307, "role": "Juba" },
+      { "actorId": 308, "role": "Hagen" },
+      { "actorId": 309, "role": "Quintus" },
+      { "actorId": 310, "role": "Gracchus" },
+      { "actorId": 311, "role": "Falco" }
+    ]
+  },
+  {
+    "title": "The Prestige",
+    "releaseYear": 2006,
+    "duration": 130,
+    "genre": "Drama",
+    "director": "Christopher Nolan",
+    "country": "USA",
+    "synopsis": "Two stage magicians in 1890s London engage in a competitive battle to create the ultimate illusion.",
+    "language": "English",
+    "budget": 40000000.0,
+    "actors": [
+      { "actorId": 312, "role": "Robert Angier" },
+      { "actorId": 21, "role": "Alfred Borden" },
+      { "actorId": 313, "role": "Olivia Wenscombe" },
+      { "actorId": 314, "role": "Sarah Borden" },
+      { "actorId": 315, "role": "Nikola Tesla" },
+      { "actorId": 316, "role": "John Cutter" },
+      { "actorId": 317, "role": "Mr. Alley" },
+      { "actorId": 318, "role": "Earl Owen" },
+      { "actorId": 319, "role": "Master Henderson" },
+      { "actorId": 320, "role": "Merritt" }
+    ]
+  },
+  {
+    "title": "The Departed",
+    "releaseYear": 2006,
+    "duration": 151,
+    "genre": "Crime",
+    "director": "Martin Scorsese",
+    "country": "USA",
+    "synopsis": "An undercover cop and a mole in the police attempt to identify each other.",
+    "language": "English",
+    "budget": 90000000.0,
+    "actors": [
+      { "actorId": 321, "role": "Billy Costigan" },
+      { "actorId": 322, "role": "Colin Sullivan" },
+      { "actorId": 323, "role": "Frank Costello" },
+      { "actorId": 324, "role": "Staff Sergeant Sean Dignam" },
+      { "actorId": 325, "role": "Captain Queenan" },
+      { "actorId": 326, "role": "Madolyn Madden" },
+      { "actorId": 327, "role": "Frenchan" },
+      { "actorId": 328, "role": "Ellsworth" },
+      { "actorId": 329, "role": "Barrigan" },
+      { "actorId": 330, "role": "Delahunt" }
+    ]
+  },
+  {
+    "title": "Whiplash",
+    "releaseYear": 2014,
+    "duration": 106,
+    "genre": "Drama",
+    "director": "Damien Chazelle",
+    "country": "USA",
+    "synopsis": "A promising young drummer enrolls at a cut-throat music conservatory.",
+    "language": "English",
+    "budget": 3300000.0,
+    "actors": [
+      { "actorId": 331, "role": "Andrew Neiman" },
+      { "actorId": 332, "role": "Terence Fletcher" },
+      { "actorId": 333, "role": "Jim Neiman" },
+      { "actorId": 334, "role": "Nicole" },
+      { "actorId": 335, "role": "Ryan" },
+      { "actorId": 336, "role": "Travis" },
+      { "actorId": 337, "role": "Dustin" },
+      { "actorId": 338, "role": "Carl" },
+      { "actorId": 339, "role": "Bassist" },
+      { "actorId": 340, "role": "Macy" }
+    ]
+  },
+  {
+    "title": "The Lion King",
+    "releaseYear": 1994,
+    "duration": 88,
+    "genre": "Animation",
+    "director": "Roger Allers, Rob Minkoff",
+    "country": "USA",
+    "synopsis": "A young lion prince is cast out of his pride by his cruel uncle.",
+    "language": "English",
+    "budget": 45000000.0,
+    "actors": [
+      { "actorId": 282, "role": "Simba" },
+      { "actorId": 283, "role": "Mufasa" },
+      { "actorId": 284, "role": "Scar" },
+      { "actorId": 285, "role": "Timon" },
+      { "actorId": 286, "role": "Pumbaa" },
+      { "actorId": 287, "role": "Rafiki" },
+      { "actorId": 288, "role": "Zazu" },
+      { "actorId": 289, "role": "Nala" },
+      { "actorId": 290, "role": "Sarabi" },
+      { "actorId": 291, "role": "Shenzi" }
+    ]
+  },
+  {
+    "title": "Gladiator",
+    "releaseYear": 2000,
+    "duration": 155,
+    "genre": "Action",
+    "director": "Ridley Scott",
+    "country": "USA",
+    "synopsis": "A former Roman general sets out to exact vengeance.",
+    "language": "English",
+    "budget": 103000000.0,
+    "actors": [
+      { "actorId": 302, "role": "Maximus" },
+      { "actorId": 303, "role": "Commodus" },
+      { "actorId": 304, "role": "Lucilla" },
+      { "actorId": 305, "role": "Marcus Aurelius" },
+      { "actorId": 306, "role": "Proximo" },
+      { "actorId": 307, "role": "Juba" },
+      { "actorId": 308, "role": "Hagen" },
+      { "actorId": 309, "role": "Quintus" },
+      { "actorId": 310, "role": "Gracchus" },
+      { "actorId": 311, "role": "Falco" }
+    ]
+  },
+  {
+    "title": "The Prestige",
+    "releaseYear": 2006,
+    "duration": 130,
+    "genre": "Drama",
+    "director": "Christopher Nolan",
+    "country": "USA",
+    "synopsis": "Two stage magicians in 1890s London engage in a competitive battle.",
+    "language": "English",
+    "budget": 40000000.0,
+    "actors": [
+      { "actorId": 312, "role": "Robert Angier" },
+      { "actorId": 21, "role": "Alfred Borden" },
+      { "actorId": 313, "role": "Olivia Wenscombe" },
+      { "actorId": 314, "role": "Sarah Borden" },
+      { "actorId": 315, "role": "Nikola Tesla" },
+      { "actorId": 316, "role": "John Cutter" },
+      { "actorId": 317, "role": "Mr. Alley" },
+      { "actorId": 318, "role": "Earl Owen" },
+      { "actorId": 319, "role": "Master Henderson" },
+      { "actorId": 320, "role": "Merritt" }
+    ]
+  },
+  {
+    "title": "The Departed",
+    "releaseYear": 2006,
+    "duration": 151,
+    "genre": "Crime",
+    "director": "Martin Scorsese",
+    "country": "USA",
+    "synopsis": "An undercover cop and a mole in the police attempt to identify each other.",
+    "language": "English",
+    "budget": 90000000.0,
+    "actors": [
+      { "actorId": 321, "role": "Billy Costigan" },
+      { "actorId": 322, "role": "Colin Sullivan" },
+      { "actorId": 323, "role": "Frank Costello" },
+      { "actorId": 324, "role": "Staff Sergeant Sean Dignam" },
+      { "actorId": 325, "role": "Captain Queenan" },
+      { "actorId": 326, "role": "Madolyn Madden" },
+      { "actorId": 327, "role": "Frenchan" },
+      { "actorId": 328, "role": "Ellsworth" },
+      { "actorId": 329, "role": "Barrigan" },
+      { "actorId": 330, "role": "Delahunt" }
+    ]
+  },
+  {
+    "title": "Whiplash",
+    "releaseYear": 2014,
+    "duration": 106,
+    "genre": "Drama",
+    "director": "Damien Chazelle",
+    "country": "USA",
+    "synopsis": "A promising young drummer enrolls at a cut-throat music conservatory.",
+    "language": "English",
+    "budget": 3300000.0,
+    "actors": [
+      { "actorId": 331, "role": "Andrew Neiman" },
+      { "actorId": 332, "role": "Terence Fletcher" },
+      { "actorId": 333, "role": "Jim Neiman" },
+      { "actorId": 334, "role": "Nicole" },
+      { "actorId": 335, "role": "Ryan" },
+      { "actorId": 336, "role": "Travis" },
+      { "actorId": 337, "role": "Dustin" },
+      { "actorId": 338, "role": "Carl" },
+      { "actorId": 339, "role": "Bassist" },
+      { "actorId": 340, "role": "Macy" }
+    ]
+  },
+  {
+    "title": "The Lion King",
+    "releaseYear": 1994,
+    "duration": 88,
+    "genre": "Animation",
+    "director": "Roger Allers, Rob Minkoff",
+    "country": "USA",
+    "synopsis": "A young lion prince is cast out of his pride.",
+    "language": "English",
+    "budget": 45000000.0,
+    "actors": [
+      { "actorId": 282, "role": "Simba" },
+      { "actorId": 283, "role": "Mufasa" },
+      { "actorId": 284, "role": "Scar" },
+      { "actorId": 285, "role": "Timon" },
+      { "actorId": 286, "role": "Pumbaa" },
+      { "actorId": 287, "role": "Rafiki" },
+      { "actorId": 288, "role": "Zazu" },
+      { "actorId": 289, "role": "Nala" },
+      { "actorId": 290, "role": "Sarabi" },
+      { "actorId": 291, "role": "Shenzi" }
+    ]
+  },
+  {
+    "title": "Gladiator",
+    "releaseYear": 2000,
+    "duration": 155,
+    "genre": "Action",
+    "director": "Ridley Scott",
+    "country": "USA",
+    "synopsis": "A former Roman general sets out to exact vengeance.",
+    "language": "English",
+    "budget": 103000000.0,
+    "actors": [
+      { "actorId": 302, "role": "Maximus" },
+      { "actorId": 303, "role": "Commodus" },
+      { "actorId": 304, "role": "Lucilla" },
+      { "actorId": 305, "role": "Marcus Aurelius" },
+      { "actorId": 306, "role": "Proximo" },
+      { "actorId": 307, "role": "Juba" },
+      { "actorId": 308, "role": "Hagen" },
+      { "actorId": 309, "role": "Quintus" },
+      { "actorId": 310, "role": "Gracchus" },
+      { "actorId": 311, "role": "Falco" }
+    ]
+  },
+  {
+    "title": "The Prestige",
+    "releaseYear": 2006,
+    "duration": 130,
+    "genre": "Drama",
+    "director": "Christopher Nolan",
+    "country": "USA",
+    "synopsis": "Two stage magicians in 1890s London engage in a competitive battle.",
+    "language": "English",
+    "budget": 40000000.0,
+    "actors": [
+      { "actorId": 312, "role": "Robert Angier" },
+      { "actorId": 21, "role": "Alfred Borden" },
+      { "actorId": 313, "role": "Olivia Wenscombe" },
+      { "actorId": 314, "role": "Sarah Borden" },
+      { "actorId": 315, "role": "Nikola Tesla" },
+      { "actorId": 316, "role": "John Cutter" },
+      { "actorId": 317, "role": "Mr. Alley" },
+      { "actorId": 318, "role": "Earl Owen" },
+      { "actorId": 319, "role": "Master Henderson" },
+      { "actorId": 320, "role": "Merritt" }
+    ]
+  },
+  {
+    "title": "The Departed",
+    "releaseYear": 2006,
+    "duration": 151,
+    "genre": "Crime",
+    "director": "Martin Scorsese",
+    "country": "USA",
+    "synopsis": "An undercover cop and a mole in the police attempt to identify each other.",
+    "language": "English",
+    "budget": 90000000.0,
+    "actors": [
+      { "actorId": 321, "role": "Billy Costigan" },
+      { "actorId": 322, "role": "Colin Sullivan" },
+      { "actorId": 323, "role": "Frank Costello" },
+      { "actorId": 324, "role": "Staff Sergeant Sean Dignam" },
+      { "actorId": 325, "role": "Captain Queenan" },
+      { "actorId": 326, "role": "Madolyn Madden" },
+      { "actorId": 327, "role": "Frenchan" },
+      { "actorId": 328, "role": "Ellsworth" },
+      { "actorId": 329, "role": "Barrigan" },
+      { "actorId": 330, "role": "Delahunt" }
+    ]
+  },
+  {
+    "title": "Whiplash",
+    "releaseYear": 2014,
+    "duration": 106,
+    "genre": "Drama",
+    "director": "Damien Chazelle",
+    "country": "USA",
+    "synopsis": "A promising young drummer enrolls at a cut-throat music conservatory.",
+    "language": "English",
+    "budget": 3300000.0,
+    "actors": [
+      { "actorId": 331, "role": "Andrew Neiman" },
+      { "actorId": 332, "role": "Terence Fletcher" },
+      { "actorId": 333, "role": "Jim Neiman" },
+      { "actorId": 334, "role": "Nicole" },
+      { "actorId": 335, "role": "Ryan" },
+      { "actorId": 336, "role": "Travis" },
+      { "actorId": 337, "role": "Dustin" },
+      { "actorId": 338, "role": "Carl" },
+      { "actorId": 339, "role": "Bassist" },
+      { "actorId": 340, "role": "Macy" }
     ]
   }
 ]

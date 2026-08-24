@@ -10,7 +10,6 @@ using MovieApi.Models;
 namespace MovieApi.Controllers;
 
 [ApiController]
-[Route("api/[controller]")]
 public class ReviewsController : ControllerBase
 {
     private readonly MovieContext _context;
@@ -21,7 +20,7 @@ public class ReviewsController : ControllerBase
     }
 
     // GET: api/movies/{movieId}/reviews
-    [HttpGet("movies/{movieId}/reviews")]
+    [HttpGet("api/movies/{movieId}/reviews")]
     public async Task<ActionResult<IEnumerable<ReviewDto>>> GetMovieReviews(int movieId)
     {
         var movieExists = await _context.Movies.AnyAsync(m => m.Id == movieId);
@@ -45,7 +44,7 @@ public class ReviewsController : ControllerBase
     }
 
     // POST: api/movies/{movieId}/reviews
-    [HttpPost("movies/{movieId}/reviews")]
+    [HttpPost("api/movies/{movieId}/reviews")]
     public async Task<ActionResult<ReviewDto>> CreateReview(int movieId, [FromBody] ReviewCreateDto reviewCreateDto)
     {
         var movieExists = await _context.Movies.AnyAsync(m => m.Id == movieId);
@@ -77,7 +76,7 @@ public class ReviewsController : ControllerBase
     }
 
     // DELETE: api/reviews/{id}
-    [HttpDelete("reviews/{id}")]
+    [HttpDelete("api/reviews/{id}")]
     public async Task<IActionResult> DeleteReview(int id)
     {
         var review = await _context.Reviews.FindAsync(id);
