@@ -147,4 +147,3 @@ The API backend will start listening at the configured local port.
 * **Course:** ASP.NET Core Web API
 
 **Tags:** `csharp`, `dotnet`, `entity-framework-core`, `webapi`, `rest-api`, `linq`, `fullstack`
-```
